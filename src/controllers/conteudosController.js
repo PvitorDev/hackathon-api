@@ -50,4 +50,39 @@ const registrarRespostas = async (req, res) => {
   }
 };
 
-module.exports = { registrarConteudos, registrarPerguntas, registrarRespostas };
+const pegarConteudos = async (req, res) => {
+  const { trilha } = req.params;
+  try {
+    const tiposTrilha = await knex("conteudos").where("tipo", trilha);
+
+    res.status(200).json(tiposTrilha);
+  } catch (error) {
+    return res.status(500).json({ message: error.message });
+  }
+};
+const procurarPerguntas = async (req, res) => {
+  const { search } = req.query;
+  try {
+    const tituloPergunta = await knex("perguntas").where("titulo", search);
+
+    res.status(200).json(tituloPergunta);
+  } catch (error) {
+    return res.status(500).json({ message: error.message });
+  }
+};
+
+const pegarRespostas = async (req, res) => {
+  const { idPergunta } = req.body;
+  try {
+  } catch (error) {
+    return res.status(500).json({ message: error.message });
+  }
+};
+module.exports = {
+  registrarConteudos,
+  registrarPerguntas,
+  registrarRespostas,
+  pegarConteudos,
+  procurarPerguntas,
+  pegarRespostas,
+};

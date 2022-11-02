@@ -3,14 +3,19 @@ const {
   registrarConteudos,
   registrarPerguntas,
   registrarRespostas,
+  pegarConteudos,
+  procurarPerguntas,
+  pegarRespostas,
 } = require("../controllers/conteudosController");
 const router = express.Router();
 const auth = require("../middleware/Auth");
 
-router.use(auth);
 router
-  .post("/conteudos", registrarConteudos)
-  .post("/respostas", registrarRespostas)
-  .post("/perguntas", registrarPerguntas);
+  .post("/conteudos", auth, registrarConteudos)
+  .post("/respostas", auth, registrarRespostas)
+  .post("/perguntas", auth, registrarPerguntas)
+  .get("/conteudos/:trilha", pegarConteudos)
+  .get("/perguntas", procurarPerguntas)
+  .get("respostas/:idPergunta", pegarRespostas);
 
 module.exports = router;
