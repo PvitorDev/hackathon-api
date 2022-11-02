@@ -21,6 +21,10 @@
     "knex": "^2.3.0",
     "nodemon": "^2.0.20",
     "pg": "^8.8.0",
-    "supertest": "^6.3.1"
+    "supertest": "^6.3.1",
+    "swagger-ui-express": "^4.5.0"
+  },
+  "devDependencies": {
+    "@types/swagger-ui-express": "^4.1.3"
   }
 }
