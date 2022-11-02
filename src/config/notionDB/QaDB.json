@@ -1,0 +1,659 @@
+[{
+    "inicio":[
+        {
+         "Trilha": "Migração de Carreira",
+         "Tipo": "Artigo",
+         "Conteúdo por": "Orange Juice",
+         "Duração": "00:06:00",
+         "Status": "Não comecei",
+         "Link": "https://medium.com/orangejuicefc/guia-definitivo-de-como-migrar-para-ux-design-5-passos-para-virar-um-ux-1675f71796b4",
+         "Atualizado em": "November 1, 2022 8:56 PM"
+        },
+        {
+         "Trilha": "Migração de Carreira",
+         "Tipo": "Artigo",
+         "Conteúdo por": "Orange Juice",
+         "Duração": "00:05:00",
+         "Status": "Em andamento",
+         "Link": "https://medium.com/orangejuicefc/design-thinking-e-carreira-como-migrei-de-psicologia-para-ux-design-cb79e8b47df5",
+         "Atualizado em": "November 1, 2022 8:56 PM"
+        },
+        {
+         "Trilha": "Migração de Carreira",
+         "Tipo": "Artigo",
+         "Conteúdo por": "Orange Juice",
+         "Duração": "00:06:00",
+         "Link": "https://medium.com/orangejuicefc/de-advogada-a-desenvolvedora-um-relato-sobre-minha-migra%C3%A7%C3%A3o-de-carreira-e-dicas-para-quem-pretende-45ad5df833b5",
+         "Atualizado em": "November 1, 2022 8:56 PM"
+        },
+        {
+         "Trilha": "Culture Code",
+         "Tipo": "Live",
+         "Conteúdo por": "Grupo FCamara",
+         "Duração": "01:22:25",
+         "Link": "https://www.youtube.com/watch?v=n0KH8dQSrv0",
+         "Atualizado em": "November 1, 2022 8:56 PM"
+        },
+        {
+         "Trilha": "Product Owner e Scrum Master",
+         "Tipo": "Live",
+         "Conteúdo por": "Grupo FCamara",
+         "Duração": "01:13:33",
+         "Link": "https://www.youtube.com/watch?v=_ku7bY5GtIY",
+         "Atualizado em": "November 1, 2022 8:56 PM"
+        },
+        {
+         "Trilha": "Product Owner",
+         "Tipo": "Artigo",
+         "Conteúdo por": "PM3",
+         "Duração": "00:08:00",
+         "Link": "https://www.cursospm3.com.br/product-owner-o-que-faz-salario-habilidades/",
+         "Atualizado em": "November 1, 2022 8:56 PM"
+        },
+        {
+         "Trilha": "Scrum Master",
+         "Tipo": "Artigo",
+         "Conteúdo por": "Atlassian",
+         "Duração": "00:06:00",
+         "Link": "https://www.atlassian.com/br/agile/scrum/scrum-master",
+         "Atualizado em": "November 1, 2022 8:56 PM"
+        },
+        {
+         "Trilha": "Scrum Master",
+         "Tipo": "Artigo",
+         "Conteúdo por": "Scrum Alliance",
+         "Duração": "00:05:00",
+         "Link": "https://resources.scrumalliance.org/Article/day-life-scrum-master",
+         "Atualizado em": "November 1, 2022 8:56 PM"
+        },
+        {
+         "Trilha": "Desenvolvimento",
+         "Tipo": "Live",
+         "Conteúdo por": "Grupo FCamara",
+         "Duração": "01:25:20",
+         "Link": "https://www.youtube.com/watch?v=N78-5gHLzbE",
+         "Atualizado em": "November 1, 2022 8:56 PM"
+        },
+        {
+         "Trilha": "Desenvolvimento",
+         "Tipo": "Artigo",
+         "Conteúdo por": "Alura",
+         "Duração": "00:05:00",
+         "Link": "https://www.alura.com.br/artigos/como-se-tornar-um-desenvolvedor-full-stack-no-proximo-ano",
+         "Atualizado em": "November 1, 2022 8:56 PM"
+        },
+        {
+         "Trilha": "UX Design",
+         "Tipo": "Artigo",
+         "Conteúdo por": "Orange Juice",
+         "Duração": "00:04:00",
+         "Link": "https://medium.com/orangejuicefc/mas-o-que-%C3%A9-ux-330edd9c6887",
+         "Atualizado em": "November 1, 2022 8:56 PM"
+        },
+        {
+         "Trilha": "UX Design",
+         "Tipo": "Artigo",
+         "Conteúdo por": "Alura",
+         "Duração": "00:05:00",
+         "Link": "https://www.alura.com.br/artigos/ux-e-ui-conheca-as-semelhancas-e-diferencas-entre-ambos",
+         "Atualizado em": "November 1, 2022 8:56 PM"
+        },
+        {
+         "Trilha": "UX Design",
+         "Tipo": "Live",
+         "Conteúdo por": "Grupo FCamara",
+         "Duração": "01:25:58",
+         "Link": "https://www.youtube.com/watch?v=_RsYz_iKP4k",
+         "Atualizado em": "November 1, 2022 8:56 PM"
+        },
+        {
+         "Trilha": "QA",
+         "Tipo": "Artigo",
+         "Conteúdo por": "Orange Juice",
+         "Duração": "00:04:00",
+         "Link": "https://medium.com/orangejuicefc/qual-o-papel-do-qa-em-uma-equipe-8e8147be28dd",
+         "Atualizado em": "November 1, 2022 8:56 PM"
+        },
+        {
+         "Trilha": "QA",
+         "Tipo": "Live",
+         "Conteúdo por": "Grupo FCamara",
+         "Duração": "01:23:10",
+         "Link": "https://www.youtube.com/watch?v=pP5M7lf6JmQ",
+         "Atualizado em": "November 1, 2022 8:56 PM"
+        },
+        {
+         "Trilha": "Stakeholder",
+         "Tipo": "Glossário",
+         "Conteúdo por": "PM3",
+         "Duração": "00:02:00",
+         "Link": "https://www.cursospm3.com.br/glossario/stakeholder/",
+         "Atualizado em": "November 1, 2022 8:56 PM"
+        },
+        {
+         "Trilha": "Liderança",
+         "Tipo": "Live",
+         "Conteúdo por": "BTG Pactual",
+         "Duração": "00:56:33",
+         "Link": "https://www.youtube.com/watch?v=b9A34yUvzEc",
+         "Atualizado em": "November 1, 2022 8:56 PM"
+        },
+        {
+         "Trilha": "Metodologia Ágil",
+         "Tipo": "Vídeo",
+         "Conteúdo por": "Orange Juice",
+         "Duração": "00:57:52",
+         "Link": "https://www.youtube.com/watch?v=TmTupAe14T4",
+         "Atualizado em": "November 1, 2022 8:56 PM"
+        },
+        {
+         "Trilha": "Metodologia Ágil",
+         "Tipo": "Artigo",
+         "Conteúdo por": "Orange Juice",
+         "Duração": "00:57:52",
+         "Link": "https://medium.com/orangejuicefc/fundamento-iniciais-da-metodologia-%C3%A1gil-a4f3f0a3f025",
+         "Atualizado em": "November 1, 2022 8:56 PM"
+        },
+        {
+         "Trilha": "Metodologia Ágil",
+         "Tipo": "Artigo",
+         "Conteúdo por": "Orange Juice",
+         "Duração": "00:57:52",
+         "Link": "https://medium.com/orangejuicefc/manifesto-%C3%A1gil-a-b%C3%ADblia-das-metodologias-%C3%A1geis-1a4ec9f220a",
+         "Atualizado em": "November 1, 2022 8:56 PM"
+        },
+        {
+         "Trilha": "Squads",
+         "Tipo": "Artigo",
+         "Conteúdo por": "Grupo FCamara",
+         "Duração": "00:06:00",
+         "Link": "https://blog.fcamara.com.br/squads-o-que-e-e-como-funciona/",
+         "Atualizado em": "November 1, 2022 8:56 PM"
+        },
+        {
+         "Trilha": "MVP",
+         "Tipo": "Artigo",
+         "Conteúdo por": "PM3",
+         "Duração": "00:08:00",
+         "Link": "https://www.cursospm3.com.br/blog/mvp-o-que-e-e-como-construir-um-produto-minimo-viavel/",
+         "Atualizado em": "November 1, 2022 8:56 PM"
+        },
+        {
+         "Trilha": "Soft Skill",
+         "Tipo": "Artigo",
+         "Conteúdo por": "Alura",
+         "Duração": "00:04:00",
+         "Link": "https://www.alura.com.br/artigos/soft-skills-o-que-sao-e-os-beneficios-de-desenvolve-las",
+         "Atualizado em": "November 1, 2022 8:56 PM"
+        },
+        {
+         "Trilha": "Comunicação",
+         "Tipo": "Artigo",
+         "Conteúdo por": "Orange Juice",
+         "Duração": "00:03:00",
+         "Link": "https://medium.com/orangejuicefc/aprimorando-a-comunica%C3%A7%C3%A3o-3933cbc886b4",
+         "Atualizado em": "November 1, 2022 8:56 PM"
+        },
+        {
+         "Trilha": "Comunicação",
+         "Tipo": "Artigo",
+         "Conteúdo por": "Orange Juice",
+         "Duração": "00:04:00",
+         "Link": "https://medium.com/orangejuicefc/por-que-um-programador-deve-desconstruir-a-ideia-de-que-n%C3%A3o-precisa-lidar-com-pessoas-e-como-9974bcebf4a9",
+         "Atualizado em": "November 1, 2022 8:56 PM"
+        },
+        {
+         "Trilha": "Comunicação",
+         "Tipo": "Artigo",
+         "Conteúdo por": "Orange Juice",
+         "Duração": "00:05:00",
+         "Link": "https://medium.com/orangejuicefc/ux-design-e-comunica%C3%A7%C3%A3o-b32a44ef7e42",
+         "Atualizado em": "November 1, 2022 8:56 PM"
+        },
+        {
+         "Trilha": "Trabalho em equipe",
+         "Tipo": "Live",
+         "Conteúdo por": "Grupo FCamara",
+         "Duração": "00:59:48",
+         "Link": "https://youtu.be/gG0zZoj595U",
+         "Atualizado em": "November 1, 2022 8:56 PM"
+        },
+        {
+         "Trilha": "Trabalho em equipe",
+         "Tipo": "Artigo",
+         "Conteúdo por": "Fernanda de Oliveira",
+         "Duração": "00:05:00",
+         "Link": "https://www.linkedin.com/pulse/poderosa-uni%C3%A3o-entre-design-de-ux-e-desenvolvimento-de-oliveira/?originalSubdomain=pt",
+         "Atualizado em": "November 1, 2022 8:56 PM"
+        },
+        {
+         "Trilha": "LGPD",
+         "Tipo": "Live",
+         "Conteúdo por": "Orange Juice",
+         "Duração": "01:01:31",
+         "Link": "https://youtu.be/KKLDwHyQATA",
+         "Atualizado em": "November 1, 2022 8:56 PM"
+        }
+       ]
+},
+{
+    "conceitos":[
+        {
+         "Trilha": "Qualidade além dos bugs",
+         "Tipo": "Live",
+         "Conteúdo por": "Orange Juice",
+         "Duração": "01:04:11",
+         "Link": "https://youtu.be/voE1-yUY-Qg",
+         "Atualizado em": "November 1, 2022 8:56 PM"
+        },
+        {
+         "Trilha": "Case Avenue",
+         "Tipo": "Podcast",
+         "Conteúdo por": "Hipsters",
+         "Duração": "00:43:17",
+         "Link": "https://www.hipsters.tech/case-avenue-testes-e-qualidade-hipsters-ponto-tech-314/",
+         "Atualizado em": "November 1, 2022 8:56 PM"
+        },
+        {
+         "Trilha": "Case Itaú",
+         "Tipo": "Podcast",
+         "Conteúdo por": "Hipsters",
+         "Duração": "00:40:40",
+         "Link": "https://www.hipsters.tech/qualidade-e-software-no-itau-hipsters-131/ ",
+         "Atualizado em": "November 1, 2022 8:56 PM"
+        },
+        {
+         "Trilha": "Qualidade de Software",
+         "Tipo": "Artigo",
+         "Conteúdo por": "DEVMEDIA",
+         "Duração": "00:25:00",
+         "Link": "https://www.devmedia.com.br/qualidade-de-software-engenharia-de-software-29/18209",
+         "Atualizado em": "November 1, 2022 8:56 PM"
+        },
+        {
+         "Trilha": "Qualidade de Software",
+         "Tipo": "Artigo",
+         "Conteúdo por": "Linha de Código",
+         "Duração": "00:31:36",
+         "Link": "http://www.linhadecodigo.com.br/artigo/1712/qualidade-qualidade-de-software-e-garantia-da-qualidade-de-software-sao-as-mesmas-coisas.aspx",
+         "Atualizado em": "November 1, 2022 8:56 PM"
+        },
+        {
+         "Trilha": "Qualidade de Software",
+         "Tipo": "Artigo",
+         "Conteúdo por": "Caroli.org",
+         "Duração": "00:17:03",
+         "Link": "https://caroli.org/o-que-faz-um-qa/ ",
+         "Atualizado em": "November 1, 2022 8:56 PM"
+        },
+        {
+         "Trilha": "Qualidade de Software",
+         "Tipo": "Artigo",
+         "Conteúdo por": "Neder",
+         "Duração": "00:03:00",
+         "Link": "https://medium.com/@_gabrielneder/qual-o-papel-do-software-quality-assurance-qa-no-contexto-%C3%A1gil-707d9bd38dca ",
+         "Atualizado em": "November 1, 2022 8:56 PM"
+        },
+        {
+         "Trilha": "Testes Funcionais e Não Funcionais",
+         "Tipo": "Artigo",
+         "Conteúdo por": "DEVMEDIA",
+         "Duração": "00:23:14",
+         "Link": "https://www.devmedia.com.br/testes-funcionais-de-software/23565 ",
+         "Atualizado em": "November 1, 2022 8:56 PM"
+        },
+        {
+         "Trilha": "Testes Funcionais e Não Funcionais",
+         "Tipo": "Vídeo",
+         "Conteúdo por": "Assert+",
+         "Duração": "00:11:02",
+         "Link": "https://www.youtube.com/watch?v=YshnAC19nWk ",
+         "Atualizado em": "November 1, 2022 8:56 PM"
+        },
+        {
+         "Trilha": "Testes Funcionais e Não Funcionais",
+         "Tipo": "Vídeo",
+         "Conteúdo por": "Julio de Lima",
+         "Duração": "00:45:08",
+         "Link": "https://www.youtube.com/watch?v=BMeOV1-senE ",
+         "Atualizado em": "November 1, 2022 8:56 PM"
+        },
+        {
+         "Trilha": "Benefícios e vantagens de QA e automação de testes",
+         "Tipo": "Artigo",
+         "Conteúdo por": "Testing Company",
+         "Duração": "00:05:34",
+         "Link": "https://testingcompany.com.br/blog/descubra-a-importancia-e-os-beneficios-que-a-qualidade-de-software-pode-gerar-para-a-sua-empresa",
+         "Atualizado em": "November 1, 2022 8:56 PM"
+        },
+        {
+         "Trilha": "Benefícios e vantagens de QA e automação de testes",
+         "Tipo": "Artigo",
+         "Conteúdo por": "Geek Hunter",
+         "Duração": "00:09:33",
+         "Link": "https://blog.geekhunter.com.br/as-maiores-vantagens-de-testes-automatizados/",
+         "Atualizado em": "November 1, 2022 8:56 PM"
+        },
+        {
+         "Trilha": "BDD",
+         "Tipo": "Curso",
+         "Conteúdo por": "Treina Web",
+         "Duração": "08:00:00",
+         "Link": "https://www.treinaweb.com.br/curso/bdd-testes-guiados-por-comportamento-com-behat-php?gclid=CjwKCAjwx7GYBhB7EiwA0d8oexch12kNK-UuwN_c2mimb2k1_XPVZ4JI5dxp4JI0B06dOM4RSTa8ZRoCRHUQAvD_BwE",
+         "Atualizado em": "November 1, 2022 8:56 PM"
+        },
+        {
+         "Trilha": "BDD",
+         "Tipo": "Live",
+         "Conteúdo por": "EBAC",
+         "Duração": "02:21:08",
+         "Link": "https://ebaconline.com.br/webinars/workshop-qualidade-2021-09-14-15-16",
+         "Atualizado em": "November 1, 2022 8:56 PM"
+        },
+        {
+         "Trilha": "Github",
+         "Tipo": "Curso",
+         "Conteúdo por": "Udemy",
+         "Duração": "02:05:00",
+         "Link": "https://www.udemy.com/course/git-e-github-para-iniciantes/",
+         "Atualizado em": "November 1, 2022 8:56 PM"
+        },
+        {
+         "Trilha": "Github",
+         "Tipo": "Curso",
+         "Conteúdo por": "Curso em Vídeo",
+         "Duração": "20:00:00",
+         "Link": "https://www.cursoemvideo.com/curso/curso-de-git-e-github/ ",
+         "Atualizado em": "November 1, 2022 8:56 PM"
+        },
+        {
+         "Trilha": "Github",
+         "Tipo": "Curso",
+         "Conteúdo por": "Jornada do DEV",
+         "Duração": "01:42:00",
+         "Link": "https://jornadadodev.com.br/cursos/curso-basico-de-git?utm_source=facebook&amp;utm_campaign=desenvolvimento_web&amp;utm_medium=grupos&amp;utm_content=curso-basico-de-git",
+         "Atualizado em": "November 1, 2022 8:56 PM"
+        },
+        {
+         "Trilha": "Tipos de testes e fases",
+         "Tipo": "Artigo",
+         "Conteúdo por": "Atlassian",
+         "Duração": "00:11:11",
+         "Link": "https://www.atlassian.com/br/continuous-delivery/software-testing/types-of-software-testing",
+         "Atualizado em": "November 1, 2022 8:56 PM"
+        },
+        {
+         "Trilha": "Tipos de testes e fases",
+         "Tipo": "Artigo",
+         "Conteúdo por": "Alura",
+         "Duração": "00:10:06",
+         "Link": "https://www.alura.com.br/artigos/tipos-de-testes-principais-por-que-utiliza-los ",
+         "Atualizado em": "November 1, 2022 8:56 PM"
+        },
+        {
+         "Trilha": "Tipos de testes e fases",
+         "Tipo": "Vídeo",
+         "Conteúdo por": "Alura",
+         "Duração": "00:15:33",
+         "Link": "https://www.youtube.com/watch?v=gVJ1Lap-JYA",
+         "Atualizado em": "November 1, 2022 8:56 PM"
+        },
+        {
+         "Trilha": "Bugs",
+         "Tipo": "Artigo",
+         "Conteúdo por": "DEVMEDIA",
+         "Duração": "00:27:47",
+         "Link": "https://www.devmedia.com.br/gestao-de-defeitos-ferramentas-open-source-e-melhores-praticas-na-gestao-de-defeitos/8036 ",
+         "Atualizado em": "November 1, 2022 8:56 PM"
+        },
+        {
+         "Trilha": "Bugs",
+         "Tipo": "Artigo",
+         "Conteúdo por": "DEVMEDIA",
+         "Duração": "00:04:37",
+         "Link": "https://www.devmedia.com.br/gestao-de-defeitos-no-teste-de-software/21940 ",
+         "Atualizado em": "November 1, 2022 8:56 PM"
+        },
+        {
+         "Trilha": "Bugs",
+         "Tipo": "Vídeo",
+         "Conteúdo por": "Julio de Lima",
+         "Duração": "00:27:13",
+         "Link": "https://www.youtube.com/watch?v=3X7HwSEJ4Wc ",
+         "Atualizado em": "November 1, 2022 8:56 PM"
+        },
+        {
+         "Trilha": "Bugs",
+         "Tipo": "Live",
+         "Conteúdo por": "Julio de Lima",
+         "Duração": "01:11:24",
+         "Link": "https://www.youtube.com/watch?v=-D69DAipwl8",
+         "Atualizado em": "November 1, 2022 8:56 PM"
+        },
+        {
+         "Trilha": "Automação de Testes",
+         "Tipo": "Vídeo",
+         "Conteúdo por": "Hipsters",
+         "Duração": "00:45:14",
+         "Link": "https://www.hipsters.tech/testes-automatizados-hipsters-51/ ",
+         "Atualizado em": "November 1, 2022 8:56 PM"
+        },
+        {
+         "Trilha": "Automação de Testes",
+         "Tipo": "Curso",
+         "Conteúdo por": "Curso em Vídeo",
+         "Duração": "40:00:00",
+         "Link": "https://www.cursoemvideo.com/curso/curso-de-algoritmo/ ",
+         "Atualizado em": "November 1, 2022 8:56 PM"
+        },
+        {
+         "Trilha": "Automação de Testes",
+         "Tipo": "Vídeo",
+         "Conteúdo por": "Julio de Lima",
+         "Duração": "00:30:41",
+         "Link": "https://www.youtube.com/watch?v=VvMh3BGlVdw ",
+         "Atualizado em": "November 1, 2022 8:56 PM"
+        },
+        {
+         "Trilha": "Automação de Testes",
+         "Tipo": "Vídeo",
+         "Conteúdo por": "Julio de Lima",
+         "Duração": "00:28:51",
+         "Link": "https://www.youtube.com/watch?v=B4fantyYPl0",
+         "Atualizado em": "November 1, 2022 8:56 PM"
+        },
+        {
+         "Trilha": "Automação de Testes",
+         "Tipo": "Playlist",
+         "Conteúdo por": "Julio de Lima",
+         "Duração": "07:55:28",
+         "Link": "https://www.youtube.com/watch?v=VqVQ7vHY32o&amp;list=PLf8x7B3nFTl17WeEVj405tHlstiq1kNBX",
+         "Atualizado em": "November 1, 2022 8:56 PM"
+        },
+        {
+         "Trilha": "Automação de Testes",
+         "Tipo": "Live",
+         "Conteúdo por": "Girls Testing",
+         "Duração": "00:34:07",
+         "Link": "https://www.youtube.com/watch?v=-xWqeLB0i1M ",
+         "Atualizado em": "November 1, 2022 8:56 PM"
+        },
+        {
+         "Trilha": "Automação de Testes",
+         "Tipo": "Curso",
+         "Conteúdo por": "Curso em Vídeo",
+         "Duração": "40:00:00",
+         "Link": "https://www.cursoemvideo.com/curso/javascript/ ",
+         "Atualizado em": "November 1, 2022 8:56 PM"
+        },
+        {
+         "Trilha": "Automação de Testes",
+         "Tipo": "Artigo",
+         "Conteúdo por": "Serverest",
+         "Duração": "00:02:00",
+         "Link": "https://serverest.dev/",
+         "Atualizado em": "November 1, 2022 8:56 PM"
+        },
+        {
+         "Trilha": "Automação de Testes",
+         "Tipo": "Curso",
+         "Conteúdo por": "CAcademy",
+         "Duração": "20:00:00",
+         "Link": "https://www.qacademy.io/home/course/cypress-discovery/1 ",
+         "Atualizado em": "November 1, 2022 8:56 PM"
+        },
+        {
+         "Trilha": "Automação de Testes",
+         "Tipo": "Playlist",
+         "Conteúdo por": "Agilizei",
+         "Duração": "03:41:07",
+         "Link": "https://www.youtube.com/watch?v=wIjtX0CPaw0&amp;list=PLnUo-Rbc3jjztMO4K8b-px4NE-630VNKY",
+         "Atualizado em": "November 1, 2022 8:56 PM"
+        },
+        {
+         "Trilha": "Automação de Testes",
+         "Tipo": "Live",
+         "Conteúdo por": "Interasys",
+         "Duração": "02:49:50",
+         "Link": "https://www.youtube.com/watch?v=r-Ju-O_miv0",
+         "Atualizado em": "November 1, 2022 8:56 PM"
+        },
+        {
+         "Trilha": "Automação de Testes",
+         "Tipo": "Playlist",
+         "Conteúdo por": "Teasy Tips",
+         "Duração": "01:06:59",
+         "Link": "https://www.youtube.com/watch?v=SzwAekL9-l0&amp;list=PLrua1dSU7PC1KBRefR9HJTpU81K1jrcXL ",
+         "Atualizado em": "November 1, 2022 8:56 PM"
+        },
+        {
+         "Trilha": "Automação de Testes",
+         "Tipo": "Curso",
+         "Conteúdo por": "Jornada do DEV",
+         "Duração": "03:49:18",
+         "Link": "https://jornadadodev.com.br/cursos/curso-completo-de-javascript?utm_source=facebook&amp;utm_campaign=desenvolvimento_web&amp;utm_medium=grupos&amp;utm_content=curso-completo-de-javascript ",
+         "Atualizado em": "November 1, 2022 8:56 PM"
+        },
+        {
+         "Trilha": "QA no Backend",
+         "Tipo": "Vídeo",
+         "Conteúdo por": "Orange Juice",
+         "Duração": "01:16:36",
+         "Link": "https://youtu.be/aU8r82PTz-k",
+         "Atualizado em": "November 1, 2022 8:56 PM"
+        },
+        {
+         "Trilha": "Banco de Dados",
+         "Tipo": "Curso",
+         "Conteúdo por": "Udemy",
+         "Duração": "01:59:00",
+         "Link": "https://www.udemy.com/course/introducao-a-bancos-de-dados-e-linguagem-sql/ ",
+         "Atualizado em": "November 1, 2022 8:56 PM"
+        },
+        {
+         "Trilha": "Banco de Dados",
+         "Tipo": "Curso",
+         "Conteúdo por": "Udemy",
+         "Duração": "03:57:00",
+         "Link": "https://www.udemy.com/course/curso-sql-completo-desafios-e-muita-pratica/ ",
+         "Atualizado em": "November 1, 2022 8:56 PM"
+        },
+        {
+         "Trilha": "Banco de Dados",
+         "Tipo": "Curso",
+         "Conteúdo por": "Udemy",
+         "Duração": "00:33:00",
+         "Link": "https://www.udemy.com/course/aprenda-sql-basico/ ",
+         "Atualizado em": "November 1, 2022 8:56 PM"
+        },
+        {
+         "Trilha": "Banco de Dados",
+         "Tipo": "Curso",
+         "Conteúdo por": "Jornada do DEV",
+         "Duração": "07:01:00",
+         "Link": "https://jornadadodev.com.br/cursos/curso-de-mongodb?utm_source=facebook&amp;utm_campaign=desenvolvimento_web&amp;utm_medium=grupos&amp;utm_content=curso-de-mongodb",
+         "Atualizado em": "November 1, 2022 8:56 PM"
+        },
+        {
+         "Trilha": "Banco de Dados",
+         "Tipo": "Curso",
+         "Conteúdo por": "Jornada do DEV",
+         "Duração": "08:24:47",
+         "Link": "https://jornadadodev.com.br/cursos/curso-completo-de-mysql?utm_source=facebook&amp;utm_campaign=desenvolvimento_web&amp;utm_medium=grupos&amp;utm_content=curso-completo-de-mysql",
+         "Atualizado em": "November 1, 2022 8:56 PM"
+        }
+       ]
+},
+{
+    "opcional":[
+        {
+         "Trilha": "Design Para Quem Não é Designer: Princípios de Design"
+        },
+        {
+         "Trilha": "Comunicação não violenta",
+         "Tipo": "Livro",
+         "Link": "https://www.amazon.com.br/dp/8571838267/ref=cm_sw_r_tw_dp_PRXG1BFCP2ZYTXVCVH2Z?_encoding=UTF8&amp;psc=1",
+         "Atualizado em": "November 1, 2022 8:56 PM"
+        },
+        {
+         "Trilha": "Arrume sua cama",
+         "Tipo": "Livro",
+         "Link": "https://www.amazon.com.br/dp/8542215788/ref=cm_sw_r_tw_dp_CP0QF5VZAEJDP8T5PGGF?_encoding=UTF8&amp;psc=1",
+         "Atualizado em": "November 1, 2022 8:56 PM"
+        },
+        {
+         "Trilha": "O design do dia a dia",
+         "Tipo": "Livro",
+         "Link": "https://www.amazon.com.br/dp/8532520839/ref=cm_sw_r_tw_dp_0A8Q2AJE82HQ6S4MVFC3?_encoding=UTF8&amp;psc=1",
+         "Atualizado em": "November 1, 2022 8:56 PM"
+        },
+        {
+         "Trilha": "Automação de Testes",
+         "Tipo": "Curso",
+         "Conteúdo por": "Test Automation University",
+         "Duração": "00:00:00",
+         "Link": "https://testautomationu.applitools.com/ ",
+         "Atualizado em": "November 1, 2022 8:56 PM"
+        },
+        {
+         "Trilha": "Automação de Testes",
+         "Tipo": "Ferramenta",
+         "Conteúdo por": "4ALL Tests",
+         "Duração": "00:00:00",
+         "Link": "http://4alltests.com.br/ferramentas ",
+         "Atualizado em": "November 1, 2022 8:56 PM"
+        },
+        {
+         "Trilha": "Automação de Testes",
+         "Tipo": "Desafio",
+         "Conteúdo por": "Free Code Camp",
+         "Link": "https://www.freecodecamp.org/learn/quality-assurance/#quality-assurance-projects ",
+         "Atualizado em": "November 1, 2022 8:56 PM"
+        },
+        {
+         "Trilha": "Playlist",
+         "Tipo": "Podcast",
+         "Conteúdo por": "Agile Tester",
+         "Duração": "11:15:13",
+         "Link": "https://open.spotify.com/show/6C86lhNUZ6Pf4nYROy8ciI?si=925390344cf646ad&amp;nd=1 ",
+         "Atualizado em": "November 1, 2022 8:56 PM"
+        },
+        {
+         "Trilha": "Papel do QA",
+         "Tipo": "Artigo",
+         "Conteúdo por": "Code Journey",
+         "Duração": "00:16:04",
+         "Link": "https://codejourney.com.br/o-papel-do-qa-em-um-ambiente-devops/ ",
+         "Atualizado em": "November 1, 2022 8:56 PM"
+        },
+        {
+         "Trilha": "Biblioteca",
+         "Tipo": "Artigo",
+         "Conteúdo por": "Biblioteca QA",
+         "Duração": "00:00:00",
+         "Link": "https://www.biblioteca-qa.org/",
+         "Atualizado em": "November 1, 2022 8:56 PM"
+        }
+       ]
+}
+]

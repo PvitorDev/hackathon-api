@@ -1,0 +1,480 @@
+[
+    {
+        "inicio":[
+             {
+              "Trilha": "Migração de Carreira",
+              "Tipo": "Artigo",
+              "Conteúdo por": "Orange Juice",
+              "Duração": "00:06:00",
+              "Status": "Não comecei",
+              "Link": "https://medium.com/orangejuicefc/guia-definitivo-de-como-migrar-para-ux-design-5-passos-para-virar-um-ux-1675f71796b4",
+              "Atualizado em": "November 1, 2022 8:09 PM"
+             },
+             {
+              "Trilha": "Migração de Carreira",
+              "Tipo": "Artigo",
+              "Conteúdo por": "Orange Juice",
+              "Duração": "00:05:00",
+              "Status": "Em andamento",
+              "Link": "https://medium.com/orangejuicefc/design-thinking-e-carreira-como-migrei-de-psicologia-para-ux-design-cb79e8b47df5",
+              "Atualizado em": "November 1, 2022 8:09 PM"
+             },
+             {
+              "Trilha": "Migração de Carreira",
+              "Tipo": "Artigo",
+              "Conteúdo por": "Orange Juice",
+              "Duração": "00:06:00",
+              "Link": "https://medium.com/orangejuicefc/de-advogada-a-desenvolvedora-um-relato-sobre-minha-migra%C3%A7%C3%A3o-de-carreira-e-dicas-para-quem-pretende-45ad5df833b5",
+              "Atualizado em": "November 1, 2022 8:09 PM"
+             },
+             {
+              "Trilha": "Culture Code",
+              "Tipo": "Live",
+              "Conteúdo por": "Grupo FCamara",
+              "Duração": "01:22:25",
+              "Link": "https://www.youtube.com/watch?v=n0KH8dQSrv0",
+              "Atualizado em": "November 1, 2022 8:09 PM"
+             },
+             {
+              "Trilha": "Product Owner e Scrum Master",
+              "Tipo": "Live",
+              "Conteúdo por": "Grupo FCamara",
+              "Duração": "01:13:33",
+              "Link": "https://www.youtube.com/watch?v=_ku7bY5GtIY",
+              "Atualizado em": "November 1, 2022 8:09 PM"
+             },
+             {
+              "Trilha": "Product Owner",
+              "Tipo": "Artigo",
+              "Conteúdo por": "PM3",
+              "Duração": "00:08:00",
+              "Link": "https://www.cursospm3.com.br/product-owner-o-que-faz-salario-habilidades/",
+              "Atualizado em": "November 1, 2022 8:09 PM"
+             },
+             {
+              "Trilha": "Scrum Master",
+              "Tipo": "Artigo",
+              "Conteúdo por": "Atlassian",
+              "Duração": "00:06:00",
+              "Link": "https://www.atlassian.com/br/agile/scrum/scrum-master",
+              "Atualizado em": "November 1, 2022 8:09 PM"
+             },
+             {
+              "Trilha": "Scrum Master",
+              "Tipo": "Artigo",
+              "Conteúdo por": "Scrum Alliance",
+              "Duração": "00:05:00",
+              "Link": "https://resources.scrumalliance.org/Article/day-life-scrum-master",
+              "Atualizado em": "November 1, 2022 8:09 PM"
+             },
+             {
+              "Trilha": "Desenvolvimento",
+              "Tipo": "Live",
+              "Conteúdo por": "Grupo FCamara",
+              "Duração": "01:25:20",
+              "Link": "https://www.youtube.com/watch?v=N78-5gHLzbE",
+              "Atualizado em": "November 1, 2022 8:09 PM"
+             },
+             {
+              "Trilha": "Desenvolvimento",
+              "Tipo": "Artigo",
+              "Conteúdo por": "Alura",
+              "Duração": "00:05:00",
+              "Link": "https://www.alura.com.br/artigos/como-se-tornar-um-desenvolvedor-full-stack-no-proximo-ano",
+              "Atualizado em": "November 1, 2022 8:09 PM"
+             },
+             {
+              "Trilha": "UX Design",
+              "Tipo": "Artigo",
+              "Conteúdo por": "Orange Juice",
+              "Duração": "00:04:00",
+              "Link": "https://medium.com/orangejuicefc/mas-o-que-%C3%A9-ux-330edd9c6887",
+              "Atualizado em": "November 1, 2022 8:09 PM"
+             },
+             {
+              "Trilha": "UX Design",
+              "Tipo": "Artigo",
+              "Conteúdo por": "Alura",
+              "Duração": "00:05:00",
+              "Link": "https://www.alura.com.br/artigos/ux-e-ui-conheca-as-semelhancas-e-diferencas-entre-ambos",
+              "Atualizado em": "November 1, 2022 8:09 PM"
+             },
+             {
+              "Trilha": "UX Design",
+              "Tipo": "Live",
+              "Conteúdo por": "Grupo FCamara",
+              "Duração": "01:25:58",
+              "Link": "https://www.youtube.com/watch?v=_RsYz_iKP4k",
+              "Atualizado em": "November 1, 2022 8:09 PM"
+             },
+             {
+              "Trilha": "QA",
+              "Tipo": "Artigo",
+              "Conteúdo por": "Orange Juice",
+              "Duração": "00:04:00",
+              "Link": "https://medium.com/orangejuicefc/qual-o-papel-do-qa-em-uma-equipe-8e8147be28dd",
+              "Atualizado em": "November 1, 2022 8:09 PM"
+             },
+             {
+              "Trilha": "QA",
+              "Tipo": "Live",
+              "Conteúdo por": "Grupo FCamara",
+              "Duração": "01:23:10",
+              "Link": "https://www.youtube.com/watch?v=pP5M7lf6JmQ",
+              "Atualizado em": "November 1, 2022 8:09 PM"
+             },
+             {
+              "Trilha": "Stakeholder",
+              "Tipo": "Glossário",
+              "Conteúdo por": "PM3",
+              "Duração": "00:02:00",
+              "Link": "https://www.cursospm3.com.br/glossario/stakeholder/",
+              "Atualizado em": "November 1, 2022 8:09 PM"
+             },
+             {
+              "Trilha": "Liderança",
+              "Tipo": "Live",
+              "Conteúdo por": "BTG Pactual",
+              "Duração": "00:56:33",
+              "Link": "https://www.youtube.com/watch?v=b9A34yUvzEc",
+              "Atualizado em": "November 1, 2022 8:09 PM"
+             },
+             {
+              "Trilha": "Metodologia Ágil",
+              "Tipo": "Vídeo",
+              "Conteúdo por": "Orange Juice",
+              "Duração": "00:57:52",
+              "Link": "https://www.youtube.com/watch?v=TmTupAe14T4",
+              "Atualizado em": "November 1, 2022 8:09 PM"
+             },
+             {
+              "Trilha": "Metodologia Ágil",
+              "Tipo": "Artigo",
+              "Conteúdo por": "Orange Juice",
+              "Duração": "00:57:52",
+              "Link": "https://medium.com/orangejuicefc/fundamento-iniciais-da-metodologia-%C3%A1gil-a4f3f0a3f025",
+              "Atualizado em": "November 1, 2022 8:09 PM"
+             },
+             {
+              "Trilha": "Metodologia Ágil",
+              "Tipo": "Artigo",
+              "Conteúdo por": "Orange Juice",
+              "Duração": "00:57:52",
+              "Link": "https://medium.com/orangejuicefc/manifesto-%C3%A1gil-a-b%C3%ADblia-das-metodologias-%C3%A1geis-1a4ec9f220a",
+              "Atualizado em": "November 1, 2022 8:09 PM"
+             },
+             {
+              "Trilha": "Squads",
+              "Tipo": "Artigo",
+              "Conteúdo por": "Grupo FCamara",
+              "Duração": "00:06:00",
+              "Link": "https://blog.fcamara.com.br/squads-o-que-e-e-como-funciona/",
+              "Atualizado em": "November 1, 2022 8:09 PM"
+             },
+             {
+              "Trilha": "MVP",
+              "Tipo": "Artigo",
+              "Conteúdo por": "PM3",
+              "Duração": "00:08:00",
+              "Link": "https://www.cursospm3.com.br/blog/mvp-o-que-e-e-como-construir-um-produto-minimo-viavel/",
+              "Atualizado em": "November 1, 2022 8:09 PM"
+             },
+             {
+              "Trilha": "Soft Skill",
+              "Tipo": "Artigo",
+              "Conteúdo por": "Alura",
+              "Duração": "00:04:00",
+              "Link": "https://www.alura.com.br/artigos/soft-skills-o-que-sao-e-os-beneficios-de-desenvolve-las",
+              "Atualizado em": "November 1, 2022 8:09 PM"
+             },
+             {
+              "Trilha": "Comunicação",
+              "Tipo": "Artigo",
+              "Conteúdo por": "Orange Juice",
+              "Duração": "00:03:00",
+              "Link": "https://medium.com/orangejuicefc/aprimorando-a-comunica%C3%A7%C3%A3o-3933cbc886b4",
+              "Atualizado em": "November 1, 2022 8:09 PM"
+             },
+             {
+              "Trilha": "Comunicação",
+              "Tipo": "Artigo",
+              "Conteúdo por": "Orange Juice",
+              "Duração": "00:04:00",
+              "Link": "https://medium.com/orangejuicefc/por-que-um-programador-deve-desconstruir-a-ideia-de-que-n%C3%A3o-precisa-lidar-com-pessoas-e-como-9974bcebf4a9",
+              "Atualizado em": "November 1, 2022 8:09 PM"
+             },
+             {
+              "Trilha": "Comunicação",
+              "Tipo": "Artigo",
+              "Conteúdo por": "Orange Juice",
+              "Duração": "00:05:00",
+              "Link": "https://medium.com/orangejuicefc/ux-design-e-comunica%C3%A7%C3%A3o-b32a44ef7e42",
+              "Atualizado em": "November 1, 2022 8:09 PM"
+             },
+             {
+              "Trilha": "Trabalhos em equipe",
+              "Tipo": "Live",
+              "Conteúdo por": "Grupo FCamara",
+              "Duração": "00:59:48",
+              "Link": "https://youtu.be/gG0zZoj595U",
+              "Atualizado em": "November 1, 2022 8:09 PM"
+             },
+             {
+              "Trilha": "Trabalho em equipe",
+              "Tipo": "Artigo",
+              "Conteúdo por": "Fernanda de Oliveira",
+              "Duração": "00:05:00",
+              "Link": "https://www.linkedin.com/pulse/poderosa-uni%C3%A3o-entre-design-de-ux-e-desenvolvimento-de-oliveira/?originalSubdomain=pt",
+              "Atualizado em": "November 1, 2022 8:09 PM"
+             },
+             {
+              "Trilha": "LGPD",
+              "Tipo": "Live",
+              "Conteúdo por": "Orange Juice",
+              "Duração": "01:01:31",
+              "Link": "https://youtu.be/KKLDwHyQATA",
+              "Atualizado em": "November 1, 2022 8:09 PM"
+             }
+            ]
+            
+    },
+    {
+        "conceitos":[
+            {
+             "Trilha": "Dev Júnior",
+             "Tipo": "Vídeo",
+             "Conteúdo por": "Orange Juice",
+             "Duração": "00:50:29",
+             "Link": "https://www.youtube.com/watch?v=qZ4ZKJSmf4k",
+             "Atualizado em": "November 1, 2022 8:09 PM"
+            },
+            {
+             "Trilha": "Qual a melhor linguagem de programação? | Com Willian da Silva",
+             "Tipo": "Vídeo",
+             "Conteúdo por": "Orange Juice",
+             "Duração": "00:51:06",
+             "Link": "https://www.youtube.com/watch?v=zTMvQD5EtJw",
+             "Atualizado em": "November 1, 2022 8:09 PM"
+            },
+            {
+             "Trilha": "Habilidades além do código! | Com Mateus Oliveira",
+             "Tipo": "Vídeo",
+             "Conteúdo por": "Orange Juice",
+             "Duração": "00:45:01",
+             "Link": "https://www.youtube.com/watch?v=Mmukepu3yRs",
+             "Atualizado em": "November 1, 2022 8:09 PM"
+            },
+            {
+             "Trilha": "Dúvidas sobre carreira",
+             "Tipo": "Vídeo",
+             "Conteúdo por": "Orange Juice",
+             "Duração": "00:57:54",
+             "Link": "https://www.youtube.com/watch?v=bZQx1oHMbHg",
+             "Atualizado em": "November 1, 2022 8:09 PM"
+            },
+            {
+             "Trilha": "Lógica de programação e algoritmos",
+             "Tipo": "Curso",
+             "Conteúdo por": "Udemy",
+             "Duração": "02:20:00",
+             "Link": "https://www.udemy.com/course/logica-de-programacao-e-algoritmos-iniciante/",
+             "Atualizado em": "November 1, 2022 8:09 PM"
+            },
+            {
+             "Trilha": "Curso de Lógica de Programação",
+             "Tipo": "Vídeo",
+             "Conteúdo por": "Curso em Vídeo",
+             "Duração": "07:58:07",
+             "Link": "https://www.youtube.com/playlist?list=PLHz_AreHm4dmSj0MHol_aoNYCSGFqvfXV",
+             "Atualizado em": "November 1, 2022 8:09 PM"
+            },
+            {
+             "Trilha": "Instalar o Linux no Windows com o WSL",
+             "Tipo": "Artigo",
+             "Conteúdo por": "Windows",
+             "Duração": "00:20:00",
+             "Link": "https://docs.microsoft.com/pt-br/windows/wsl/install",
+             "Atualizado em": "November 1, 2022 8:09 PM"
+            },
+            {
+             "Trilha": "Terminal Linux",
+             "Tipo": "Curso",
+             "Conteúdo por": "Udemy",
+             "Duração": "00:55:00",
+             "Link": "https://www.udemy.com/course/terminal-de-comandos-linux/",
+             "Atualizado em": "November 1, 2022 8:09 PM"
+            },
+            {
+             "Trilha": "Shell Script: Introdução e Como Automatizar Tarefas",
+             "Tipo": "Artigo",
+             "Conteúdo por": "Alura",
+             "Duração": "00:15:00",
+             "Link": "https://www.alura.com.br/artigos/automatizando-tarefas-com-shell-script",
+             "Atualizado em": "November 1, 2022 8:09 PM"
+            },
+            {
+             "Trilha": "Versionamento com Git",
+             "Tipo": "Vídeo",
+             "Conteúdo por": "Orange Juice",
+             "Duração": "01:03:15",
+             "Link": "https://www.youtube.com/watch?v=9k_lIYuRtg8",
+             "Atualizado em": "November 1, 2022 8:09 PM"
+            },
+            {
+             "Trilha": "Git e Github para iniciantes",
+             "Tipo": "Curso",
+             "Conteúdo por": "Udemy",
+             "Duração": "02:05:00",
+             "Link": "https://www.udemy.com/course/git-e-github-para-iniciantes/",
+             "Atualizado em": "November 1, 2022 8:09 PM"
+            },
+            {
+             "Trilha": "Introdução a Bancos de Dados e Linguagem SQL",
+             "Tipo": "Curso",
+             "Conteúdo por": "Udemy",
+             "Duração": "01:59:00",
+             "Link": "https://www.udemy.com/course/introducao-a-bancos-de-dados-e-linguagem-sql/",
+             "Atualizado em": "November 1, 2022 8:09 PM"
+            },
+            {
+             "Trilha": "Básico HTML",
+             "Tipo": " CSS e Javascript",
+             "Conteúdo por": "Curso",
+             "Duração": "Udemy",
+             "Status": "02:11:00",
+             "Atualizado em": "https://www.udemy.com/course/criando-site-html-css-e-javascript/",
+             "Column8": "November 1, 2022 8:09 PM"
+            },
+            {
+             "Trilha": "Introdução à linguagem CSS",
+             "Tipo": "Curso",
+             "Conteúdo por": "Udemy",
+             "Duração": "01:27:00",
+             "Link": "https://www.udemy.com/course/introducao-a-linguagem-css/",
+             "Atualizado em": "November 1, 2022 8:09 PM"
+            },
+            {
+             "Trilha": "Curso de Sass",
+             "Tipo": "Curso",
+             "Conteúdo por": "Amanda Vilela",
+             "Duração": "01:45:59",
+             "Link": "https://www.youtube.com/playlist?list=PL97KElaimHeGRtfkksKwxg6IGVZi_cR7J",
+             "Atualizado em": "November 1, 2022 8:09 PM"
+            },
+            {
+             "Trilha": "Curso de HTML",
+             "Tipo": " CSS e Bootstrap",
+             "Conteúdo por": "Curso",
+             "Duração": "Michelli Brito",
+             "Status": "01:53:23",
+             "Atualizado em": "https://www.youtube.com/playlist?list=PL8iIphQOyG-Cv3auRYoZtbvzJJrsvdMy-",
+             "Column8": "November 1, 2022 8:09 PM"
+            },
+            {
+             "Trilha": "Curso de Less",
+             "Tipo": "Curso",
+             "Conteúdo por": "Cursa",
+             "Duração": "02:05:00",
+             "Link": "https://www.cursa.com.br/home/course/curso-de-less/189",
+             "Atualizado em": "November 1, 2022 8:09 PM"
+            },
+            {
+             "Trilha": "Descomplicando SPA’s",
+             "Tipo": "Artigo",
+             "Conteúdo por": "Training Center",
+             "Duração": "00:15:00",
+             "Link": "https://medium.com/trainingcenter/descomplicando-spas-caa8f57bdbf3",
+             "Atualizado em": "November 1, 2022 8:09 PM"
+            },
+            {
+             "Trilha": "Single-page application vs. multiple-page application",
+             "Tipo": "Artigo",
+             "Conteúdo por": "Neoteric",
+             "Duração": "00:06:00",
+             "Link": "https://medium.com/@NeotericEU/single-page-application-vs-multiple-page-application-2591588efe58",
+             "Atualizado em": "November 1, 2022 8:09 PM"
+            },
+            {
+             "Trilha": "Curso Javascript + 14 Mini-Projetos",
+             "Tipo": "Curso",
+             "Conteúdo por": "Udemy",
+             "Duração": "04:35:31",
+             "Link": "https://www.youtube.com/watch?v=i6Oi-YtXnAU",
+             "Atualizado em": "November 1, 2022 8:09 PM"
+            },
+            {
+             "Trilha": "Curso de Java",
+             "Tipo": "Curso",
+             "Conteúdo por": "Curso em Vídeo",
+             "Duração": "11:36:40",
+             "Link": "https://www.youtube.com/playlist?list=PLHz_AreHm4dkI2ZdjTwZA4mPMxWTfNSpR",
+             "Atualizado em": "November 1, 2022 8:09 PM"
+            },
+            {
+             "Trilha": "HTTP: Desmistificando o protocolo da Web",
+             "Tipo": "Artigo",
+             "Conteúdo por": "Alura",
+             "Duração": "00:45:00",
+             "Link": "https://www.alura.com.br/artigos/desmistificando-o-protocolo-http-parte-1",
+             "Atualizado em": "November 1, 2022 8:09 PM"
+            },
+            {
+             "Trilha": "O que é uma API?",
+             "Tipo": "Artigo",
+             "Conteúdo por": "AWS",
+             "Duração": "03:00:00",
+             "Link": "https://aws.amazon.com/pt/what-is/api/",
+             "Atualizado em": "November 1, 2022 8:09 PM"
+            },
+            {
+             "Trilha": "Qual é a diferença entre HTTP e HTTPS?",
+             "Tipo": "Artigo",
+             "Conteúdo por": "Alura",
+             "Duração": "00:15:00",
+             "Link": "https://www.alura.com.br/artigos/qual-e-diferenca-entre-http-e-https",
+             "Atualizado em": "November 1, 2022 8:09 PM"
+            },
+            {
+             "Trilha": "Métodos de requisição do HTTP",
+             "Tipo": "Artigo",
+             "Conteúdo por": "Alura",
+             "Duração": "00:10:00",
+             "Link": "https://www.alura.com.br/artigos/metodos-de-requisicao-do-http",
+             "Atualizado em": "November 1, 2022 8:09 PM"
+            }
+           ]
+    },
+    {
+        "opcional":[
+            {
+             "Trilha": "Design Para Quem Não é Designer: Princípios de Design"
+            },
+            {
+             "Trilha": "Comunicação não violenta",
+             "Tipo": "Livro",
+             "Link": "https://www.amazon.com.br/dp/8571838267/ref=cm_sw_r_tw_dp_PRXG1BFCP2ZYTXVCVH2Z?_encoding=UTF8&amp;psc=1",
+             "Atualizado em": "November 1, 2022 8:09 PM"
+            },
+            {
+             "Trilha": "Arrume sua cama",
+             "Tipo": "Livro",
+             "Link": "https://www.amazon.com.br/dp/8542215788/ref=cm_sw_r_tw_dp_CP0QF5VZAEJDP8T5PGGF?_encoding=UTF8&amp;psc=1",
+             "Atualizado em": "November 1, 2022 8:09 PM"
+            },
+            {
+             "Trilha": "O design do dia a dia",
+             "Tipo": "Livro",
+             "Link": "https://www.amazon.com.br/dp/8532520839/ref=cm_sw_r_tw_dp_0A8Q2AJE82HQ6S4MVFC3?_encoding=UTF8&amp;psc=1",
+             "Atualizado em": "November 1, 2022 8:09 PM"
+            },
+            {
+             "Trilha": "Mini Curso Javascript do Zero",
+             "Tipo": "Curso",
+             "Conteúdo por": "Cubos Academy",
+             "Duração": "03:30:00",
+             "Link": "https://acesse.cubos.academy/minicurso-javascript?hsLang=pt",
+             "Atualizado em": "November 1, 2022 8:09 PM"
+            }
+           ]
+    }
+]
