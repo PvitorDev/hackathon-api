@@ -1,6 +1,3 @@
-
-CREATE DATABASE hackathon;
-
 CREATE TABLE usuarios(
     id SERIAL PRIMARY KEY,
     nome TEXT NOT NULL,
@@ -11,7 +8,6 @@ CREATE TABLE usuarios(
     funcao TEXT,
      xp int 
 )
-
 CREATE TABLE conteudos(
     id SERIAL PRIMARY KEY,
     id_usuario int,
@@ -21,7 +17,7 @@ CREATE TABLE conteudos(
     duracao TEXT ,
     link TEXT NOT NULL,
     notion smallint default 0,
-    likes INT DEFAULT 0
+    likes INT DEFAULT 0,
     foreign key(id_usuario) references usuarios (id)
 )
 CREATE TABLE perguntas(
@@ -34,10 +30,9 @@ CREATE TABLE perguntas(
   likes INT DEFAULT 0
 
 )
-CREATE TABLE respostas {
+CREATE TABLE respostas (
     id SERIAL PRIMARY KEY,
     id_usuario int,
    resposta text not null,
-   resposta_id int,
-  foreign key(resposta_id) references perguntas (id)
-}
+   resposta_id INT DEFAULT 0
+)
