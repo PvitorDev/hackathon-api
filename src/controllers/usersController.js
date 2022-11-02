@@ -57,16 +57,17 @@ const login = async (req, res) => {
 const atualizarUsuario = async (req, res) => {
   const { nome, email, senha } = req.body;
   const { user } = req;
-  const validarEmail = await knex("usuarios")
-    .where({ email })
-    .andWhere("id", "<>", user)
-    .first();
-  if (validarEmail) {
-    return res
-      .status(400)
-      .json({ mensagem: "O email informado já existe cadastrado" });
-  }
+
   try {
+    const validarEmail = await knex("usuarios")
+      .where({ email })
+      .andWhere("id", "<>", user)
+      .first();
+    if (validarEmail) {
+      return res
+        .status(400)
+        .json({ mensagem: "O email informado já existe cadastrado" });
+    }
     const encryptedSenha = await bcrypt.hash(senha, 10);
     await knex("usuarios").where({ id: req.user }).update({
       nome,

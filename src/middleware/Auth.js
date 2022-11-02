@@ -14,6 +14,7 @@ const Auth = async (req, res, next) => {
     const userLogin = await knex("usuarios").where({ id }).first();
 
     req.user = userLogin.id; // id do usuario
+    req.nome = userLogin.nome; // nome do usuario
     next();
   } catch (error) {}
 };

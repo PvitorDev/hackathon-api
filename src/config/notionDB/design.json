@@ -2,238 +2,236 @@
     "inicio":
         [
             {
-             "Trilha": "Migração de Carreira",
-             "Tipo": "Artigo",
-             "Conteúdo por": "Orange Juice",
-             "Duração": "00:06:00",
-             "Status": "Não comecei",
-             "Link": "https://medium.com/orangejuicefc/guia-definitivo-de-como-migrar-para-ux-design-5-passos-para-virar-um-ux-1675f71796b4",
-             "Atualizado em": "November 1, 2022 9:16 PM"
+             "titulo": "Migração de Carreira",
+             "tipo": "Artigo",
+             "criador_nome": "Orange Juice",
+             "duracao": "00:06:00",
+              "link": "https://medium.com/orangejuicefc/guia-definitivo-de-como-migrar-para-ux-design-5-passos-para-virar-um-ux-1675f71796b4",
+             "notion": true
             },
             {
-             "Trilha": "Migração de Carreira",
-             "Tipo": "Artigo",
-             "Conteúdo por": "Orange Juice",
-             "Duração": "00:05:00",
-             "Status": "Em andamento",
-             "Link": "https://medium.com/orangejuicefc/design-thinking-e-carreira-como-migrei-de-psicologia-para-ux-design-cb79e8b47df5",
-             "Atualizado em": "November 1, 2022 9:16 PM"
+             "titulo": "Migração de Carreira",
+             "tipo": "Artigo",
+             "criador_nome": "Orange Juice",
+             "duracao": "00:05:00",
+             "link": "https://medium.com/orangejuicefc/design-thinking-e-carreira-como-migrei-de-psicologia-para-ux-design-cb79e8b47df5",
+             "notion": true
             },
             {
-             "Trilha": "Migração de Carreira",
-             "Tipo": "Artigo",
-             "Conteúdo por": "Orange Juice",
-             "Duração": "00:06:00",
-             "Link": "https://medium.com/orangejuicefc/de-advogada-a-desenvolvedora-um-relato-sobre-minha-migra%C3%A7%C3%A3o-de-carreira-e-dicas-para-quem-pretende-45ad5df833b5",
-             "Atualizado em": "November 1, 2022 9:16 PM"
+             "titulo": "Migração de Carreira",
+             "tipo": "Artigo",
+             "criador_nome": "Orange Juice",
+             "duracao": "00:06:00",
+             "link": "https://medium.com/orangejuicefc/de-advogada-a-desenvolvedora-um-relato-sobre-minha-migra%C3%A7%C3%A3o-de-carreira-e-dicas-para-quem-pretende-45ad5df833b5",
+             "notion": true
             },
             {
-             "Trilha": "Culture Code",
-             "Tipo": "Live",
-             "Conteúdo por": "Grupo FCamara",
-             "Duração": "01:22:25",
-             "Link": "https://www.youtube.com/watch?v=n0KH8dQSrv0",
-             "Atualizado em": "November 1, 2022 9:16 PM"
+             "titulo": "Culture Code",
+             "tipo": "Live",
+             "criador_nome": "Grupo FCamara",
+             "duracao": "01:22:25",
+             "link": "https://www.youtube.com/watch?v=n0KH8dQSrv0",
+             "notion": true
             },
             {
-             "Trilha": "Product Owner e Scrum Master",
-             "Tipo": "Live",
-             "Conteúdo por": "Grupo FCamara",
-             "Duração": "01:13:33",
-             "Link": "https://www.youtube.com/watch?v=_ku7bY5GtIY",
-             "Atualizado em": "November 1, 2022 9:16 PM"
+             "titulo": "Product Owner e Scrum Master",
+             "tipo": "Live",
+             "criador_nome": "Grupo FCamara",
+             "duracao": "01:13:33",
+             "link": "https://www.youtube.com/watch?v=_ku7bY5GtIY",
+             "notion": true
             },
             {
-             "Trilha": "Product Owner",
-             "Tipo": "Artigo",
-             "Conteúdo por": "PM3",
-             "Duração": "00:08:00",
-             "Link": "https://www.cursospm3.com.br/product-owner-o-que-faz-salario-habilidades/",
-             "Atualizado em": "November 1, 2022 9:16 PM"
+             "titulo": "Product Owner",
+             "tipo": "Artigo",
+             "criador_nome": "PM3",
+             "duracao": "00:08:00",
+             "link": "https://www.cursospm3.com.br/product-owner-o-que-faz-salario-habilidades/",
+             "notion": true
             },
             {
-             "Trilha": "Scrum Master",
-             "Tipo": "Artigo",
-             "Conteúdo por": "Atlassian",
-             "Duração": "00:06:00",
-             "Link": "https://www.atlassian.com/br/agile/scrum/scrum-master",
-             "Atualizado em": "November 1, 2022 9:16 PM"
+             "titulo": "Scrum Master",
+             "tipo": "Artigo",
+             "criador_nome": "Atlassian",
+             "duracao": "00:06:00",
+             "link": "https://www.atlassian.com/br/agile/scrum/scrum-master",
+             "notion": true
             },
             {
-             "Trilha": "Scrum Master",
-             "Tipo": "Artigo",
-             "Conteúdo por": "Scrum Alliance",
-             "Duração": "00:05:00",
-             "Link": "https://resources.scrumalliance.org/Article/day-life-scrum-master",
-             "Atualizado em": "November 1, 2022 9:16 PM"
+             "titulo": "Scrum Master",
+             "tipo": "Artigo",
+             "criador_nome": "Scrum Alliance",
+             "duracao": "00:05:00",
+             "link": "https://resources.scrumalliance.org/Article/day-life-scrum-master",
+             "notion": true
             },
             {
-             "Trilha": "Desenvolvimento",
-             "Tipo": "Live",
-             "Conteúdo por": "Grupo FCamara",
-             "Duração": "01:25:20",
-             "Link": "https://www.youtube.com/watch?v=N78-5gHLzbE",
-             "Atualizado em": "November 1, 2022 9:16 PM"
+             "titulo": "Desenvolvimento",
+             "tipo": "Live",
+             "criador_nome": "Grupo FCamara",
+             "duracao": "01:25:20",
+             "link": "https://www.youtube.com/watch?v=N78-5gHLzbE",
+             "notion": true
             },
             {
-             "Trilha": "Desenvolvimento",
-             "Tipo": "Artigo",
-             "Conteúdo por": "Alura",
-             "Duração": "00:05:00",
-             "Link": "https://www.alura.com.br/artigos/como-se-tornar-um-desenvolvedor-full-stack-no-proximo-ano",
-             "Atualizado em": "November 1, 2022 9:16 PM"
+             "titulo": "Desenvolvimento",
+             "tipo": "Artigo",
+             "criador_nome": "Alura",
+             "duracao": "00:05:00",
+             "link": "https://www.alura.com.br/artigos/como-se-tornar-um-desenvolvedor-full-stack-no-proximo-ano",
+             "notion": true
             },
             {
-             "Trilha": "UX Design",
-             "Tipo": "Artigo",
-             "Conteúdo por": "Orange Juice",
-             "Duração": "00:04:00",
-             "Link": "https://medium.com/orangejuicefc/mas-o-que-%C3%A9-ux-330edd9c6887",
-             "Atualizado em": "November 1, 2022 9:16 PM"
+             "titulo": "UX Design",
+             "tipo": "Artigo",
+             "criador_nome": "Orange Juice",
+             "duracao": "00:04:00",
+             "link": "https://medium.com/orangejuicefc/mas-o-que-%C3%A9-ux-330edd9c6887",
+             "notion": true
             },
             {
-             "Trilha": "UX Design",
-             "Tipo": "Artigo",
-             "Conteúdo por": "Alura",
-             "Duração": "00:05:00",
-             "Link": "https://www.alura.com.br/artigos/ux-e-ui-conheca-as-semelhancas-e-diferencas-entre-ambos",
-             "Atualizado em": "November 1, 2022 9:16 PM"
+             "titulo": "UX Design",
+             "tipo": "Artigo",
+             "criador_nome": "Alura",
+             "duracao": "00:05:00",
+             "link": "https://www.alura.com.br/artigos/ux-e-ui-conheca-as-semelhancas-e-diferencas-entre-ambos",
+             "notion": true
             },
             {
-             "Trilha": "UX Design",
-             "Tipo": "Live",
-             "Conteúdo por": "Grupo FCamara",
-             "Duração": "01:25:58",
-             "Link": "https://www.youtube.com/watch?v=_RsYz_iKP4k",
-             "Atualizado em": "November 1, 2022 9:16 PM"
+             "titulo": "UX Design",
+             "tipo": "Live",
+             "criador_nome": "Grupo FCamara",
+             "duracao": "01:25:58",
+             "link": "https://www.youtube.com/watch?v=_RsYz_iKP4k",
+             "notion": true
             },
             {
-             "Trilha": "QA",
-             "Tipo": "Artigo",
-             "Conteúdo por": "Orange Juice",
-             "Duração": "00:04:00",
-             "Link": "https://medium.com/orangejuicefc/qual-o-papel-do-qa-em-uma-equipe-8e8147be28dd",
-             "Atualizado em": "November 1, 2022 9:16 PM"
+             "titulo": "QA",
+             "tipo": "Artigo",
+             "criador_nome": "Orange Juice",
+             "duracao": "00:04:00",
+             "link": "https://medium.com/orangejuicefc/qual-o-papel-do-qa-em-uma-equipe-8e8147be28dd",
+             "notion": true
             },
             {
-             "Trilha": "QA",
-             "Tipo": "Live",
-             "Conteúdo por": "Grupo FCamara",
-             "Duração": "01:23:10",
-             "Link": "https://www.youtube.com/watch?v=pP5M7lf6JmQ",
-             "Atualizado em": "November 1, 2022 9:16 PM"
+             "titulo": "QA",
+             "tipo": "Live",
+             "criador_nome": "Grupo FCamara",
+             "duracao": "01:23:10",
+             "link": "https://www.youtube.com/watch?v=pP5M7lf6JmQ",
+             "notion": true
             },
             {
-             "Trilha": "Stakeholder",
-             "Tipo": "Glossário",
-             "Conteúdo por": "PM3",
-             "Duração": "00:02:00",
-             "Link": "https://www.cursospm3.com.br/glossario/stakeholder/",
-             "Atualizado em": "November 1, 2022 9:16 PM"
+             "titulo": "Stakeholder",
+             "tipo": "Glossário",
+             "criador_nome": "PM3",
+             "duracao": "00:02:00",
+             "link": "https://www.cursospm3.com.br/glossario/stakeholder/",
+             "notion": true
             },
             {
-             "Trilha": "Liderança",
-             "Tipo": "Live",
-             "Conteúdo por": "BTG Pactual",
-             "Duração": "00:56:33",
-             "Link": "https://www.youtube.com/watch?v=b9A34yUvzEc",
-             "Atualizado em": "November 1, 2022 9:16 PM"
+             "titulo": "Liderança",
+             "tipo": "Live",
+             "criador_nome": "BTG Pactual",
+             "duracao": "00:56:33",
+             "link": "https://www.youtube.com/watch?v=b9A34yUvzEc",
+             "notion": true
             },
             {
-             "Trilha": "Metodologia Ágil",
-             "Tipo": "Vídeo",
-             "Conteúdo por": "Orange Juice",
-             "Duração": "00:57:52",
-             "Link": "https://www.youtube.com/watch?v=TmTupAe14T4",
-             "Atualizado em": "November 1, 2022 9:16 PM"
+             "titulo": "Metodologia Ágil",
+             "tipo": "Vídeo",
+             "criador_nome": "Orange Juice",
+             "duracao": "00:57:52",
+             "link": "https://www.youtube.com/watch?v=TmTupAe14T4",
+             "notion": true
             },
             {
-             "Trilha": "Metodologia Ágil",
-             "Tipo": "Artigo",
-             "Conteúdo por": "Orange Juice",
-             "Duração": "00:57:52",
-             "Link": "https://medium.com/orangejuicefc/fundamento-iniciais-da-metodologia-%C3%A1gil-a4f3f0a3f025",
-             "Atualizado em": "November 1, 2022 9:16 PM"
+             "titulo": "Metodologia Ágil",
+             "tipo": "Artigo",
+             "criador_nome": "Orange Juice",
+             "duracao": "00:57:52",
+             "link": "https://medium.com/orangejuicefc/fundamento-iniciais-da-metodologia-%C3%A1gil-a4f3f0a3f025",
+             "notion": true
             },
             {
-             "Trilha": "Metodologia Ágil",
-             "Tipo": "Artigo",
-             "Conteúdo por": "Orange Juice",
-             "Duração": "00:57:52",
-             "Link": "https://medium.com/orangejuicefc/manifesto-%C3%A1gil-a-b%C3%ADblia-das-metodologias-%C3%A1geis-1a4ec9f220a",
-             "Atualizado em": "November 1, 2022 9:16 PM"
+             "titulo": "Metodologia Ágil",
+             "tipo": "Artigo",
+             "criador_nome": "Orange Juice",
+             "duracao": "00:57:52",
+             "link": "https://medium.com/orangejuicefc/manifesto-%C3%A1gil-a-b%C3%ADblia-das-metodologias-%C3%A1geis-1a4ec9f220a",
+             "notion": true
             },
             {
-             "Trilha": "Squads",
-             "Tipo": "Artigo",
-             "Conteúdo por": "Grupo FCamara",
-             "Duração": "00:06:00",
-             "Link": "https://blog.fcamara.com.br/squads-o-que-e-e-como-funciona/",
-             "Atualizado em": "November 1, 2022 9:16 PM"
+             "titulo": "Squads",
+             "tipo": "Artigo",
+             "criador_nome": "Grupo FCamara",
+             "duracao": "00:06:00",
+             "link": "https://blog.fcamara.com.br/squads-o-que-e-e-como-funciona/",
+             "notion": true
             },
             {
-             "Trilha": "MVP",
-             "Tipo": "Artigo",
-             "Conteúdo por": "PM3",
-             "Duração": "00:08:00",
-             "Link": "https://www.cursospm3.com.br/blog/mvp-o-que-e-e-como-construir-um-produto-minimo-viavel/",
-             "Atualizado em": "November 1, 2022 9:16 PM"
+             "titulo": "MVP",
+             "tipo": "Artigo",
+             "criador_nome": "PM3",
+             "duracao": "00:08:00",
+             "link": "https://www.cursospm3.com.br/blog/mvp-o-que-e-e-como-construir-um-produto-minimo-viavel/",
+             "notion": true
             },
             {
-             "Trilha": "Soft Skill",
-             "Tipo": "Artigo",
-             "Conteúdo por": "Alura",
-             "Duração": "00:04:00",
-             "Link": "https://www.alura.com.br/artigos/soft-skills-o-que-sao-e-os-beneficios-de-desenvolve-las",
-             "Atualizado em": "November 1, 2022 9:16 PM"
+             "titulo": "Soft Skill",
+             "tipo": "Artigo",
+             "criador_nome": "Alura",
+             "duracao": "00:04:00",
+             "link": "https://www.alura.com.br/artigos/soft-skills-o-que-sao-e-os-beneficios-de-desenvolve-las",
+             "notion": true
             },
             {
-             "Trilha": "Comunicação",
-             "Tipo": "Artigo",
-             "Conteúdo por": "Orange Juice",
-             "Duração": "00:03:00",
-             "Link": "https://medium.com/orangejuicefc/aprimorando-a-comunica%C3%A7%C3%A3o-3933cbc886b4",
-             "Atualizado em": "November 1, 2022 9:16 PM"
+             "titulo": "Comunicação",
+             "tipo": "Artigo",
+             "criador_nome": "Orange Juice",
+             "duracao": "00:03:00",
+             "link": "https://medium.com/orangejuicefc/aprimorando-a-comunica%C3%A7%C3%A3o-3933cbc886b4",
+             "notion": true
             },
             {
-             "Trilha": "Comunicação",
-             "Tipo": "Artigo",
-             "Conteúdo por": "Orange Juice",
-             "Duração": "00:04:00",
-             "Link": "https://medium.com/orangejuicefc/por-que-um-programador-deve-desconstruir-a-ideia-de-que-n%C3%A3o-precisa-lidar-com-pessoas-e-como-9974bcebf4a9",
-             "Atualizado em": "November 1, 2022 9:16 PM"
+             "titulo": "Comunicação",
+             "tipo": "Artigo",
+             "criador_nome": "Orange Juice",
+             "duracao": "00:04:00",
+             "link": "https://medium.com/orangejuicefc/por-que-um-programador-deve-desconstruir-a-ideia-de-que-n%C3%A3o-precisa-lidar-com-pessoas-e-como-9974bcebf4a9",
+             "notion": true
             },
             {
-             "Trilha": "Comunicação",
-             "Tipo": "Artigo",
-             "Conteúdo por": "Orange Juice",
-             "Duração": "00:05:00",
-             "Link": "https://medium.com/orangejuicefc/ux-design-e-comunica%C3%A7%C3%A3o-b32a44ef7e42",
-             "Atualizado em": "November 1, 2022 9:16 PM"
+             "titulo": "Comunicação",
+             "tipo": "Artigo",
+             "criador_nome": "Orange Juice",
+             "duracao": "00:05:00",
+             "link": "https://medium.com/orangejuicefc/ux-design-e-comunica%C3%A7%C3%A3o-b32a44ef7e42",
+             "notion": true
             },
             {
-             "Trilha": "Trabalho em equipe",
-             "Tipo": "Live",
-             "Conteúdo por": "Grupo FCamara",
-             "Duração": "00:59:48",
-             "Link": "https://youtu.be/gG0zZoj595U",
-             "Atualizado em": "November 1, 2022 9:16 PM"
+             "titulo": "Trabalho em equipe",
+             "tipo": "Live",
+             "criador_nome": "Grupo FCamara",
+             "duracao": "00:59:48",
+             "link": "https://youtu.be/gG0zZoj595U",
+             "notion": true
             },
             {
-             "Trilha": "Trabalho em equipe",
-             "Tipo": "Artigo",
-             "Conteúdo por": "Fernanda de Oliveira",
-             "Duração": "00:05:00",
-             "Link": "https://www.linkedin.com/pulse/poderosa-uni%C3%A3o-entre-design-de-ux-e-desenvolvimento-de-oliveira/?originalSubdomain=pt",
-             "Atualizado em": "November 1, 2022 9:16 PM"
+             "titulo": "Trabalho em equipe",
+             "tipo": "Artigo",
+             "criador_nome": "Fernanda de Oliveira",
+             "duracao": "00:05:00",
+             "link": "https://www.linkedin.com/pulse/poderosa-uni%C3%A3o-entre-design-de-ux-e-desenvolvimento-de-oliveira/?originalSubdomain=pt",
+             "notion": true
             },
             {
-             "Trilha": "LGPD",
-             "Tipo": "Live",
-             "Conteúdo por": "Orange Juice",
-             "Duração": "01:01:31",
-             "Link": "https://youtu.be/KKLDwHyQATA",
-             "Atualizado em": "November 1, 2022 9:16 PM"
+             "titulo": "LGPD",
+             "tipo": "Live",
+             "criador_nome": "Orange Juice",
+             "duracao": "01:01:31",
+             "link": "https://youtu.be/KKLDwHyQATA",
+             "notion": true
             }
            ]
     
@@ -241,446 +239,440 @@
 {
     "fundamentosUI":[
         {
-         "Trilha": "UI Design",
-         "Tipo": "Live",
-         "Conteúdo por": "Grupo FCamara",
-         "Duração": "01:37:14",
-         "Link": "https://www.youtube.com/watch?v=bHDDbIsKVnI",
-         "Atualizado em": "November 1, 2022 9:16 PM"
+         "titulo": "UI Design",
+         "tipo": "Live",
+         "criador_nome": "Grupo FCamara",
+         "duracao": "01:37:14",
+         "link": "https://www.youtube.com/watch?v=bHDDbIsKVnI",
+         "notion": true
         },
         {
-         "Trilha": "UI Design",
-         "Tipo": "Artigo",
-         "Conteúdo por": "InfoQ",
-         "Duração": "00:17:00",
-         "Link": "https://www.infoq.com/br/articles/ios-android-react-native-design-patterns/",
-         "Atualizado em": "November 1, 2022 9:16 PM"
+         "titulo": "UI Design",
+         "tipo": "Artigo",
+         "criador_nome": "InfoQ",
+         "duracao": "00:17:00",
+         "link": "https://www.infoq.com/br/articles/ios-android-react-native-design-patterns/",
+         "notion": true
         },
         {
-         "Trilha": "Design",
-         "Tipo": "Live",
-         "Conteúdo por": "Orange Juice",
-         "Duração": "01:07:17",
-         "Link": "https://www.youtube.com/watch?v=YvyrrmHYqbI",
-         "Atualizado em": "November 1, 2022 9:16 PM"
+         "titulo": "Design",
+         "tipo": "Live",
+         "criador_nome": "Orange Juice",
+         "duracao": "01:07:17",
+         "link": "https://www.youtube.com/watch?v=YvyrrmHYqbI",
+         "notion": true
         },
         {
-         "Trilha": "Grid",
-         "Tipo": "Artigo",
-         "Conteúdo por": "UX Collective",
-         "Duração": "00:09:00",
-         "Link": "https://brasil.uxdesign.cc/um-guia-completo-sobre-grids-para-design-responsivo-6b192fea0124",
-         "Atualizado em": "November 1, 2022 9:16 PM"
+         "titulo": "Grid",
+         "tipo": "Artigo",
+         "criador_nome": "UX Collective",
+         "duracao": "00:09:00",
+         "link": "https://brasil.uxdesign.cc/um-guia-completo-sobre-grids-para-design-responsivo-6b192fea0124",
+         "notion": true
         },
         {
-         "Trilha": "Teoria da Cores",
-         "Tipo": "Artigo",
-         "Conteúdo por": "Chief of Design",
-         "Duração": "00:32:00",
-         "Link": "https://chiefofdesign.com.br/teoria-das-cores/",
-         "Atualizado em": "November 1, 2022 9:16 PM"
+         "titulo": "Teoria da Cores",
+         "tipo": "Artigo",
+         "criador_nome": "Chief of Design",
+         "duracao": "00:32:00",
+         "link": "https://chiefofdesign.com.br/teoria-das-cores/",
+         "notion": true
         },
         {
-         "Trilha": "Teoria da Cores",
-         "Tipo": "Apostila",
-         "Conteúdo por": "Alura",
-         "Duração": "00:09:00",
-         "Link": "https://www.alura.com.br/apostila-ux-usabilidade-mobile-web/design-visual#teoria-das-cores",
-         "Atualizado em": "November 1, 2022 9:16 PM"
+         "titulo": "Teoria da Cores",
+         "tipo": "Apostila",
+         "criador_nome": "Alura",
+         "duracao": "00:09:00",
+         "link": "https://www.alura.com.br/apostila-ux-usabilidade-mobile-web/design-visual#teoria-das-cores",
+         "notion": true
         },
         {
-         "Trilha": "Tipografia",
-         "Tipo": "Artigo",
-         "Conteúdo por": "Orange Juice",
-         "Duração": "00:03:00",
-         "Link": "https://medium.com/orangejuicefc/como-fazer-escolhas-tipogr%C3%A1ficas-mais-assertivas-34e2d9fe7c38",
-         "Atualizado em": "November 1, 2022 9:16 PM"
+         "titulo": "tipografia",
+         "tipo": "Artigo",
+         "criador_nome": "Orange Juice",
+         "duracao": "00:03:00",
+         "link": "https://medium.com/orangejuicefc/como-fazer-escolhas-tipogr%C3%A1ficas-mais-assertivas-34e2d9fe7c38",
+         "notion": true
         },
         {
-         "Trilha": "Tipografia",
-         "Tipo": "Apostila",
-         "Conteúdo por": "Alura",
-         "Duração": "00:08:00",
-         "Link": "https://www.alura.com.br/apostila-ux-usabilidade-mobile-web/usabilidade-mobile#tipografia",
-         "Atualizado em": "November 1, 2022 9:16 PM"
+         "titulo": "tipografia",
+         "tipo": "Apostila",
+         "criador_nome": "Alura",
+         "duracao": "00:08:00",
+         "link": "https://www.alura.com.br/apostila-ux-usabilidade-mobile-web/usabilidade-mobile#tipografia",
+         "notion": true
         },
         {
-         "Trilha": "Gestalt",
-         "Tipo": "Artigo",
-         "Conteúdo por": "UX Collective",
-         "Duração": "00:01:00",
-         "Link": "https://brasil.uxdesign.cc/princ%C3%ADpios-da-gestalt-aplicados-no-design-de-intera%C3%A7%C3%A3o-7132e403d076",
-         "Atualizado em": "November 1, 2022 9:16 PM"
+         "titulo": "Gestalt",
+         "tipo": "Artigo",
+         "criador_nome": "UX Collective",
+         "duracao": "00:01:00",
+         "link": "https://brasil.uxdesign.cc/princ%C3%ADpios-da-gestalt-aplicados-no-design-de-intera%C3%A7%C3%A3o-7132e403d076",
+         "notion": true
         },
         {
-         "Trilha": "Style Guide",
-         "Tipo": "Artigo",
-         "Conteúdo por": "UX Collective",
-         "Duração": "00:06:00",
-         "Link": "https://brasil.uxdesign.cc/style-guide-por-que-quando-como-e-onde-criar-um-f7b173006740",
-         "Atualizado em": "November 1, 2022 9:16 PM"
+         "titulo": "Style Guide",
+         "tipo": "Artigo",
+         "criador_nome": "UX Collective",
+         "duracao": "00:06:00",
+         "link": "https://brasil.uxdesign.cc/style-guide-por-que-quando-como-e-onde-criar-um-f7b173006740",
+         "notion": true
         },
         {
-         "Trilha": "Protótipo",
-         "Tipo": "Artigo",
-         "Conteúdo por": "Orange Juice",
-         "Duração": "00:11:00",
-         "Link": "https://medium.com/orangejuicefc/prototipa%C3%A7%C3%A3o-conhecendo-os-n%C3%ADveis-de-fidelidade-e-suas-aplica%C3%A7%C3%B5es-pr%C3%A1ticas-d3e815547b50",
-         "Atualizado em": "November 1, 2022 9:16 PM"
+         "titulo": "Protótipo",
+         "tipo": "Artigo",
+         "criador_nome": "Orange Juice",
+         "duracao": "00:11:00",
+         "link": "https://medium.com/orangejuicefc/prototipa%C3%A7%C3%A3o-conhecendo-os-n%C3%ADveis-de-fidelidade-e-suas-aplica%C3%A7%C3%B5es-pr%C3%A1ticas-d3e815547b50",
+         "notion": true
         },
         {
-         "Trilha": "Protótipo",
-         "Tipo": "Apostila",
-         "Conteúdo por": "Alura",
-         "Duração": "00:10:00",
-         "Link": "https://www.alura.com.br/apostila-ux-usabilidade-mobile-web/principios#prototipos",
-         "Atualizado em": "November 1, 2022 9:16 PM"
+         "titulo": "Protótipo",
+         "tipo": "Apostila",
+         "criador_nome": "Alura",
+         "duracao": "00:10:00",
+         "link": "https://www.alura.com.br/apostila-ux-usabilidade-mobile-web/principios#prototipos",
+         "notion": true
         },
         {
-         "Trilha": "Protótipo",
-         "Tipo": "Vídeo",
-         "Conteúdo por": "UX Now",
-         "Duração": "00:11:08",
-         "Link": "https://youtu.be/INPlcg_BsGc",
-         "Atualizado em": "November 1, 2022 9:16 PM"
+         "titulo": "Protótipo",
+         "tipo": "Vídeo",
+         "criador_nome": "UX Now",
+         "duracao": "00:11:08",
+         "link": "https://youtu.be/INPlcg_BsGc",
+         "notion": true
         },
         {
-         "Trilha": "Interface",
-         "Tipo": "Vídeo",
-         "Conteúdo por": "UX Now",
-         "Duração": "00:09:47",
-         "Link": "https://youtu.be/BD4CnI2Zc1s",
-         "Atualizado em": "November 1, 2022 9:16 PM"
+         "titulo": "Interface",
+         "tipo": "Vídeo",
+         "criador_nome": "UX Now",
+         "duracao": "00:09:47",
+         "link": "https://youtu.be/BD4CnI2Zc1s",
+         "notion": true
         },
         {
-         "Trilha": "Interface",
-         "Tipo": "Vídeo",
-         "Conteúdo por": "UX Now",
-         "Duração": "00:15:54",
-         "Link": "https://youtu.be/mgOYINElFqI",
-         "Atualizado em": "November 1, 2022 9:16 PM"
+         "titulo": "Interface",
+         "tipo": "Vídeo",
+         "criador_nome": "UX Now",
+         "duracao": "00:15:54",
+         "link": "https://youtu.be/mgOYINElFqI",
+         "notion": true
         },
         {
-         "Trilha": "Interface",
-         "Tipo": "Vídeo",
-         "Conteúdo por": "UX Now",
-         "Duração": "00:12:15",
-         "Link": "https://youtu.be/mgOYINElFqI",
-         "Atualizado em": "November 1, 2022 9:16 PM"
+         "titulo": "Interface",
+         "tipo": "Vídeo",
+         "criador_nome": "UX Now",
+         "duracao": "00:12:15",
+         "link": "https://youtu.be/mgOYINElFqI",
+         "notion": true
         }
        ]
 },
 {
     "fundamentosUX":[
         {
-         "Trilha": "Design",
-         "Tipo": "Vídeo",
-         "Conteúdo por": "UX Now",
-         "Duração": "00:06:10",
-         "Link": "https://youtu.be/zaFEEvHZgjw",
-         "Atualizado em": "November 1, 2022 9:16 PM"
+         "titulo": "Design",
+         "tipo": "Vídeo",
+         "criador_nome": "UX Now",
+         "duracao": "00:06:10",
+         "link": "https://youtu.be/zaFEEvHZgjw",
+         "notion": true
         },
         {
-         "Trilha": "UX Design",
-         "Tipo": "Vídeo",
-         "Conteúdo por": "UX Now",
-         "Duração": "00:06:37",
-         "Link": "https://youtu.be/WAi6ixIfdd4",
-         "Atualizado em": "November 1, 2022 9:16 PM"
+         "titulo": "UX Design",
+         "tipo": "Vídeo",
+         "criador_nome": "UX Now",
+         "duracao": "00:06:37",
+         "link": "https://youtu.be/WAi6ixIfdd4",
+         "notion": true
         },
         {
-         "Trilha": "UX Design",
-         "Tipo": "Vídeo",
-         "Conteúdo por": "UX Now",
-         "Duração": "00:08:17",
-         "Link": "https://youtu.be/ii_yO_at8Do",
-         "Atualizado em": "November 1, 2022 9:16 PM"
+         "titulo": "UX Design",
+         "tipo": "Vídeo",
+         "criador_nome": "UX Now",
+         "duracao": "00:08:17",
+         "link": "https://youtu.be/ii_yO_at8Do",
+         "notion": true
         },
         {
-         "Trilha": "UX Design",
-         "Tipo": "Artigo",
-         "Conteúdo por": "Mergo",
-         "Duração": "00:03:00",
-         "Link": "https://uxdesign.blog.br/don-norman-e-o-termo-ux-6dffb3f8d218",
-         "Atualizado em": "November 1, 2022 9:16 PM"
+         "titulo": "UX Design",
+         "tipo": "Artigo",
+         "criador_nome": "Mergo",
+         "duracao": "00:03:00",
+         "link": "https://uxdesign.blog.br/don-norman-e-o-termo-ux-6dffb3f8d218",
+         "notion": true
         },
         {
-         "Trilha": "UX Design",
-         "Tipo": "Apostila",
-         "Conteúdo por": "Alura",
-         "Duração": "00:22:00",
-         "Link": "https://www.alura.com.br/apostila-ux-usabilidade-mobile-web/experiencia",
-         "Atualizado em": "November 1, 2022 9:16 PM"
+         "titulo": "UX Design",
+         "tipo": "Apostila",
+         "criador_nome": "Alura",
+         "duracao": "00:22:00",
+         "link": "https://www.alura.com.br/apostila-ux-usabilidade-mobile-web/experiencia",
+         "notion": true
         },
         {
-         "Trilha": "UX Design",
-         "Tipo": "Live",
-         "Conteúdo por": "Orange Juice",
-         "Duração": "01:17:08",
-         "Link": "https://youtu.be/qWbaJuJhdX8",
-         "Atualizado em": "November 1, 2022 9:16 PM"
+         "titulo": "UX Design",
+         "tipo": "Live",
+         "criador_nome": "Orange Juice",
+         "duracao": "01:17:08",
+         "link": "https://youtu.be/qWbaJuJhdX8",
+         "notion": true
         },
         {
-         "Trilha": "UX Design",
-         "Tipo": "Live",
-         "Conteúdo por": "Grupo FCamara",
-         "Duração": "01:23:16",
-         "Link": "https://www.youtube.com/watch?v=eWAvEOzL3PI",
-         "Atualizado em": "November 1, 2022 9:16 PM"
+         "titulo": "UX Design",
+         "tipo": "Live",
+         "criador_nome": "Grupo FCamara",
+         "duracao": "01:23:16",
+         "link": "https://www.youtube.com/watch?v=eWAvEOzL3PI",
+         "notion": true
         },
         {
-         "Trilha": "UX Design",
-         "Tipo": "Live",
-         "Conteúdo por": "Orange Juice",
-         "Duração": "01:12:32",
-         "Link": "https://www.youtube.com/watch?v=12QnyGevxp8",
-         "Atualizado em": "November 1, 2022 9:16 PM"
+         "titulo": "UX Design",
+         "tipo": "Live",
+         "criador_nome": "Orange Juice",
+         "duracao": "01:12:32",
+         "link": "https://www.youtube.com/watch?v=12QnyGevxp8",
+         "notion": true
         },
         {
-         "Trilha": "UX Research",
-         "Tipo": "Live",
-         "Conteúdo por": "Grupo FCamara",
-         "Duração": "01:20:30",
-         "Link": "https://www.youtube.com/watch?v=v6ojU0Wa50Q",
-         "Atualizado em": "November 1, 2022 9:16 PM"
+         "titulo": "UX Research",
+         "tipo": "Live",
+         "criador_nome": "Grupo FCamara",
+         "duracao": "01:20:30",
+         "link": "https://www.youtube.com/watch?v=v6ojU0Wa50Q",
+         "notion": true
         },
         {
-         "Trilha": "UX Research",
-         "Tipo": "Apostila",
-         "Conteúdo por": "Alura",
-         "Duração": "00:30:00",
-         "Link": "https://www.alura.com.br/apostila-ux-usabilidade-mobile-web/pesquisa",
-         "Atualizado em": "November 1, 2022 9:16 PM"
+         "titulo": "UX Research",
+         "tipo": "Apostila",
+         "criador_nome": "Alura",
+         "duracao": "00:30:00",
+         "link": "https://www.alura.com.br/apostila-ux-usabilidade-mobile-web/pesquisa",
+         "notion": true
         },
         {
-         "Trilha": "UX Research",
-         "Tipo": "Vídeo",
-         "Conteúdo por": "UX Now",
-         "Duração": "00:06:26",
-         "Link": "https://youtu.be/KnFJAhiClnE",
-         "Atualizado em": "November 1, 2022 9:16 PM"
+         "titulo": "UX Research",
+         "tipo": "Vídeo",
+         "criador_nome": "UX Now",
+         "duracao": "00:06:26",
+         "link": "https://youtu.be/KnFJAhiClnE",
+         "notion": true
         },
         {
-         "Trilha": "Design Thinking",
-         "Tipo": "Artigo",
-         "Conteúdo por": "Orange Juice",
-         "Duração": "00:04:00",
-         "Link": "https://medium.com/orangejuicefc/design-thinking-uma-abordagem-para-a-sua-vida-3b93ed78b606",
-         "Atualizado em": "November 1, 2022 9:16 PM"
+         "titulo": "Design Thinking",
+         "tipo": "Artigo",
+         "criador_nome": "Orange Juice",
+         "duracao": "00:04:00",
+         "link": "https://medium.com/orangejuicefc/design-thinking-uma-abordagem-para-a-sua-vida-3b93ed78b606",
+         "notion": true
         },
         {
-         "Trilha": "Design Thinking",
-         "Tipo": "Artigo",
-         "Conteúdo por": "Orange Juice",
-         "Duração": "00:04:00",
-         "Link": "https://medium.com/orangejuicefc/vacinar-conhecendo-design-thinking-na-pr%C3%A1tica-87656e0f6e5e",
-         "Atualizado em": "November 1, 2022 9:16 PM"
+         "titulo": "Design Thinking",
+         "tipo": "Artigo",
+         "criador_nome": "Orange Juice",
+         "duracao": "00:04:00",
+         "link": "https://medium.com/orangejuicefc/vacinar-conhecendo-design-thinking-na-pr%C3%A1tica-87656e0f6e5e",
+         "notion": true
         },
         {
-         "Trilha": "Design Thinking",
-         "Tipo": "Live",
-         "Conteúdo por": "Grupo FCamara",
-         "Duração": "01:00:58",
-         "Link": "https://www.youtube.com/watch?v=3s9pWGsU02k",
-         "Atualizado em": "November 1, 2022 9:16 PM"
+         "titulo": "Design Thinking",
+         "tipo": "Live",
+         "criador_nome": "Grupo FCamara",
+         "duracao": "01:00:58",
+         "link": "https://www.youtube.com/watch?v=3s9pWGsU02k",
+         "notion": true
         },
         {
-         "Trilha": "Benchmarking",
-         "Tipo": "Artigo",
-         "Conteúdo por": "G4 Educação",
-         "Duração": "00:22:00",
-         "Link": "https://g4educacao.com/portal/o-que-e-benchmarking/",
-         "Atualizado em": "November 1, 2022 9:16 PM"
+         "titulo": "Benchmarking",
+         "tipo": "Artigo",
+         "criador_nome": "G4 Educação",
+         "duracao": "00:22:00",
+         "link": "https://g4educacao.com/portal/o-que-e-benchmarking/",
+         "notion": true
         },
         {
-         "Trilha": "Persona",
-         "Tipo": "Vídeo",
-         "Conteúdo por": "UX Now",
-         "Duração": "00:09:17",
-         "Link": "https://youtu.be/kdUk7DZS6aQ",
-         "Atualizado em": "November 1, 2022 9:16 PM"
+         "titulo": "Persona",
+         "tipo": "Vídeo",
+         "criador_nome": "UX Now",
+         "duracao": "00:09:17",
+         "link": "https://youtu.be/kdUk7DZS6aQ",
+         "notion": true
         },
         {
-         "Trilha": "Persona",
-         "Tipo": "Vídeo",
-         "Conteúdo por": "UX Now",
-         "Duração": "00:04:50",
-         "Link": "https://youtu.be/q_NrzJBS7QI",
-         "Atualizado em": "November 1, 2022 9:16 PM"
+         "titulo": "Persona",
+         "tipo": "Vídeo",
+         "criador_nome": "UX Now",
+         "duracao": "00:04:50",
+         "link": "https://youtu.be/q_NrzJBS7QI",
+         "notion": true
         },
         {
-         "Trilha": "Persona",
-         "Tipo": "Apostila",
-         "Conteúdo por": "Alura",
-         "Duração": "00:00:30",
-         "Link": "https://www.alura.com.br/apostila-ux-usabilidade-mobile-web/personas#numero-de-personas",
-         "Atualizado em": "November 1, 2022 9:16 PM"
+         "titulo": "Persona",
+         "tipo": "Apostila",
+         "criador_nome": "Alura",
+         "duracao": "00:00:30",
+         "link": "https://www.alura.com.br/apostila-ux-usabilidade-mobile-web/personas#numero-de-personas",
+         "notion": true
         },
         {
-         "Trilha": "Mapa de Empatia",
-         "Tipo": "Apostila",
-         "Conteúdo por": "Alura",
-         "Duração": "00:02:00",
-         "Link": "https://www.alura.com.br/apostila-ux-usabilidade-mobile-web/personas#mapa-de-empatia",
-         "Atualizado em": "November 1, 2022 9:16 PM"
+         "titulo": "Mapa de Empatia",
+         "tipo": "Apostila",
+         "criador_nome": "Alura",
+         "duracao": "00:02:00",
+         "link": "https://www.alura.com.br/apostila-ux-usabilidade-mobile-web/personas#mapa-de-empatia",
+         "notion": true
         },
         {
-         "Trilha": "Fluxo de Usuário",
-         "Tipo": "Artigo",
-         "Conteúdo por": "Ateliware",
-         "Duração": "00:05:00",
-         "Link": "https://ateliware.com/blog/user-flow",
-         "Atualizado em": "November 1, 2022 9:16 PM"
+         "titulo": "Fluxo de Usuário",
+         "tipo": "Artigo",
+         "criador_nome": "Ateliware",
+         "duracao": "00:05:00",
+         "link": "https://ateliware.com/blog/user-flow",
+         "notion": true
         },
         {
-         "Trilha": "Fluxo de Usuário",
-         "Tipo": "Artigo",
-         "Conteúdo por": "Awari",
-         "Duração": "00:20:00",
-         "Link": "https://awari.com.br/guia-fluxogramas-ux/",
-         "Atualizado em": "November 1, 2022 9:16 PM"
+         "titulo": "Fluxo de Usuário",
+         "tipo": "Artigo",
+         "criador_nome": "Awari",
+         "duracao": "00:20:00",
+         "link": "https://awari.com.br/guia-fluxogramas-ux/",
+         "notion": true
         },
         {
-         "Trilha": "Jornada do Usuário",
-         "Tipo": "Artigo",
-         "Conteúdo por": "Aela",
-         "Duração": "00:09:00",
-         "Link": "https://aelaschool.com/designdeinteracao/jornada-do-usuario-e-sua-importancia/",
-         "Atualizado em": "November 1, 2022 9:16 PM"
+         "titulo": "Jornada do Usuário",
+         "tipo": "Artigo",
+         "criador_nome": "Aela",
+         "duracao": "00:09:00",
+         "link": "https://aelaschool.com/designdeinteracao/jornada-do-usuario-e-sua-importancia/",
+         "notion": true
         },
         {
-         "Trilha": "Jornada do Usuário",
-         "Tipo": "Vídeo",
-         "Conteúdo por": "UX Unicórnio",
-         "Duração": "00:40:43",
-         "Link": "https://www.youtube.com/watch?v=EiroPM-lL-U",
-         "Atualizado em": "November 1, 2022 9:16 PM"
+         "titulo": "Jornada do Usuário",
+         "tipo": "Vídeo",
+         "criador_nome": "UX Unicórnio",
+         "duracao": "00:40:43",
+         "link": "https://www.youtube.com/watch?v=EiroPM-lL-U",
+         "notion": true
         },
         {
-         "Trilha": "Storytelling",
-         "Tipo": "Artigo",
-         "Conteúdo por": "Orange Juice",
-         "Duração": "00:04:00",
-         "Link": "https://medium.com/orangejuicefc/storytelling-o-que-s%C3%A3o-como-vivem-e-onde-habitam-d3527a6cf142",
-         "Atualizado em": "November 1, 2022 9:16 PM"
+         "titulo": "Storytelling",
+         "tipo": "Artigo",
+         "criador_nome": "Orange Juice",
+         "duracao": "00:04:00",
+         "link": "https://medium.com/orangejuicefc/storytelling-o-que-s%C3%A3o-como-vivem-e-onde-habitam-d3527a6cf142",
+         "notion": true
         },
         {
-         "Trilha": "Arquitetura da Informação",
-         "Tipo": "Vídeo",
-         "Conteúdo por": "UX Now",
-         "Duração": "00:08:42",
-         "Link": "https://youtu.be/jAN1330de-s",
-         "Atualizado em": "November 1, 2022 9:16 PM"
+         "titulo": "Arquitetura da Informação",
+         "tipo": "Vídeo",
+         "criador_nome": "UX Now",
+         "duracao": "00:08:42",
+         "link": "https://youtu.be/jAN1330de-s",
+         "notion": true
         },
         {
-         "Trilha": "Arquitetura da Informação",
-         "Tipo": "Vídeo",
-         "Conteúdo por": "UX Now",
-         "Duração": "00:09:34",
-         "Link": "https://youtu.be/vmvSMYaV4oE",
-         "Atualizado em": "November 1, 2022 9:16 PM"
+         "titulo": "Arquitetura da Informação",
+         "tipo": "Vídeo",
+         "criador_nome": "UX Now",
+         "duracao": "00:09:34",
+         "link": "https://youtu.be/vmvSMYaV4oE",
+         "notion": true
         },
         {
-         "Trilha": "Heurísticas de Nielsen",
-         "Tipo": "Artigo",
-         "Conteúdo por": "Aela",
-         "Duração": "00:08:00",
-         "Link": "https://medium.com/aela/10-heur%C3%ADsticas-de-nielsen-dicas-para-melhorar-a-usabilidade-de-sua-interface-35ef86a7fb41",
-         "Atualizado em": "November 1, 2022 9:16 PM"
+         "titulo": "Heurísticas de Nielsen",
+         "tipo": "Artigo",
+         "criador_nome": "Aela",
+         "duracao": "00:08:00",
+         "link": "https://medium.com/aela/10-heur%C3%ADsticas-de-nielsen-dicas-para-melhorar-a-usabilidade-de-sua-interface-35ef86a7fb41",
+         "notion": true
         },
         {
-         "Trilha": "Heurísticas de Nielsen",
-         "Tipo": "Apostila",
-         "Conteúdo por": "Alura",
-         "Duração": "00:12:00",
-         "Link": "https://www.alura.com.br/apostila-ux-usabilidade-mobile-web/principios#as-dez-heuristicas-de-nielsen",
-         "Atualizado em": "November 1, 2022 9:16 PM"
+         "titulo": "Heurísticas de Nielsen",
+         "tipo": "Apostila",
+         "criador_nome": "Alura",
+         "duracao": "00:12:00",
+         "link": "https://www.alura.com.br/apostila-ux-usabilidade-mobile-web/principios#as-dez-heuristicas-de-nielsen",
+         "notion": true
         },
         {
-         "Trilha": "Teste de Usabilidade",
-         "Tipo": "Live",
-         "Conteúdo por": "Grupo FCamara",
-         "Duração": "01:18:55",
-         "Link": "https://www.youtube.com/watch?v=VMXF3EDXZT8",
-         "Atualizado em": "November 1, 2022 9:16 PM"
+         "titulo": "Teste de Usabilidade",
+         "tipo": "Live",
+         "criador_nome": "Grupo FCamara",
+         "duracao": "01:18:55",
+         "link": "https://www.youtube.com/watch?v=VMXF3EDXZT8",
+         "notion": true
         },
         {
-         "Trilha": "Teste de Usabilidade",
-         "Tipo": "Live",
-         "Conteúdo por": "Orange Juice",
-         "Duração": "00:31:00",
-         "Link": "https://youtu.be/9Bzd_PfKYLk",
-         "Atualizado em": "November 1, 2022 9:16 PM"
+         "titulo": "Teste de Usabilidade",
+         "tipo": "Live",
+         "criador_nome": "Orange Juice",
+         "duracao": "00:31:00",
+         "link": "https://youtu.be/9Bzd_PfKYLk",
+         "notion": true
         },
         {
-         "Trilha": "Teste de Usabilidade",
-         "Tipo": "Apostila",
-         "Conteúdo por": "Alura",
-         "Duração": "00:31:00",
-         "Link": "https://www.alura.com.br/apostila-ux-usabilidade-mobile-web/usabilidade",
-         "Atualizado em": "November 1, 2022 9:16 PM"
+         "titulo": "Teste de Usabilidade",
+         "tipo": "Apostila",
+         "criador_nome": "Alura",
+         "duracao": "00:31:00",
+         "link": "https://www.alura.com.br/apostila-ux-usabilidade-mobile-web/usabilidade",
+         "notion": true
         },
         {
-         "Trilha": "Acessibilidade",
-         "Tipo": "Live",
-         "Conteúdo por": "Grupo FCamara",
-         "Duração": "01:30:15",
-         "Link": "https://www.youtube.com/watch?v=UqF6NZP0d8w",
-         "Atualizado em": "November 1, 2022 9:16 PM"
+         "titulo": "Acessibilidade",
+         "tipo": "Live",
+         "criador_nome": "Grupo FCamara",
+         "duracao": "01:30:15",
+         "link": "https://www.youtube.com/watch?v=UqF6NZP0d8w",
+         "notion": true
         }
        ]
 },
 {
     "opcional":[
         {
-         "Trilha": "Design Para Quem Não é Designer: Princípios de Design"
+         "titulo": "Design Para Quem Não é Designer: Princípios de Design"
         },
         {
-         "Trilha": "Comunicação não violenta",
-         "Tipo": "Livro",
-         "Status": "Não comecei",
-         "Link": "https://www.amazon.com.br/dp/8571838267/ref=cm_sw_r_tw_dp_PRXG1BFCP2ZYTXVCVH2Z?_encoding=UTF8&amp;psc=1",
-         "Atualizado em": "November 1, 2022 9:16 PM"
+         "titulo": "Comunicação não violenta",
+         "tipo": "Livro",
+                  "link": "https://www.amazon.com.br/dp/8571838267/ref=cm_sw_r_tw_dp_PRXG1BFCP2ZYTXVCVH2Z?_encoding=UTF8&amp;psc=1",
+         "notion": true
         },
         {
-         "Trilha": "Arrume sua cama",
-         "Tipo": "Livro",
-         "Status": "Não comecei",
-         "Link": "https://www.amazon.com.br/dp/8542215788/ref=cm_sw_r_tw_dp_CP0QF5VZAEJDP8T5PGGF?_encoding=UTF8&amp;psc=1",
-         "Atualizado em": "November 1, 2022 9:16 PM"
+         "titulo": "Arrume sua cama",
+         "tipo": "Livro",
+                  "link": "https://www.amazon.com.br/dp/8542215788/ref=cm_sw_r_tw_dp_CP0QF5VZAEJDP8T5PGGF?_encoding=UTF8&amp;psc=1",
+         "notion": true
         },
         {
-         "Trilha": "O design do dia a dia",
-         "Tipo": "Livro",
-         "Status": "Não comecei",
-         "Link": "https://www.amazon.com.br/dp/8532520839/ref=cm_sw_r_tw_dp_0A8Q2AJE82HQ6S4MVFC3?_encoding=UTF8&amp;psc=1",
-         "Atualizado em": "November 1, 2022 9:16 PM"
+         "titulo": "O design do dia a dia",
+         "tipo": "Livro",
+                  "link": "https://www.amazon.com.br/dp/8532520839/ref=cm_sw_r_tw_dp_0A8Q2AJE82HQ6S4MVFC3?_encoding=UTF8&amp;psc=1",
+         "notion": true
         },
         {
-         "Trilha": "Introdução e boas práticas em UX Design",
-         "Tipo": "Livro",
-         "Conteúdo por": "Casa do Código",
-         "Status": "Não comecei",
-         "Link": "https://www.casadocodigo.com.br/products/livro-ux-user-experience",
-         "Atualizado em": "November 1, 2022 9:16 PM"
+         "titulo": "Introdução e boas práticas em UX Design",
+         "tipo": "Livro",
+         "criador_nome": "Casa do Código",
+                  "link": "https://www.casadocodigo.com.br/products/livro-ux-user-experience",
+         "notion": true
         },
         {
-         "Trilha": "Mini Cursos UX/UI Design",
-         "Tipo": "Curso",
-         "Conteúdo por": "Cubos Academy",
-         "Duração": "03:30:00",
-         "Status": "Não comecei",
-         "Link": "https://acesse.cubos.academy/pt-br/minicursodesignux_ui",
-         "Atualizado em": "November 1, 2022 9:16 PM"
+         "titulo": "Mini Cursos UX/UI Design",
+         "tipo": "Curso",
+         "criador_nome": "Cubos Academy",
+         "duracao": "03:30:00",
+                  "link": "https://acesse.cubos.academy/pt-br/minicursodesignux_ui",
+         "notion": true
         },
         {
-         "Trilha": "Curso Design Gráfico",
-         "Tipo": "Curso",
-         "Conteúdo por": "FIAP",
-         "Duração": "140:00:00",
-         "Status": "Não comecei",
-         "Link": "https://www.eucapacito.com.br/curso-ec/design-grafico/",
-         "Atualizado em": "November 1, 2022 9:16 PM"
+         "titulo": "Curso Design Gráfico",
+         "tipo": "Curso",
+         "criador_nome": "FIAP",
+         "duracao": "140:00:00",
+          "link": "https://www.eucapacito.com.br/curso-ec/design-grafico/",
+         "notion": true
         }
        ]
 }
