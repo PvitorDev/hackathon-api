@@ -9,10 +9,14 @@ exports.up = (knex) => {
     table.text("email").unique().notNullable();
     table.text("senha").notNullable();
     table.text("trilha");
-    table.text("funcao");
-    table.bigint("xp").defaultTo(0);
-    table.bigint("nivel").defaultTo(0);
-    table.boolean("adm").defaultTo(false);
+    table.text("funcao").defaultTo("usuario");
+    table.integer("xp").defaultTo(0);
+    table.integer("nivel").defaultTo(0);
+    table.boolean("admin").defaultTo(false);
+    table.integer("numero_posts").defaultTo(0);
+    table.integer("numero_fav").defaultTo(0);
+    table.integer("numero_conteudos").defaultTo(0);
+    table.integer("numero_respostas").defaultTo(0);
     table.timestamp("criado_em").defaultTo(knex.fn.now());
     table.timestamp("atualizado_em").defaultTo(knex.fn.now());
   });
@@ -22,6 +26,6 @@ exports.up = (knex) => {
  * @param { import("knex").Knex } knex
  * @returns { Promise<void> }
  */
-exports.down = function (knex) {
-  return knex.schema.dropTable("conteudos");
+exports.down = (knex) => {
+  return knex.schema.dropTable("usuarios");
 };

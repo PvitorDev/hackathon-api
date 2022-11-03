@@ -13,6 +13,16 @@ module.exports = {
       user: process.env.DB_USER,
       password: process.env.DB_PASS,
     },
+    migrations: {
+      directory: `${__dirname}/src/config/migrations`,
+    },
+    seeds: {
+      directory: `${__dirname}/src/config/seeds`,
+    },
+  },
+  production: {
+    client: "pg",
+    connection: process.env.URL_DATABASE,
     ssl: { rejectUnauthorized: false },
     migrations: {
       directory: `${__dirname}/src/config/migrations`,
