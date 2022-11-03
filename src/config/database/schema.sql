@@ -30,7 +30,7 @@ CREATE TABLE conteudos(
     foreign key (id_usuario) references usuarios (id)
 );
 
-CREATE TABLE perguntas(
+CREATE TABLE postagens(
   id SERIAL PRIMARY KEY,
   id_usuario int,
   titulo TEXT NOT NULL,
@@ -41,6 +41,7 @@ CREATE TABLE perguntas(
   foreign key (id_usuario) references usuarios (id)
 );
 
+)
 CREATE TABLE respostas (
     id SERIAL PRIMARY KEY,
     id_usuario int,

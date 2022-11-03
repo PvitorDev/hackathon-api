@@ -1,4 +1,4 @@
-const knex = require("../config/database/database");
+const knex = require("../config/database");
 
 const registrarConteudos = async (req, res) => {
   const { titulo, tipo, duracao, link } = req.body;
@@ -24,7 +24,7 @@ const registrarPerguntas = async (req, res) => {
   const nome = req.nome;
   const id = req.user;
   try {
-    await knex("perguntas").insert({
+    await knex("postagens").insert({
       id_usuario: id,
       titulo,
       descricao,
@@ -37,12 +37,12 @@ const registrarPerguntas = async (req, res) => {
   }
 };
 const registrarRespostas = async (req, res) => {
-  const { resposta } = req.body;
+  const { comentario } = req.body;
   const id = req.user;
   try {
-    await knex("respostas").insert({
+    await knex("comentarios").insert({
       id_usuario: id,
-      resposta,
+      comentario,
     });
     return res.status(201).json();
   } catch (error) {
@@ -63,7 +63,7 @@ const pegarConteudos = async (req, res) => {
 const procurarPerguntas = async (req, res) => {
   const { search } = req.query;
   try {
-    const tituloPergunta = await knex("perguntas").where("titulo", search);
+    const tituloPergunta = await knex("postagens").where("titulo", search);
 
     res.status(200).json(tituloPergunta);
   } catch (error) {
