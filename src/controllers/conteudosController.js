@@ -1,4 +1,4 @@
-const knex = require("../config/database/database");
+const knex = require("../config/database");
 
 const registrarConteudos = async (req, res) => {
   const { titulo, tipo, duracao, link } = req.body;

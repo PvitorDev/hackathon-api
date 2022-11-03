@@ -1,4 +1,4 @@
-const knex = require("../config/database/database");
+const knex = require("../config/database");
 const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
 
