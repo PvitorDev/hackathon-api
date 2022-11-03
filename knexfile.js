@@ -12,6 +12,7 @@ module.exports = {
       database: process.env.DATABASE,
       user: process.env.DB_USER,
       password: process.env.DB_PASS,
+      ssl: false,
     },
     migrations: {
       directory: `${__dirname}/src/config/migrations`,
