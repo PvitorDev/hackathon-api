@@ -16,9 +16,6 @@ module.exports = {
     migrations: {
       directory: `${__dirname}/src/config/migrations`,
     },
-    seeds: {
-      directory: `${__dirname}/src/config/seeds`,
-    },
   },
   production: {
     client: "pg",
@@ -26,9 +23,6 @@ module.exports = {
     ssl: { rejectUnauthorized: false },
     migrations: {
       directory: `${__dirname}/src/config/migrations`,
-    },
-    seeds: {
-      directory: `${__dirname}/src/config/seeds`,
     },
   },
 };
