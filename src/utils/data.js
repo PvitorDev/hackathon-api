@@ -10,6 +10,7 @@ const searchUX = async () => {
   return JSON.parse(await fs.readFile("src/config/notionDB/design.json"));
 };
 
+
 module.exports = {
   searchFullStack,
   searchQA,
