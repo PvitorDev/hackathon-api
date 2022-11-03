@@ -1,4 +1,4 @@
-const knex = require("../config/database/database");
+const knex = require("../config/database");
 
 const upExperiencia = async (req, res) => {
   const { xp } = req.params;
