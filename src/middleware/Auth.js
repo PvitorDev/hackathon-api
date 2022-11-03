@@ -15,8 +15,12 @@ const Auth = async (req, res, next) => {
 
     req.user = userLogin.id; // id do usuario
     req.nome = userLogin.nome; // nome do usuario
+    req.nivel = userLogin.nivel; //nivel do usuario
+    req.xp = userLogin.xp;
     next();
-  } catch (error) {}
+  } catch (error) {
+    return res.status(500).json({ message: error.message });
+  }
 };
 
 module.exports = Auth;

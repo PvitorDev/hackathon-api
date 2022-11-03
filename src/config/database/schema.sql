@@ -1,13 +1,22 @@
+CREATE DATABASE hackathon_database
+
+
 CREATE TABLE usuarios(
     id SERIAL PRIMARY KEY,
     nome TEXT NOT NULL,
     email TEXT NOT NULL UNIQUE,
     senha TEXT NOT NULL,
     trilha TEXT,
-    adm TEXT ,
-    funcao TEXT,
-     xp int 
-)
+    adm BOOLEAN DEFAULT false ,
+    funcao TEXT DEFAULT 'usuario',
+    xp INT DEFAULT 0 ,
+    nivel INT DEFAULT 0, 
+    posts INT DEFAULT 0,
+    respostas INT DEFAULT 0 , 
+    likes INT DEFAULT 0,
+    conteudos INT DEFAULT 0
+);
+
 CREATE TABLE conteudos(
     id SERIAL PRIMARY KEY,
     id_usuario int,
@@ -18,8 +27,9 @@ CREATE TABLE conteudos(
     link TEXT NOT NULL,
     notion smallint default 0,
     likes INT DEFAULT 0,
-    foreign key(id_usuario) references usuarios (id)
-)
+    foreign key (id_usuario) references usuarios (id)
+);
+
 CREATE TABLE perguntas(
   id SERIAL PRIMARY KEY,
   id_usuario int,
@@ -27,12 +37,15 @@ CREATE TABLE perguntas(
   descricao text not null,
   tipo TEXT NOT NULL,
   criador_nome TEXT,
-  likes INT DEFAULT 0
+  likes INT DEFAULT 0,
+  foreign key (id_usuario) references usuarios (id)
+);
 
-)
 CREATE TABLE respostas (
     id SERIAL PRIMARY KEY,
     id_usuario int,
+  foreign key (id_usuario) references usuarios (id),
    resposta text not null,
-   resposta_id INT DEFAULT 0
-)
+   resposta_id INT ,
+   foreign key (resposta_id) references perguntas (id)
+);
