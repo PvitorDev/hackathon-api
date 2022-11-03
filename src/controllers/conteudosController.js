@@ -19,7 +19,7 @@ const registrarConteudos = async (req, res) => {
   }
 };
 
-const registrarPerguntas = async (req, res) => {
+const registrarPostagens = async (req, res) => {
   const { titulo, descricao, tipo } = req.body;
   const nome = req.nome;
   const id = req.user;
@@ -36,7 +36,8 @@ const registrarPerguntas = async (req, res) => {
     return res.status(500).json({ message: error.message });
   }
 };
-const registrarRespostas = async (req, res) => {
+
+const registrarComentario = async (req, res) => {
   const { comentario } = req.body;
   const id = req.user;
   try {
@@ -60,7 +61,8 @@ const pegarConteudos = async (req, res) => {
     return res.status(500).json({ message: error.message });
   }
 };
-const procurarPerguntas = async (req, res) => {
+
+const procurarPostagens = async (req, res) => {
   const { search } = req.query;
   try {
     const tituloPergunta = await knex("postagens").where("titulo", search);
@@ -71,8 +73,8 @@ const procurarPerguntas = async (req, res) => {
   }
 };
 
-const pegarRespostas = async (req, res) => {
-  const { idPergunta } = req.body;
+const pegarComentario = async (req, res) => {
+  const { idPosts } = req.body;
   try {
   } catch (error) {
     return res.status(500).json({ message: error.message });
@@ -80,9 +82,9 @@ const pegarRespostas = async (req, res) => {
 };
 module.exports = {
   registrarConteudos,
-  registrarPerguntas,
-  registrarRespostas,
+  registrarPostagens,
+  registrarComentario,
   pegarConteudos,
-  procurarPerguntas,
-  pegarRespostas,
+  procurarPostagens,
+  pegarComentario,
 };

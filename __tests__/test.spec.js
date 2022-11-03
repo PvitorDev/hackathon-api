@@ -9,17 +9,17 @@ beforeAll(async () => {
 });
 
 describe("TESTAR USUARIOS", () => {
-  it("Cadastrar Usuarios (POST:/usuarios)", async () => {
-    const res = await request(app).post("/usuarios").send(DEFAULT_USUARIO);
+  it("Cadastrar Usuarios (POST:/singin)", async () => {
+    const res = await request(app).post("/singin").send(DEFAULT_USUARIO);
     expect(res.status).toBe(201);
   });
   it("Login (POST:/login)", async () => {
     const res = await request(app).post("/login").send(DEFAULT_LOGIN);
     expect(res.status).toBe(200);
   });
-  it("Atualizar Usuarios (PUT:/usuarios)", async () => {
+  it("Atualizar Usuarios (PUT:/usuario)", async () => {
     const res = await request(app)
-      .put("/usuarios")
+      .put("/usuario")
       .set("Authorization", `Bearer ${token}`)
       .send(DEFAULT_UPDATE);
     expect(res.status).toBe(204);
