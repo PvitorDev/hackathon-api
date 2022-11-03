@@ -25,7 +25,7 @@ module.exports = {
       password: process.env.DB_PASS,
       host: process.env.DB_HOST,
       port: process.env.DB_PORT,
-      ssl: true,
+      ssl: { rejectUnauthorized: false },
     },
     migrations: {
       directory: `${__dirname}/src/config/migrations`,
