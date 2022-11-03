@@ -6,7 +6,7 @@
   "scripts": {
     "test": "jest test.spec.js",
     "dev": "nodemon index.js",
-    "start": "knex migrate:rollback && knex migrate:latest && node index.js"
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
