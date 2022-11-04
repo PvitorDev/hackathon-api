@@ -1,5 +1,7 @@
 const knex = require("../config/database");
 
+
+/* CONTEUDOS */
 const registrarConteudos = async (req, res) => {
   const { titulo, tipo, duracao, link } = req.body;
   const nome = req.nome;
@@ -9,7 +11,7 @@ const registrarConteudos = async (req, res) => {
     if (!admin) {
       return res.status(404).json({ message: "Você não é um administrador" });
     }
-    await knex("conteudos").insert({
+ const conteudo =   await knex("conteudos").insert({
       id_usuario: id,
       titulo,
       tipo,
@@ -17,33 +19,70 @@ const registrarConteudos = async (req, res) => {
       duracao,
       link,
     });
-    return res.status(201).json();
+    return res.status(201).json(conteudo);
   } catch (error) {
     return res.status(500).json({ message: error.message });
   }
 };
 
+const pegarConteudoUsuario = async (req, res) => {
+  const { id_usuario, page } = req.query;
+  try {
+    const query = knex("conteudos")
+      .limit(5)
+      .offset((page - 1) * 5);
+    const countObj = knex("conteudos").count();
+
+    if (id_usuario) {
+      query
+        .where({ id_usuario })
+        .join("usuarios", "usuarios.id", "=", "conteudos.id_usuario")
+        .select("conteudos.*", "usuarios.nome");
+
+      countObj.where({ id_usuario });
+    }
+
+    const [count] = await countObj;
+
+    res.header("X-Total-Count", count["count"]);
+
+    const results = await query;
+
+    return res.status(200).json(results);
+  } catch (error) {
+    return res.status(500).json({ message: error.message });
+  }
+};
+
+
+
+/* POSTAGENS */
 const registrarPostagens = async (req, res) => {
   const { titulo, descricao, tipo } = req.body;
   const nome = req.nome;
   const id = req.user;
   try {
-    await knex("postagens").insert({
+   const postagem = await knex("postagens").insert({
       id_usuario: id,
       titulo,
       descricao,
       tipo,
       criador_nome: nome,
     });
-    return res.status(201).json();
+    return res.status(201).json(postagem);
   } catch (error) {
     return res.status(500).json({ message: error.message });
   }
 };
 
+
+
+/* COMENTÁRIOS*/
+
 const registrarComentario = async (req, res) => {
   const { comentario } = req.body;
   const id = req.user;
+  const id_post = req.query
   try {
     await knex("comentarios").insert({
       id_usuario: id,
@@ -55,40 +94,9 @@ const registrarComentario = async (req, res) => {
   }
 };
 
-const pegarConteudos = async (req, res) => {
-  const { trilha } = req.params;
-  try {
-    const tiposTrilha = await knex("conteudos").where("tipo", trilha);
-
-    res.status(200).json(tiposTrilha);
-  } catch (error) {
-    return res.status(500).json({ message: error.message });
-  }
-};
-
-const procurarPostagens = async (req, res) => {
-  const { search } = req.query;
-  try {
-    const tituloPergunta = await knex("postagens").where("titulo", search);
-
-    res.status(200).json(tituloPergunta);
-  } catch (error) {
-    return res.status(500).json({ message: error.message });
-  }
-};
-
-const pegarComentario = async (req, res) => {
-  const { idPosts } = req.body;
-  try {
-  } catch (error) {
-    return res.status(500).json({ message: error.message });
-  }
-};
 module.exports = {
   registrarConteudos,
   registrarPostagens,
   registrarComentario,
-  pegarConteudos,
-  procurarPostagens,
-  pegarComentario,
+  pegarConteudoUsuario,
 };
