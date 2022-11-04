@@ -4,7 +4,11 @@ const registrarConteudos = async (req, res) => {
   const { titulo, tipo, duracao, link } = req.body;
   const nome = req.nome;
   const id = req.user;
+  const admin = req.admin;
   try {
+    if (!admin) {
+      return res.status(404).json({ message: "Você não é um administrador" });
+    }
     await knex("conteudos").insert({
       id_usuario: id,
       titulo,

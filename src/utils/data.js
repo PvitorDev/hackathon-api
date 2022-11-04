@@ -15,7 +15,7 @@ const getFcamara = async () => {
   return JSON.parse(await fs.readFile("src/config/youtube/fcamara.json"));
 };
 const getAlura = async () => {
-  return JSON.parse(await fs.readFile("src/config/youtube/alurajson"));
+  return JSON.parse(await fs.readFile("src/config/youtube/alura.json"));
 };
 const getOrange = async () => {
   return JSON.parse(await fs.readFile("src/config/youtube/orange.json"));

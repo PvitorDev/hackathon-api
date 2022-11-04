@@ -73,6 +73,7 @@ const atualizarUsuario = async (req, res) => {
       nome,
       email,
       senha: encryptedSenha,
+      atualizado_em: new Date(),
     });
 
     return res.status(204).json();
@@ -80,6 +81,7 @@ const atualizarUsuario = async (req, res) => {
     return res.status(500).json(error.message);
   }
 };
+
 const upExperiencia = async (req, res) => {
   const { xp } = req.params;
   try {

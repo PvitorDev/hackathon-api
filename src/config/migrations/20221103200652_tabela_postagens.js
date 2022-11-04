@@ -5,7 +5,11 @@
 exports.up = (knex) => {
   return knex.schema.createTable("postagens", (table) => {
     table.increments("id");
-    table.integer("id_usuario").references("usuarios.id").notNullable();
+    table
+      .integer("id_usuario")
+      .references("usuarios.id")
+      .notNullable()
+      .onDelete("CASCADE");
     table.text("titulo").notNullable();
     table.text("descricao").notNullable();
     table.text("tipo").notNullable();
