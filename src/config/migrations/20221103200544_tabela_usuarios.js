@@ -10,6 +10,7 @@ exports.up = (knex) => {
     table.text("senha").notNullable();
     table.text("trilha");
     table.text("funcao").defaultTo("usuario");
+    table.text("evolucao");
     table.integer("xp").defaultTo(0);
     table.integer("nivel").defaultTo(0);
     table.boolean("admin").defaultTo(false);
