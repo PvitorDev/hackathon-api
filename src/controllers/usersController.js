@@ -55,7 +55,7 @@ const login = async (req, res) => {
 };
 
 const atualizarUsuario = async (req, res) => {
-  const { nome, email, senha } = req.body;
+  const { nome, email, senha, trilha } = req.body;
   const { user } = req;
 
   try {
@@ -69,12 +69,16 @@ const atualizarUsuario = async (req, res) => {
         .json({ mensagem: "O email informado já existe cadastrado" });
     }
     const encryptedSenha = await bcrypt.hash(senha, 10);
-    await knex("usuarios").where({ id: req.user }).update({
-      nome,
-      email,
-      senha: encryptedSenha,
-      atualizado_em: new Date(),
-    });
+    await knex("usuarios")
+      .where({ id: req.user })
+      .update({
+        nome,
+        email,
+        senha: encryptedSenha,
+        trilha,
+        atualizado_em: new Date(),
+      })
+      .returning("*");
 
     return res.status(204).json();
   } catch (error) {
@@ -82,24 +86,8 @@ const atualizarUsuario = async (req, res) => {
   }
 };
 
-const upExperiencia = async (req, res) => {
-  const { xp } = req.params;
-  try {
-    const newXp = Number(xp) + req.xp;
-    const usuario = await knex("usuarios").where({ id: req.user }).first();
-
-    await knex("usuarios").where({ id: req.user }).update({
-      xp: newXp,
-    });
-    res.status(200).json(usuario);
-  } catch (error) {
-    return res.status(500).json({ message: error.message });
-  }
-};
-
 module.exports = {
   cadastrarUsuarios,
   login,
   atualizarUsuario,
-  upExperiencia,
 };

@@ -3,7 +3,7 @@
  * @returns { Promise<void> }
  */
 exports.up = (knex) => {
-  return knex.schema.createTable("conteudos", (table) => {
+  return knex.schema.createTable("postagem_conteudos", (table) => {
     table.increments("id");
     table
       .integer("id_usuario")
@@ -12,6 +12,7 @@ exports.up = (knex) => {
       .onDelete("CASCADE");
     table.text("titulo").notNullable();
     table.text("tipo").notNullable();
+    table.text("trilha").notNullable();
     table.text("criador_nome");
     table.text("duracao");
     table.text("link").notNullable();
