@@ -3,7 +3,7 @@ const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
 
 const cadastrarUsuarios = async (req, res) => {
-  const { nome, email, senha } = req.body;
+  const { nome, email, senha, trilha } = req.body;
   try {
     const existeEmail = await knex("usuarios").where({ email }).first();
     if (existeEmail) {
@@ -15,6 +15,7 @@ const cadastrarUsuarios = async (req, res) => {
     await knex("usuarios").insert({
       nome,
       email,
+      trilha,
       senha: encryptedSenha,
     });
     return res.status(201).json({ mensagem: "Cadastro realizado!" });
@@ -86,8 +87,58 @@ const atualizarUsuario = async (req, res) => {
   }
 };
 
+const listarUsuarios = async (req, res) => {
+  const { trilha } = req.params;
+  const admin = req.admin;
+  try {
+    if (!admin) {
+      res.status(404).json({ message: "Você não é um administrador" });
+    }
+    if (!trilha) {
+      const results = await knex("usuarios");
+      const numero_usuarios = results.length;
+      res.status(200).json({ results, numero_usuarios });
+    }
+    const results = await knex("usuarios").where({ trilha });
+    const numero_usuarios = results.length;
+    res.status(200).json({ results, numero_usuarios });
+  } catch (error) {
+    return res.status(500).json(error.message);
+  }
+};
+
+const detalharUsuario = async (req, res) => {
+  const { id } = req.params;
+  try {
+    const usuarioId = await knex("usuarios").where({ id }).first();
+    const { senha: _, ...userData } = usuarioId;
+    res.status(200).json({ ...userData });
+  } catch (error) {
+    return res.status(500).json(error.message);
+  }
+};
+
+const deletarUsuario = async (req, res) => {
+  const { id } = req.params;
+  const admin = req.admin;
+  try {
+    if (!admin) {
+      return await knex("usuarios")
+        .where({ id })
+        .andWhere("id", req.user)
+        .del();
+    }
+
+    return await knex("usuarios").where({ id }).del();
+  } catch (error) {
+    return res.status(500).json(error.message);
+  }
+};
 module.exports = {
   cadastrarUsuarios,
   login,
   atualizarUsuario,
+  listarUsuarios,
+  detalharUsuario,
+  deletarUsuario,
 };

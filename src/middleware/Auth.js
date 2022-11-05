@@ -18,6 +18,7 @@ const Auth = async (req, res, next) => {
     req.nivel = userLogin.nivel; //nivel do usuario
     req.xp = userLogin.xp; //Experiência do usuario
     req.admin = userLogin.admin; //Admin
+    req.token = token; 
     next();
   } catch (error) {
     return res.status(500).json({ message: error.message });
