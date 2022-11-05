@@ -118,27 +118,11 @@ const detalharUsuario = async (req, res) => {
   }
 };
 
-const deletarUsuario = async (req, res) => {
-  const { id } = req.params;
-  const admin = req.admin;
-  try {
-    if (!admin) {
-      return await knex("usuarios")
-        .where({ id })
-        .andWhere("id", req.user)
-        .del();
-    }
 
-    return await knex("usuarios").where({ id }).del();
-  } catch (error) {
-    return res.status(500).json(error.message);
-  }
-};
 module.exports = {
   cadastrarUsuarios,
   login,
   atualizarUsuario,
   listarUsuarios,
   detalharUsuario,
-  deletarUsuario,
 };

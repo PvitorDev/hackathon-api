@@ -6,7 +6,6 @@ const {
   atualizarUsuario,
   listarUsuarios,
   detalharUsuario,
-  deletarUsuario,
 } = require("../controllers/usersController");
 const auth = require("../middleware/Auth");
 const logout = require("../middleware/logout");
@@ -18,7 +17,6 @@ router
   .put("/usuario", auth, atualizarUsuario)
   .get("/usuario/:trilha", auth, listarUsuarios)
   .get("/usuario", auth, listarUsuarios)
-  .get("/usuario/perfil/:id", auth, detalharUsuario)
-  .delete("/usuario/del/:id", auth, deletarUsuario, logout);
+  .get("/usuario/perfil/:id", auth, detalharUsuario);
 
 module.exports = router;

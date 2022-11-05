@@ -5,6 +5,8 @@ const postagem = require("./postagemRoutes");
 const youtube = require("./youtubeRoutes");
 const swaggerUi = require("swagger-ui-express");
 const swaggerDocs = require("../swagger.json");
+
+
 const router = (app) => {
   app.route("/").get((req, res) => {
     res.status(200).send({ message: "Hackathon API FCAMARA" });
