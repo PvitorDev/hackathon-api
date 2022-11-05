@@ -88,7 +88,7 @@ const listarConteudoTrilha = async (req, res) => {
   }
 };
 
-const selecionarConteudo = async (req, res) => {
+const detalharConteudo = async (req, res) => {
   const { id_conteudo } = req.query;
   try {
     const results = await knex("postagem_conteudos").where("id", id_conteudo);
@@ -189,5 +189,5 @@ module.exports = {
   listarComentario,
   curtiPostagem,
   listarConteudoTrilha,
-  selecionarConteudo,
+  detalharConteudo,
 };
