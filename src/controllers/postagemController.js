@@ -2,7 +2,7 @@ const knex = require("../config/database");
 
 /* CONTEUDOS */
 const registrarConteudos = async (req, res) => {
-  const { titulo, tipo, duracao, link } = req.body;
+  const { titulo, tipo, trilha, duracao, link } = req.body;
   const nome = req.nome;
   const id = req.user;
   const admin = req.admin;
@@ -15,6 +15,7 @@ const registrarConteudos = async (req, res) => {
         id_usuario: id,
         titulo,
         tipo,
+        trilha,
         criador_nome: nome,
         duracao,
         link,
@@ -29,7 +30,7 @@ const registrarConteudos = async (req, res) => {
 };
 
 const listarConteudos = async (req, res) => {
-  const { id_usuario, page = 1, trilha } = req.query;
+  const { id_usuario, page = 1 } = req.query;
   try {
     const query = knex("postagem_conteudos")
       .limit(10)
@@ -40,17 +41,57 @@ const listarConteudos = async (req, res) => {
       query
         .where({ id_usuario })
         .join("usuarios", "usuarios.id", "=", "postagem_conteudos.id_usuario")
-        .select("postagem_conteudos.*", "usuarios.nome");
+        .select("postagem_conteudos.*");
 
       countObj.where({ id_usuario });
     } else {
       query.select("postagem_conteudos.*");
     }
+
     const [count] = await countObj;
 
     res.header("X-Total-Count", count["count"]);
 
     const results = await query;
+    res.status(200).json(results);
+  } catch (error) {
+    return res.status(500).json({ message: error.message });
+  }
+};
+
+const listarConteudoTrilha = async (req, res) => {
+  const { trilha } = req.params;
+  const { id_usuario, page = 1 } = req.query;
+  try {
+    const query = knex("postagem_conteudos")
+      .limit(10)
+      .offset((page - 1) * 5);
+
+    const countObj = knex("postagem_conteudos").count();
+    if (trilha && !id_usuario) {
+      query.where({ trilha }).select("postagem_conteudos.*");
+
+      countObj.where({ trilha });
+    } else {
+      query
+        .where({ trilha })
+        .andWhere({ id_usuario })
+        .select("postagem_conteudos.*");
+    }
+    const [count] = await countObj;
+
+    res.header("X-Total-Count", count["count"]);
+    const results = await query;
+    res.status(200).json(results);
+  } catch (error) {
+    return res.status(500).json({ message: error.message });
+  }
+};
+
+const selecionarConteudo = async (req, res) => {
+  const { id_conteudo } = req.query;
+  try {
+    const results = await knex("postagem_conteudos").where("id", id_conteudo);
     res.status(200).json(results);
   } catch (error) {
     return res.status(500).json({ message: error.message });
@@ -147,4 +188,6 @@ module.exports = {
   listarPostagens,
   listarComentario,
   curtiPostagem,
+  listarConteudoTrilha,
+  selecionarConteudo,
 };

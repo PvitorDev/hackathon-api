@@ -3,7 +3,7 @@
  * @returns { Promise<void> }
  */
 exports.up = (knex) => {
-  return knex.schema.createTable("comentarios", (table) => {
+  return knex.schema.createTable("postagem_comentarios", (table) => {
     table.increments("id");
     table
       .integer("id_usuario")
@@ -23,5 +23,5 @@ exports.up = (knex) => {
  * @returns { Promise<void> }
  */
 exports.down = (knex) => {
-  return knex.schema.dropTable("comentarios");
+  return knex.schema.dropTable("postagem_comentarios");
 };
