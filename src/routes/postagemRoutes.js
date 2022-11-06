@@ -32,6 +32,9 @@ router
   .delete("/postagem/post/:id", auth, deletarPostagem)
   .put("/postagem/post/:id", auth, atualizarPostagem);
 
+/*  COMENTÁRIOS */
 
+router 
+.post("/postagem/comentar/:id", auth)
 
 module.exports = router;

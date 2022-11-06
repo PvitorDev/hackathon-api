@@ -249,14 +249,33 @@ const atualizarPostagem = async (req, res) => {
 /* COMENTARIO */
 
 const registrarComentario = async (req, res) => {
+  const { id } = req.params;
   const { comentario } = req.body;
-  const id = req.user;
+  const id_usuario = req.user;
   try {
-    await knex("comentarios").insert({
-      id_usuario: id,
-      comentario,
-    });
-    return res.status(201).json();
+    const postagem = await knex("postagens").where({ id }).debug();
+    if (!postagem.length) {
+      return res.status(404).json({ message: "Postagem não encontrada" });
+    }
+
+    const comentar = await knex("postagem_comentarios")
+      .insert({
+        id_usuario,
+        id_postagem: id,
+        comentario,
+      })
+      .returning("*")
+      .debug();
+
+    if (!comentar) {
+      return res
+        .status(404)
+        .json({ mensagem: "Não foi possível concluir o comentario" });
+    }
+
+    return res
+      .status(201)
+      .json({ mensagem: "Comentário realizado com sucesso" });
   } catch (error) {
     return res.status(500).json({ message: error.message });
   }
