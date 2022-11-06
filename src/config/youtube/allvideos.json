@@ -1,0 +1,313 @@
+[ {
+  "titulo": "Memes do JavaScript",
+    "link": "https://www.youtube.com/embed/videoseries?list=PLh2Y_pKOa4UeJOI2P-N6J8nGyV3aCuO3O",
+    "thumbnails": "https://i.ytimg.com/vi/VHxoyduIt18/sddefault.jpg",
+    "criador_nome":"Alura"      
+  },
+  {
+    "titulo": "Universo Data Science",
+    "link": "https://www.youtube.com/embed/videoseries?list=PLh2Y_pKOa4UcNJzv9IXUAihhCVv7YkyKQ",
+    "thumbnails": "https://i.ytimg.com/vi/K-eaT4V8j-w/sddefault.jpg",
+    "criador_nome":"Alura"      
+  },
+  {
+    "titulo": "Desmistificando o Mobile",
+    "link": "https://www.youtube.com/embed/videoseries?list=PLh2Y_pKOa4UfxMnZla814b5QTr4M7Bk1E",
+    "thumbnails": "https://i.ytimg.com/vi/2z6f8VN_Pro/sddefault.jpg",
+    "criador_nome":"Alura"      
+  },
+  {
+    "titulo": "Inovação & Gestão",
+    "link": "https://www.youtube.com/embed/videoseries?list=PLh2Y_pKOa4UcjTE5zJ6Bbq9eiOtKuFQS_",
+    "thumbnails": "https://i.ytimg.com/vi/SjY0zj17-8U/sddefault.jpg",
+    "criador_nome":"Alura"      
+  },
+  {
+    "titulo": "Universo DevOps",
+    "link": "https://www.youtube.com/embed/videoseries?list=PLh2Y_pKOa4UdOQe-BtWWzgDYxoxsokb2W",
+    "thumbnails": "https://i.ytimg.com/vi/3_k2GVkMt30/sddefault.jpg",
+    "criador_nome":"Alura"      
+  },
+  {
+    "titulo": "Universo UX & Design",
+    "link": "https://www.youtube.com/embed/videoseries?list=PLh2Y_pKOa4UdkNcYbRWGW8_cG3v9qT3pi",
+    "thumbnails": "https://i.ytimg.com/vi/uxJ5mKdLPU0/sddefault.jpg",
+    "criador_nome":"Alura"      
+  },
+  {
+    "titulo": "Universo Mobile",
+    "link": "https://www.youtube.com/embed/videoseries?list=PLh2Y_pKOa4UcbZk76OuAamNm3zCCmcWv6",
+    "thumbnails": "https://i.ytimg.com/vi/atyPdd5XPcg/sddefault.jpg",
+    "criador_nome":"Alura"      
+  },
+  {
+    "titulo": "Casa do Código",
+    "link": "https://www.youtube.com/embed/videoseries?list=PLh2Y_pKOa4Uc_yeJ1UFsuR0xJwBNYaran",
+    "thumbnails": "https://i.ytimg.com/vi/C2sDmYhkgW8/sddefault.jpg",
+    "criador_nome":"Alura"      
+  },
+  {
+    "titulo": "Ferramentas Oracle",
+    "link": "https://www.youtube.com/embed/videoseries?list=PLh2Y_pKOa4Udqxwk1P5DSqHX9Yl_zz9Kf",
+    "thumbnails": "https://i.ytimg.com/vi/Ut_XoorllmE/sddefault.jpg",
+    "criador_nome":"Alura"      
+  },
+  {
+    "titulo": "Imersão Carreira Tech",
+    "link": "https://www.youtube.com/embed/videoseries?list=PLh2Y_pKOa4UenBHsGOPCUI_mDxeBpC2Yo",
+    "thumbnails": "https://i.ytimg.com/vi/pcB_UtE5Bd4/sddefault.jpg",
+    "criador_nome":"Alura"      
+  },
+  {
+    "titulo": "Hipsters.dicas",
+    "link": "https://www.youtube.com/embed/videoseries?list=PLh2Y_pKOa4Uf-eT1ebQEEMU_hvJ9RIoRy",
+    "thumbnails": "https://i.ytimg.com/vi/yb6_tfdEi5A/sddefault.jpg",
+    "criador_nome":"Alura"      
+  },
+  {
+    "titulo": "Hipsters.Talks",
+    "link": "https://www.youtube.com/embed/videoseries?list=PLh2Y_pKOa4UfXouteLGc_qT-7HO80wy1Y",
+    "thumbnails": "https://i.ytimg.com/vi/fcsjteDfPhU/sddefault.jpg",
+    "criador_nome":"Alura"      
+  },
+  {
+    "titulo": "Websérie: Git e Github para sobrevivência | com DevSoutinho",
+    "link": "https://www.youtube.com/embed/videoseries?list=PLh2Y_pKOa4Uf-cUQOVNGlz_GVHx8QYoE6",
+    "thumbnails": "https://i.ytimg.com/vi/BAmvmaKQklQ/sddefault.jpg",
+    "criador_nome":"Alura"      
+  },
+  {
+    "titulo": "Git e Github",
+    "link": "https://www.youtube.com/embed/videoseries?list=PLh2Y_pKOa4UciHMCIdxq96xX_L0gX2rYg",
+    "thumbnails": "https://i.ytimg.com/vi/P4BNi_yPehc/sddefault.jpg",
+    "criador_nome":"Alura"      
+  },
+  {
+    "titulo": "Histórias de profissionais em Tech | Scuba Ponto Dev",
+    "link": "https://www.youtube.com/embed/videoseries?list=PLh2Y_pKOa4UekCLUlAmQ89uSMWNlHvhR3",
+    "thumbnails": "https://i.ytimg.com/vi/WLM6xFtUnZM/sddefault.jpg",
+    "criador_nome":"Alura"      
+  },
+  {
+    "titulo": "Case Omni Conectado",
+    "link": "https://www.youtube.com/embed/videoseries?list=PLzQU8BT6XwHE1zndZrhuIrepEKsVt7VC5",
+    "thumbnails": "https://i.ytimg.com/vi/0oueGKL-9Nk/sddefault.jpg",
+    "criador_nome":"FCamara"
+  },
+  {
+    "titulo": "Esquenta Black Friday 2022",
+    "link": "https://www.youtube.com/embed/videoseries?list=PLzQU8BT6XwHEmkhvBck4MYaNcND8ZZBC3",
+    "thumbnails": "https://i.ytimg.com/vi/QjLSZ85h3Gg/sddefault.jpg",
+    "criador_nome":"FCamara"
+  },
+  {
+    "titulo": "Open Finance",
+    "link": "https://www.youtube.com/embed/videoseries?list=PLzQU8BT6XwHEU3h4PCYFqCIyiV-4aSg9d",
+    "thumbnails": "https://i.ytimg.com/vi/F9tMW1J7gI4/sddefault.jpg",
+    "criador_nome":"FCamara"
+  },
+  {
+    "titulo": "Open Insurance",
+    "link": "https://www.youtube.com/embed/videoseries?list=PLzQU8BT6XwHGF9N454d1Xuf61C-I8Zbp8",
+    "thumbnails": "https://i.ytimg.com/vi/l6eTf1HxwHg/sddefault.jpg",
+    "criador_nome":"FCamara"
+  },
+  {
+    "titulo": "Migração de Carreira",
+    "link": "https://www.youtube.com/embed/videoseries?list=PLzQU8BT6XwHEMyDjj8pVdW5rZ19wchjH9",
+    "thumbnails": "https://i.ytimg.com/vi/RawKgiAYzWU/sddefault.jpg",
+    "criador_nome":"FCamara"
+  },
+  {
+    "titulo": "Pagamentos Digitais",
+    "link": "https://www.youtube.com/embed/videoseries?list=PLzQU8BT6XwHF-459B6KFVaaU-DB8jSryz",
+    "thumbnails": "https://i.ytimg.com/vi/_DRarcCC9j8/sddefault.jpg",
+    "criador_nome":"FCamara"
+  },
+  {
+    "titulo": "DNA Sangue Laranja",
+    "link": "https://www.youtube.com/embed/videoseries?list=PLzQU8BT6XwHESrp66-dM8NVBaZxRY57YL",
+    "thumbnails": "https://i.ytimg.com/vi/JskoMzRU61g/sddefault.jpg",
+    "criador_nome":"FCamara"
+  },
+  {
+    "titulo": "Trilha de Formação - Desenvolvedor Full Stack",
+    "link": "https://www.youtube.com/embed/videoseries?list=PLzQU8BT6XwHHTakl7OVY0iIi3OGcGjgfl",
+    "thumbnails": "https://i.ytimg.com/vi/n0KH8dQSrv0/sddefault.jpg",
+    "criador_nome":"FCamara"
+  },
+  {
+    "titulo": "Trilha de Formação - UX Designer",
+    "link": "https://www.youtube.com/embed/videoseries?list=PLzQU8BT6XwHEZpay7bwhG8_5nryW8mPI0",
+    "thumbnails": "https://i.ytimg.com/vi/n0KH8dQSrv0/sddefault.jpg",
+    "criador_nome":"FCamara"
+  },
+  {
+    "titulo": "Open Banking",
+    "link": "https://www.youtube.com/embed/videoseries?list=PLzQU8BT6XwHF0l7yhW1QipTKIxkWTSZ2d",
+    "thumbnails": "https://i.ytimg.com/vi/vIRhDx0t8Xs/sddefault.jpg",
+    "criador_nome":"FCamara"
+  },
+  {
+    "titulo": "Canal Omnicommerce",
+    "link": "https://www.youtube.com/embed/videoseries?list=PLzQU8BT6XwHFpU_ApqHhB3JWDuPsnDlH-",
+    "thumbnails": "https://i.ytimg.com/vi/nBnH2UAuyAw/sddefault.jpg",
+    "criador_nome":"FCamara"
+  },
+  {
+    "titulo": "WEBINAR",
+    "link": "https://www.youtube.com/embed/videoseries?list=PLzQU8BT6XwHEWy1J4HOQI1MG3Em4q_dI7",
+    "thumbnails": "https://i.ytimg.com/vi/oaxYwTk3AoE/sddefault.jpg",
+    "criador_nome":"FCamara"
+  },
+  {
+    "titulo": "LIVES",
+    "link": "https://www.youtube.com/embed/videoseries?list=PLzQU8BT6XwHFb5pdAFQU-09obn4Cxflgh",
+    "thumbnails": "https://i.ytimg.com/vi/QyhHKsKHQ8M/sddefault.jpg",
+    "criador_nome":"FCamara"
+  },
+  {
+    "titulo": "Ações Internas",
+    "link": "https://www.youtube.com/embed/videoseries?list=PLzQU8BT6XwHHpWUk1-HYdpVwx76_5b-7N",
+    "thumbnails": "https://i.ytimg.com/vi/I3Gbc1noPoM/sddefault.jpg",
+    "criador_nome":"FCamara"
+  },
+  {
+    "titulo": "Bate Papo Semanal - Orange Founders",
+    "link": "https://www.youtube.com/embed/videoseries?list=PLzQU8BT6XwHHrJXB_Ayc8fS1cL480fd9r",
+    "thumbnails": "https://i.ytimg.com/vi/-3YXl7_hdVg/sddefault.jpg",
+    "criador_nome":"FCamara"
+  },
+  {
+    "titulo": "🟠 Orange Week",
+    "link": "https://www.youtube.com/embed/videoseries?list=PLn9-AyVYB5GMYtLTY8dm_CDCvN_2V7JmB",
+    "thumbnails": "https://i.ytimg.com/vi/QiGJOHTN3OY/sddefault.jpg",
+    "criador_nome":"Orange Juice"
+  },
+  {
+    "titulo": "Design Patterns",
+    "link": "https://www.youtube.com/embed/videoseries?list=PLn9-AyVYB5GPELKUVNkd2tT7M6J0Pylzd",
+    "thumbnails": "https://i.ytimg.com/vi/ryw3c2IZ5mg/sddefault.jpg",
+    "criador_nome":"Orange Juice"
+  },
+  {
+    "titulo": "🟠 Jornada da Formação",
+    "link": "https://www.youtube.com/embed/videoseries?list=PLn9-AyVYB5GOVtgRPSWdDlAEK8SBrpwCg",
+    "thumbnails": "https://i.ytimg.com/vi/9N5NjZtDyn8/sddefault.jpg",
+    "criador_nome":"Orange Juice"
+  },
+  {
+    "titulo": "Programa de Formação",
+    "link": "https://www.youtube.com/embed/videoseries?list=PLn9-AyVYB5GPsOGsDlw6tTFfxWe3jgIm0",
+    "thumbnails": "https://i.ytimg.com/vi/yoWU1M7Oo_0/sddefault.jpg",
+    "criador_nome":"Orange Juice"
+  },
+  {
+    "titulo": "Lives",
+    "link": "https://www.youtube.com/embed/videoseries?list=PLn9-AyVYB5GPFBDNY6X90QJKpng5bbHxF",
+    "thumbnails": "https://i.ytimg.com/vi/2XgdWoFRCrY/sddefault.jpg",
+    "criador_nome":"Orange Juice"
+  },
+  {
+    "titulo": "🟠 Orange Talks",
+    "link": "https://www.youtube.com/embed/videoseries?list=PLn9-AyVYB5GPCTScmAU3Vbl4UkFJsdFHy",
+    "thumbnails": "https://i.ytimg.com/vi/FTzx5zV2ZsI/sddefault.jpg",
+    "criador_nome":"Orange Juice"
+  },
+  {
+    "titulo": "🟠 Orange Juice Cast",
+    "link": "https://www.youtube.com/embed/videoseries?list=PLn9-AyVYB5GMbiG_7MerXuA6Hv1TChAbE",
+    "thumbnails": "https://i.ytimg.com/vi/-M7b87oBfF4/sddefault.jpg",
+    "criador_nome":"Orange Juice"
+  },
+  {
+    "titulo": "Show Me The Code (Acessibilidade)",
+    "link": "https://www.youtube.com/embed/videoseries?list=PL85ITvJ7FLojVVdCq3j6CaYHqHQPk_QAQ",
+    "thumbnails": "https://i.ytimg.com/vi/eQqsQrZV5eM/sddefault.jpg",
+    "criador_nome":"Rocketseat"
+  },
+  {
+    "titulo": "SHOW ME THE CODE",
+    "link": "https://www.youtube.com/embed/videoseries?list=PL85ITvJ7FLoglgoqriHWXK9yE_N0qf4tO",
+    "thumbnails": "https://i.ytimg.com/vi/i9rNFEaRE9s/sddefault.jpg",
+    "criador_nome":"Rocketseat"
+  },
+  {
+    "titulo": "Decode",
+    "link": "https://www.youtube.com/embed/videoseries?list=PL85ITvJ7FLoiBxfZFZSUYBqrCs8khA_I8",
+    "thumbnails": "https://i.ytimg.com/vi/ZDSiAwuoX0c/sddefault.jpg",
+    "criador_nome":"Rocketseat"
+  },
+  {
+    "titulo": "Iniciando na programação",
+    "link": "https://www.youtube.com/embed/videoseries?list=PL85ITvJ7FLohAEA-5FoAp67msfNGR47ZR",
+    "thumbnails": "https://i.ytimg.com/vi/EOGN5ltRqOc/sddefault.jpg",
+    "criador_nome":"Rocketseat"
+  },
+  {
+    "titulo": "Videos 2022",
+    "link": "https://www.youtube.com/embed/videoseries?list=PL85ITvJ7FLojZXTzLwl99IHlyy7pFzkpW",
+    "thumbnails": "https://i.ytimg.com/vi/EOGN5ltRqOc/sddefault.jpg",
+    "criador_nome":"Rocketseat"
+  },
+  {
+    "titulo": "Vlog",
+    "link": "https://www.youtube.com/embed/videoseries?list=PL85ITvJ7FLojyyMJZM6-RUdUQ18jAs342",
+    "thumbnails": "https://i.ytimg.com/vi/oWKuJnrceS8/sddefault.jpg",
+    "criador_nome":"Rocketseat"
+  },
+  {
+    "titulo": "Javascript",
+    "link": "https://www.youtube.com/embed/videoseries?list=PL85ITvJ7FLojh6Q49rQsjmpU7F03yIMnq",
+    "thumbnails": "https://i.ytimg.com/vi/Sm_r3qamCzU/sddefault.jpg",
+    "criador_nome":"Rocketseat"
+  },
+  {
+    "titulo": "Node.js",
+    "link": "https://www.youtube.com/embed/videoseries?list=PL85ITvJ7FLogNHtbfjISMtEk_WepbGMO6",
+    "thumbnails": "https://i.ytimg.com/vi/WG1EYRhny3M/sddefault.jpg",
+    "criador_nome":"Rocketseat"
+  },
+  {
+    "titulo": "React Native",
+    "link": "https://www.youtube.com/embed/videoseries?list=PL85ITvJ7FLojFdFRbuKt0lsx08ADCEPRu",
+    "thumbnails": "https://i.ytimg.com/vi/2nXsLpUCO20/sddefault.jpg",
+    "criador_nome":"Rocketseat"
+  },
+  {
+    "titulo": "React",
+    "link": "https://www.youtube.com/embed/videoseries?list=PL85ITvJ7FLohz54DLfinJeHi7DrHGT2_U",
+    "thumbnails": "https://i.ytimg.com/vi/b04Tz5w4cXM/sddefault.jpg",
+    "criador_nome":"Rocketseat"
+  },
+  {
+    "titulo": "Elixir",
+    "link": "https://www.youtube.com/embed/videoseries?list=PL85ITvJ7FLojnPX7wohMjPXvpwlpR7yIP",
+    "thumbnails": "https://i.ytimg.com/vi/itY9IVnvgmw/sddefault.jpg",
+    "criador_nome":"Rocketseat"
+  },
+  {
+    "titulo": "Podcast Proxy",
+    "link": "https://www.youtube.com/embed/videoseries?list=PL85ITvJ7FLohfGX-AqfsPKjUyXmhPSwhR",
+    "thumbnails": "https://i.ytimg.com/vi/5GlNY0Gv1f8/sddefault.jpg",
+    "criador_nome":"Rocketseat"
+  },
+  {
+    "titulo": "root",
+    "link": "https://www.youtube.com/embed/videoseries?list=PL85ITvJ7FLognHmYKYmHPZEr47nNqLjRh",
+    "thumbnails": "https://i.ytimg.com/vi/bk4abNFLDE8/sddefault.jpg",
+    "criador_nome":"Rocketseat"
+  },
+  {
+    "titulo": "Podcast Use Case",
+    "link": "https://www.youtube.com/embed/videoseries?list=PL85ITvJ7FLoiOC_CjhpYjobA2tnt27TQc",
+    "thumbnails": "https://i.ytimg.com/vi/BOWdx4rLwXg/sddefault.jpg",
+    "criador_nome":"Rocketseat"
+  },
+  {
+    "titulo": "Podcast Alumni",
+    "link": "https://www.youtube.com/embed/videoseries?list=PL85ITvJ7FLoiLfnqie9hJfU6h82G4hOu2",
+    "thumbnails": "https://i.ytimg.com/vi/KTOq047D1nk/sddefault.jpg",
+    "criador_nome":"Rocketseat"
+  }
+]
