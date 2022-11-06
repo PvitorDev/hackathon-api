@@ -5,7 +5,9 @@ const {
   getRocketseat,
 } = require("../utils/data");
 
-const getVideo = async (req, res) => {
+  ;
+
+module.exports = {async getVideo (req, res)  {
   const { empresa } = req.params;
   try {
     if (empresa === "fcamara") {
@@ -23,6 +25,4 @@ const getVideo = async (req, res) => {
   } catch (error) {
     return res.status(500).json({ message: error.message });
   }
-};
-
-module.exports = { getVideo };
+} };

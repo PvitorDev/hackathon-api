@@ -1,8 +1,8 @@
 const express = require("express");
-const getFullStack = require("../controllers/notionController");
+const { getConteudoTrilha } = require("../controllers/notionController");
 
 const router = express.Router();
 
-router.get("/notion/:trilha", getFullStack);
+router.get("/notion/:trilha", getConteudoTrilha);
 
 module.exports = router;
