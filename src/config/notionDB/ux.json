@@ -1,6 +1,5 @@
 [
     {
-      "id_usuario":1,
       "titulo":"Migração de Carreira",
       "tipo":"Artigo",
       "trilha":"ux/ui", 
@@ -10,7 +9,6 @@
        "notion":true
     },
     {
-      "id_usuario":1,
       "titulo":"Migração de Carreira",
       "tipo":"Artigo",
       "trilha":"ux/ui", 
@@ -20,7 +18,6 @@
        "notion":true
     },
     {
-      "id_usuario":1,
       "titulo":"Migração de Carreira",
       "tipo":"Artigo",
       "trilha":"ux/ui", 
@@ -30,7 +27,6 @@
        "notion":true
     },
     {
-      "id_usuario":2,
       "titulo":"Culture Code",
       "tipo":"Live",
       "trilha":"ux/ui", 
@@ -40,7 +36,6 @@
        "notion":true
     },
     {
-      "id_usuario":2,
       "titulo":"Product Owner e Scrum Master",
       "tipo":"Live",
       "trilha":"ux/ui", 
@@ -50,7 +45,6 @@
        "notion":true
     },
     {
-      "id_usuario":0,
       "titulo":"Product Owner",
       "tipo":"Artigo",
       "trilha":"ux/ui", 
@@ -60,7 +54,6 @@
        "notion":true
     },
     {
-      "id_usuario":0,
       "titulo":"Scrum Master",
       "tipo":"Artigo",
       "trilha":"ux/ui", 
@@ -70,7 +63,6 @@
        "notion":true
     },
     {
-      "id_usuario":0,
       "titulo":"Scrum Master",
       "tipo":"Artigo",
       "trilha":"ux/ui", 
@@ -80,7 +72,6 @@
        "notion":true
     },
     {
-      "id_usuario":2,
       "titulo":"Desenvolvimento",
       "tipo":"Live",
       "trilha":"ux/ui", 
@@ -90,7 +81,6 @@
        "notion":true
     },
     {
-      "id_usuario":3,
       "titulo":"Desenvolvimento",
       "tipo":"Artigo",
       "trilha":"ux/ui", 
@@ -100,7 +90,6 @@
        "notion":true
     },
     {
-      "id_usuario":1,
       "titulo":"UX Design",
       "tipo":"Artigo",
       "trilha":"ux/ui", 
@@ -110,7 +99,6 @@
        "notion":true
     },
     {
-      "id_usuario":3,
       "titulo":"UX Design",
       "tipo":"Artigo",
       "trilha":"ux/ui", 
@@ -120,7 +108,6 @@
        "notion":true
     },
     {
-      "id_usuario":2,
       "titulo":"UX Design",
       "tipo":"Live",
       "trilha":"ux/ui", 
@@ -130,7 +117,6 @@
        "notion":true
     },
     {
-      "id_usuario":1,
       "titulo":"QA",
       "tipo":"Artigo",
       "trilha":"ux/ui", 
@@ -140,7 +126,6 @@
        "notion":true
     },
     {
-      "id_usuario":2,
       "titulo":"QA",
       "tipo":"Live",
       "trilha":"ux/ui", 
@@ -150,7 +135,6 @@
        "notion":true
     },
     {
-      "id_usuario":0,
       "titulo":"Stakeholder",
       "tipo":"Glossário",
       "trilha":"ux/ui", 
@@ -160,7 +144,6 @@
        "notion":true
     },
     {
-      "id_usuario":0,
       "titulo":"Liderança",
       "tipo":"Live",
       "trilha":"ux/ui", 
@@ -170,7 +153,6 @@
        "notion":true
     },
     {
-      "id_usuario":1,
       "titulo":"Metodologia Ágil",
       "tipo":"Vídeo",
       "trilha":"ux/ui", 
@@ -180,7 +162,6 @@
        "notion":true
     },
     {
-      "id_usuario":1,
       "titulo":"Metodologia Ágil",
       "tipo":"Artigo",
       "trilha":"ux/ui", 
@@ -190,7 +171,6 @@
        "notion":true
     },
     {
-      "id_usuario":1,
       "titulo":"Metodologia Ágil",
       "tipo":"Artigo",
       "trilha":"ux/ui", 
@@ -200,7 +180,6 @@
        "notion":true
     },
     {
-      "id_usuario":2,
       "titulo":"Squads",
       "tipo":"Artigo",
       "trilha":"ux/ui", 
@@ -210,7 +189,6 @@
        "notion":true
     },
     {
-      "id_usuario":0,
       "titulo":"MVP",
       "tipo":"Artigo",
       "trilha":"ux/ui", 
@@ -220,7 +198,6 @@
        "notion":true
     },
     {
-      "id_usuario":3,
       "titulo":"Soft Skill",
       "tipo":"Artigo",
       "trilha":"ux/ui", 
@@ -230,7 +207,6 @@
        "notion":true
     },
     {
-      "id_usuario":1,
       "titulo":"Comunicação",
       "tipo":"Artigo",
       "trilha":"ux/ui", 
@@ -240,7 +216,6 @@
        "notion":true
     },
     {
-      "id_usuario":1,
       "titulo":"Comunicação",
       "tipo":"Artigo",
       "trilha":"ux/ui", 
@@ -250,7 +225,6 @@
        "notion":true
     },
     {
-      "id_usuario":1,
       "titulo":"Comunicação",
       "tipo":"Artigo",
       "trilha":"ux/ui", 
@@ -260,7 +234,6 @@
        "notion":true
     },
     {
-      "id_usuario":2,
       "titulo":"Trabalho em equipe",
       "tipo":"Live",
       "trilha":"ux/ui", 
@@ -270,7 +243,6 @@
        "notion":true
     },
     {
-      "id_usuario":0,
       "titulo":"Trabalho em equipe",
       "tipo":"Artigo",
       "trilha":"ux/ui", 
@@ -280,7 +252,6 @@
        "notion":true
     },
     {
-      "id_usuario":1,
       "titulo":"LGPD",
       "tipo":"Live",
       "trilha":"ux/ui", 
@@ -290,7 +261,6 @@
        "notion":true
     },
     {
-      "id_usuario":2,
       "titulo":"UI Design",
       "tipo":"Live",
       "trilha":"ux/ui", 
@@ -300,7 +270,6 @@
        "notion":true
     },
     {
-      "id_usuario":1,
       "titulo":"UI Design",
       "tipo":"Artigo",
       "trilha":"ux/ui", 
@@ -310,7 +279,6 @@
        "notion":true
     },
     {
-      "id_usuario":1,
       "titulo":"Design",
       "tipo":"Live",
       "trilha":"ux/ui", 
@@ -320,7 +288,6 @@
        "notion":true
     },
     {
-      "id_usuario":0,
       "titulo":"Grid",
       "tipo":"Artigo",
       "trilha":"ux/ui", 
@@ -330,7 +297,6 @@
        "notion":true
     },
     {
-      "id_usuario":0,
       "titulo":"Teoria da Cores",
       "tipo":"Artigo",
       "trilha":"ux/ui", 
@@ -340,7 +306,6 @@
        "notion":true
     },
     {
-      "id_usuario":3,
       "titulo":"Teoria da Cores",
       "tipo":"Apostila",
       "trilha":"ux/ui", 
@@ -350,7 +315,6 @@
        "notion":true
     },
     {
-      "id_usuario":1,
       "titulo":"tipografia",
       "tipo":"Artigo",
       "trilha":"ux/ui", 
@@ -360,7 +324,6 @@
        "notion":true
     },
     {
-      "id_usuario":3,
       "titulo":"tipografia",
       "tipo":"Apostila",
       "trilha":"ux/ui", 
@@ -370,7 +333,6 @@
        "notion":true
     },
     {
-      "id_usuario":0,
       "titulo":"Gestalt",
       "tipo":"Artigo",
       "trilha":"ux/ui", 
@@ -380,7 +342,6 @@
        "notion":true
     },
     {
-      "id_usuario":0,
       "titulo":"Style Guide",
       "tipo":"Artigo",
       "trilha":"ux/ui", 
@@ -390,7 +351,6 @@
        "notion":true
     },
     {
-      "id_usuario":1,
       "titulo":"Protótipo",
       "tipo":"Artigo",
       "trilha":"ux/ui", 
@@ -400,7 +360,6 @@
        "notion":true
     },
     {
-      "id_usuario":3,
       "titulo":"Protótipo",
       "tipo":"Apostila",
       "trilha":"ux/ui", 
@@ -410,7 +369,6 @@
        "notion":true
     },
     {
-      "id_usuario":0,
       "titulo":"Protótipo",
       "tipo":"Vídeo",
       "trilha":"ux/ui", 
@@ -420,7 +378,6 @@
        "notion":true
     },
     {
-      "id_usuario":0,
       "titulo":"Interface",
       "tipo":"Vídeo",
       "trilha":"ux/ui", 
@@ -430,7 +387,6 @@
        "notion":true
     },
     {
-      "id_usuario":0,
       "titulo":"Interface",
       "tipo":"Vídeo",
       "trilha":"ux/ui", 
@@ -440,7 +396,6 @@
        "notion":true
     },
     {
-      "id_usuario":0,
       "titulo":"Interface",
       "tipo":"Vídeo",
       "trilha":"ux/ui", 
@@ -450,7 +405,6 @@
        "notion":true
     },
     {
-      "id_usuario":0,
       "titulo":"Design",
       "tipo":"Vídeo",
       "trilha":"ux/ui", 
@@ -460,7 +414,6 @@
        "notion":true
     },
     {
-      "id_usuario":0,
       "titulo":"UX Design",
       "tipo":"Vídeo",
       "trilha":"ux/ui", 
@@ -470,7 +423,6 @@
        "notion":true
     },
     {
-      "id_usuario":0,
       "titulo":"UX Design",
       "tipo":"Vídeo",
       "trilha":"ux/ui", 
@@ -480,7 +432,6 @@
        "notion":true
     },
     {
-      "id_usuario":0,
       "titulo":"UX Design",
       "tipo":"Artigo",
       "trilha":"ux/ui", 
@@ -490,7 +441,6 @@
        "notion":true
     },
     {
-      "id_usuario":3,
       "titulo":"UX Design",
       "tipo":"Apostila",
       "trilha":"ux/ui", 
@@ -500,7 +450,6 @@
        "notion":true
     },
     {
-      "id_usuario":1,
       "titulo":"UX Design",
       "tipo":"Live",
       "trilha":"ux/ui", 
@@ -510,7 +459,6 @@
        "notion":true
     },
     {
-      "id_usuario":2,
       "titulo":"UX Design",
       "tipo":"Live",
       "trilha":"ux/ui", 
@@ -520,7 +468,6 @@
        "notion":true
     },
     {
-      "id_usuario":1,
       "titulo":"UX Design",
       "tipo":"Live",
       "trilha":"ux/ui", 
@@ -530,7 +477,6 @@
        "notion":true
     },
     {
-      "id_usuario":2,
       "titulo":"UX Research",
       "tipo":"Live",
       "trilha":"ux/ui", 
@@ -540,7 +486,6 @@
        "notion":true
     },
     {
-      "id_usuario":3,
       "titulo":"UX Research",
       "tipo":"Apostila",
       "trilha":"ux/ui", 
@@ -550,7 +495,6 @@
        "notion":true
     },
     {
-      "id_usuario":0,
       "titulo":"UX Research",
       "tipo":"Vídeo",
       "trilha":"ux/ui", 
@@ -560,7 +504,6 @@
        "notion":true
     },
     {
-      "id_usuario":1,
       "titulo":"Design Thinking",
       "tipo":"Artigo",
       "trilha":"ux/ui", 
@@ -570,7 +513,6 @@
        "notion":true
     },
     {
-      "id_usuario":1,
       "titulo":"Design Thinking",
       "tipo":"Artigo",
       "trilha":"ux/ui", 
@@ -580,7 +522,6 @@
        "notion":true
     },
     {
-      "id_usuario":2,
       "titulo":"Design Thinking",
       "tipo":"Live",
       "trilha":"ux/ui", 
@@ -590,7 +531,6 @@
        "notion":true
     },
     {
-      "id_usuario":0,
       "titulo":"Benchmarking",
       "tipo":"Artigo",
       "trilha":"ux/ui", 
@@ -600,7 +540,6 @@
        "notion":true
     },
     {
-      "id_usuario":0,
       "titulo":"Persona",
       "tipo":"Vídeo",
       "trilha":"ux/ui", 
@@ -610,7 +549,6 @@
        "notion":true
     },
     {
-      "id_usuario":0,
       "titulo":"Persona",
       "tipo":"Vídeo",
       "trilha":"ux/ui", 
@@ -620,7 +558,6 @@
        "notion":true
     },
     {
-      "id_usuario":3,
       "titulo":"Persona",
       "tipo":"Apostila",
       "trilha":"ux/ui", 
@@ -630,7 +567,6 @@
        "notion":true
     },
     {
-      "id_usuario":3,
       "titulo":"Mapa de Empatia",
       "tipo":"Apostila",
       "trilha":"ux/ui", 
@@ -640,7 +576,6 @@
        "notion":true
     },
     {
-      "id_usuario":0,
       "titulo":"Fluxo de Usuário",
       "tipo":"Artigo",
       "trilha":"ux/ui", 
@@ -650,7 +585,6 @@
        "notion":true
     },
     {
-      "id_usuario":0,
       "titulo":"Fluxo de Usuário",
       "tipo":"Artigo",
       "trilha":"ux/ui", 
@@ -660,7 +594,6 @@
        "notion":true
     },
     {
-      "id_usuario":0,
       "titulo":"Jornada do Usuário",
       "tipo":"Artigo",
       "trilha":"ux/ui", 
@@ -670,7 +603,6 @@
        "notion":true
     },
     {
-      "id_usuario":0,
       "titulo":"Jornada do Usuário",
       "tipo":"Vídeo",
       "trilha":"ux/ui", 
@@ -680,7 +612,6 @@
        "notion":true
     },
     {
-      "id_usuario":1,
       "titulo":"Storytelling",
       "tipo":"Artigo",
       "trilha":"ux/ui", 
@@ -690,7 +621,6 @@
        "notion":true
     },
     {
-      "id_usuario":0,
       "titulo":"Arquitetura da Informação",
       "tipo":"Vídeo",
       "trilha":"ux/ui", 
@@ -700,7 +630,6 @@
        "notion":true
     },
     {
-      "id_usuario":0,
       "titulo":"Arquitetura da Informação",
       "tipo":"Vídeo",
       "trilha":"ux/ui", 
@@ -710,7 +639,6 @@
        "notion":true
     },
     {
-      "id_usuario":0,
       "titulo":"Heurísticas de Nielsen",
       "tipo":"Artigo",
       "trilha":"ux/ui", 
@@ -720,7 +648,6 @@
        "notion":true
     },
     {
-      "id_usuario":3,
       "titulo":"Heurísticas de Nielsen",
       "tipo":"Apostila",
       "trilha":"ux/ui", 
@@ -730,7 +657,6 @@
        "notion":true
     },
     {
-      "id_usuario":2,
       "titulo":"Teste de Usabilidade",
       "tipo":"Live",
       "trilha":"ux/ui", 
@@ -740,7 +666,6 @@
        "notion":true
     },
     {
-      "id_usuario":1,
       "titulo":"Teste de Usabilidade",
       "tipo":"Live",
       "trilha":"ux/ui", 
@@ -750,7 +675,6 @@
        "notion":true
     },
     {
-      "id_usuario":3,
       "titulo":"Teste de Usabilidade",
       "tipo":"Apostila",
       "trilha":"ux/ui", 
@@ -760,7 +684,6 @@
        "notion":true
     },
     {
-      "id_usuario":2,
       "titulo":"Acessibilidade",
       "tipo":"Live",
       "trilha":"ux/ui", 

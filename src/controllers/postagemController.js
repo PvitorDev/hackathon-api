@@ -91,8 +91,10 @@ const listarConteudoTrilha = async (req, res) => {
 const detalharConteudo = async (req, res) => {
   const { id_conteudo } = req.query;
   try {
-    const results = await knex("postagem_conteudos").where("id", id_conteudo);
-    res.status(200).json(results);
+    const results = await knex("postagem_conteudos")
+      .where("id", id_conteudo)
+      .first();
+    return res.status(200).json(results);
   } catch (error) {
     return res.status(500).json({ message: error.message });
   }
@@ -107,6 +109,30 @@ const deletarConteudo = async (req, res) => {
     }
     await knex("postagem_conteudos").where("id", id_conteudo).del();
     return res.status(204).json({ message: "Conteudo deletado com sucesso" });
+  } catch (error) {
+    return res.status(500).json({ message: error.message });
+  }
+};
+
+const atualizarConteudo = async (req, res) => {
+  const { id_conteudo } = req.params;
+  const { titulo, descricao, tipo } = req.body;
+  const id_usuario = req.user;
+  try {
+    const results = await knex("postagens")
+      .where({ id })
+      .andWhere({ id_usuario })
+      .update({
+        titulo,
+        descricao,
+        tipo,
+        atualizado_em: new Date(),
+      })
+      .returning("*");
+    if (!results) {
+      return res.status(404).json({ message: "Você não é um administrador" });
+    }
+    return res.status(204).json();
   } catch (error) {
     return res.status(500).json({ message: error.message });
   }
@@ -146,7 +172,7 @@ const listarPostagens = async (req, res) => {
       query
         .where({ id_usuario })
         .join("usuarios", "usuarios.id", "=", "postagens.id_usuario")
-        .select("postagens.*", "usuarios.nome");
+        .select("postagens.*");
 
       countObj.where({ id_usuario });
     }
@@ -155,7 +181,64 @@ const listarPostagens = async (req, res) => {
     res.header("X-Total-Count", count["count"]);
 
     const results = await query;
-    res.status(200).json(results);
+    return res.status(200).json(results);
+  } catch (error) {
+    return res.status(500).json({ message: error.message });
+  }
+};
+
+const detalharPostagem = async (req, res) => {
+  const { id } = req.params;
+  try {
+    const results = await knex("postagens").where({ id }).first();
+    return res.status(200).json(results);
+  } catch (error) {
+    return res.status(500).json({ message: error.message });
+  }
+};
+
+const deletarPostagem = async (req, res) => {
+  const { id } = req.params;
+  const admin = req.admin;
+  const id_usuario = req.user;
+  try {
+    if (!admin) {
+      const results = await knex("postagens")
+        .where({ id })
+        .andWhere({ id_usuario })
+        .del();
+      if (!results) {
+        return res.status(404).json({ message: "Você não é um administrador" });
+      }
+      return res.status(204).json();
+    }
+    await knex("postagens").where({ id }).del();
+
+    return res.status(204).json();
+  } catch (error) {
+    return res.status(500).json({ message: error.message });
+  }
+};
+
+const atualizarPostagem = async (req, res) => {
+  const { id } = req.params;
+  const { titulo, descricao, tipo } = req.body;
+  const id_usuario = req.user;
+  try {
+    const results = await knex("postagens")
+      .where({ id })
+      .andWhere({ id_usuario })
+      .update({
+        titulo,
+        descricao,
+        tipo,
+        atualizado_em: new Date(),
+      })
+      .returning("*");
+    if (!results) {
+      return res.status(404).json({ message: "Você não é um administrador" });
+    }
+    return res.status(204).json();
   } catch (error) {
     return res.status(500).json({ message: error.message });
   }
@@ -205,4 +288,7 @@ module.exports = {
   listarConteudoTrilha,
   detalharConteudo,
   deletarConteudo,
+  detalharPostagem,
+  deletarPostagem,
+  atualizarPostagem,
 };

@@ -1,6 +1,5 @@
 [
     {
-      "id_usuario":1,
       "titulo":"Migração de Carreira",
       "tipo":"Artigo",
       "trilha":"qa", 
@@ -10,7 +9,6 @@
        "notion":true
     },
     {
-      "id_usuario":1,
       "titulo":"Migração de Carreira",
       "tipo":"Artigo",
       "trilha":"qa", 
@@ -20,7 +18,6 @@
        "notion":true
     },
     {
-      "id_usuario":1,
       "titulo":"Migração de Carreira",
       "tipo":"Artigo",
       "trilha":"qa", 
@@ -30,7 +27,6 @@
        "notion":true
     },
     {
-      "id_usuario":2,
       "titulo":"Culture Code",
       "tipo":"Live",
       "trilha":"qa", 
@@ -40,7 +36,6 @@
        "notion":true
     },
     {
-      "id_usuario":2,
       "titulo":"Product Owner e Scrum Master",
       "tipo":"Live",
       "trilha":"qa", 
@@ -50,7 +45,6 @@
        "notion":true
     },
     {
-      "id_usuario":0,
       "titulo":"Product Owner",
       "tipo":"Artigo",
       "trilha":"qa", 
@@ -60,7 +54,6 @@
        "notion":true
     },
     {
-      "id_usuario":0,
       "titulo":"Scrum Master",
       "tipo":"Artigo",
       "trilha":"qa", 
@@ -70,7 +63,6 @@
        "notion":true
     },
     {
-      "id_usuario":0,
       "titulo":"Scrum Master",
       "tipo":"Artigo",
       "trilha":"qa", 
@@ -80,7 +72,6 @@
        "notion":true
     },
     {
-      "id_usuario":2,
       "titulo":"Desenvolvimento",
       "tipo":"Live",
       "trilha":"qa", 
@@ -90,7 +81,6 @@
        "notion":true
     },
     {
-      "id_usuario":3,
       "titulo":"Desenvolvimento",
       "tipo":"Artigo",
       "trilha":"qa", 
@@ -100,7 +90,6 @@
        "notion":true
     },
     {
-      "id_usuario":1,
       "titulo":"UX Design",
       "tipo":"Artigo",
       "trilha":"qa", 
@@ -110,7 +99,6 @@
        "notion":true
     },
     {
-      "id_usuario":3,
       "titulo":"UX Design",
       "tipo":"Artigo",
       "trilha":"qa", 
@@ -120,7 +108,6 @@
        "notion":true
     },
     {
-      "id_usuario":2,
       "titulo":"UX Design",
       "tipo":"Live",
       "trilha":"qa", 
@@ -130,7 +117,6 @@
        "notion":true
     },
     {
-      "id_usuario":1,
       "titulo":"QA",
       "tipo":"Artigo",
       "trilha":"qa", 
@@ -140,7 +126,6 @@
        "notion":true
     },
     {
-      "id_usuario":2,
       "titulo":"QA",
       "tipo":"Live",
       "trilha":"qa", 
@@ -150,7 +135,6 @@
        "notion":true
     },
     {
-      "id_usuario":0,
       "titulo":"Stakeholder",
       "tipo":"Glossário",
       "trilha":"qa", 
@@ -160,7 +144,6 @@
        "notion":true
     },
     {
-      "id_usuario":0,
       "titulo":"Liderança",
       "tipo":"Live",
       "trilha":"qa", 
@@ -170,7 +153,6 @@
        "notion":true
     },
     {
-      "id_usuario":1,
       "titulo":"Metodologia Ágil",
       "tipo":"Vídeo",
       "trilha":"qa", 
@@ -180,7 +162,6 @@
        "notion":true
     },
     {
-      "id_usuario":1,
       "titulo":"Metodologia Ágil",
       "tipo":"Artigo",
       "trilha":"qa", 
@@ -190,7 +171,6 @@
        "notion":true
     },
     {
-      "id_usuario":1,
       "titulo":"Metodologia Ágil",
       "tipo":"Artigo",
       "trilha":"qa", 
@@ -200,7 +180,6 @@
        "notion":true
     },
     {
-      "id_usuario":2,
       "titulo":"Squads",
       "tipo":"Artigo",
       "trilha":"qa", 
@@ -210,7 +189,6 @@
        "notion":true
     },
     {
-      "id_usuario":0,
       "titulo":"MVP",
       "tipo":"Artigo",
       "trilha":"qa", 
@@ -220,7 +198,6 @@
        "notion":true
     },
     {
-      "id_usuario":3,
       "titulo":"Soft Skill",
       "tipo":"Artigo",
       "trilha":"qa", 
@@ -230,7 +207,6 @@
        "notion":true
     },
     {
-      "id_usuario":1,
       "titulo":"Comunicação",
       "tipo":"Artigo",
       "trilha":"qa", 
@@ -240,7 +216,6 @@
        "notion":true
     },
     {
-      "id_usuario":1,
       "titulo":"Comunicação",
       "tipo":"Artigo",
       "trilha":"qa", 
@@ -250,7 +225,6 @@
        "notion":true
     },
     {
-      "id_usuario":1,
       "titulo":"Comunicação",
       "tipo":"Artigo",
       "trilha":"qa", 
@@ -260,7 +234,6 @@
        "notion":true
     },
     {
-      "id_usuario":2,
       "titulo":"Trabalho em equipe",
       "tipo":"Live",
       "trilha":"qa", 
@@ -270,7 +243,6 @@
        "notion":true
     },
     {
-      "id_usuario":1,
       "titulo":"Trabalho em equipe",
       "tipo":"Artigo",
       "trilha":"qa", 
@@ -280,7 +252,6 @@
        "notion":true
     },
     {
-      "id_usuario":1,
       "titulo":"LGPD",
       "tipo":"Live",
       "trilha":"qa", 
@@ -290,7 +261,6 @@
        "notion":true
     },
     {
-      "id_usuario":1,
       "titulo":"Qualidade além dos bugs",
       "tipo":"Live",
       "trilha":"qa", 
@@ -300,7 +270,6 @@
        "notion":true
     },
     {
-      "id_usuario":0,
       "titulo":"Case Avenue",
       "tipo":"Podcast",
       "trilha":"qa", 
@@ -310,7 +279,6 @@
        "notion":true
     },
     {
-      "id_usuario":0,
       "titulo":"Case Itaú",
       "tipo":"Podcast",
       "trilha":"qa", 
@@ -320,7 +288,6 @@
        "notion":true
     },
     {
-      "id_usuario":0,
       "titulo":"Qualidade de Software",
       "tipo":"Artigo",
       "trilha":"qa", 
@@ -330,7 +297,6 @@
        "notion":true
     },
     {
-      "id_usuario":0,
       "titulo":"Qualidade de Software",
       "tipo":"Artigo",
       "trilha":"qa", 
@@ -340,7 +306,6 @@
        "notion":true
     },
     {
-      "id_usuario":0,
       "titulo":"Qualidade de Software",
       "tipo":"Artigo",
       "trilha":"qa", 
@@ -350,7 +315,6 @@
        "notion":true
     },
     {
-      "id_usuario":0,
       "titulo":"Qualidade de Software",
       "tipo":"Artigo",
       "trilha":"qa", 
@@ -360,7 +324,6 @@
        "notion":true
     },
     {
-      "id_usuario":0,
       "titulo":"Testes Funcionais e Não Funcionais",
       "tipo":"Artigo",
       "trilha":"qa", 
@@ -370,7 +333,6 @@
        "notion":true
     },
     {
-      "id_usuario":0,
       "titulo":"Testes Funcionais e Não Funcionais",
       "tipo":"Vídeo",
       "trilha":"qa", 
@@ -380,7 +342,6 @@
        "notion":true
     },
     {
-      "id_usuario":0,
       "titulo":"Testes Funcionais e Não Funcionais",
       "tipo":"Vídeo",
       "trilha":"qa", 
@@ -390,7 +351,6 @@
        "notion":true
     },
     {
-      "id_usuario":0,
       "titulo":"Benefícios e vantagens de QA e automação de testes",
       "tipo":"Artigo",
       "trilha":"qa", 
@@ -400,7 +360,6 @@
        "notion":true
     },
     {
-      "id_usuario":0,
       "titulo":"Benefícios e vantagens de QA e automação de testes",
       "tipo":"Artigo",
       "trilha":"qa", 
@@ -410,7 +369,6 @@
        "notion":true
     },
     {
-      "id_usuario":0,
       "titulo":"BDD",
       "tipo":"Curso",
       "trilha":"qa", 
@@ -420,7 +378,6 @@
        "notion":true
     },
     {
-      "id_usuario":0,
       "titulo":"BDD",
       "tipo":"Live",
       "trilha":"qa", 
@@ -430,7 +387,6 @@
        "notion":true
     },
     {
-      "id_usuario":4,
       "titulo":"Github",
       "tipo":"Curso",
       "trilha":"qa", 
@@ -440,7 +396,6 @@
        "notion":true
     },
     {
-      "id_usuario":0,
       "titulo":"Github",
       "tipo":"Curso",
       "trilha":"qa", 
@@ -450,7 +405,6 @@
        "notion":true
     },
     {
-      "id_usuario":0,
       "titulo":"Github",
       "tipo":"Curso",
       "trilha":"qa", 
@@ -460,7 +414,6 @@
        "notion":true
     },
     {
-      "id_usuario":0,
       "titulo":"tipos de testes e fases",
       "tipo":"Artigo",
       "trilha":"qa", 
@@ -470,7 +423,6 @@
        "notion":true
     },
     {
-      "id_usuario":3,
       "titulo":"tipos de testes e fases",
       "tipo":"Artigo",
       "trilha":"qa", 
@@ -480,7 +432,6 @@
        "notion":true
     },
     {
-      "id_usuario":3,
       "titulo":"tipos de testes e fases",
       "tipo":"Vídeo",
       "trilha":"qa", 
@@ -490,7 +441,6 @@
        "notion":true
     },
     {
-      "id_usuario":0,
       "titulo":"Bugs",
       "tipo":"Artigo",
       "trilha":"qa", 
@@ -500,7 +450,6 @@
        "notion":true
     },
     {
-      "id_usuario":0,
       "titulo":"Bugs",
       "tipo":"Artigo",
       "trilha":"qa", 
@@ -510,7 +459,6 @@
        "notion":true
     },
     {
-      "id_usuario":0,
       "titulo":"Bugs",
       "tipo":"Vídeo",
       "trilha":"qa", 
@@ -520,7 +468,6 @@
        "notion":true
     },
     {
-      "id_usuario":0,
       "titulo":"Bugs",
       "tipo":"Live",
       "trilha":"qa", 
@@ -530,7 +477,6 @@
        "notion":true
     },
     {
-      "id_usuario":0,
       "titulo":"Automação de Testes",
       "tipo":"Vídeo",
       "trilha":"qa", 
@@ -540,7 +486,6 @@
        "notion":true
     },
     {
-      "id_usuario":0,
       "titulo":"Automação de Testes",
       "tipo":"Curso",
       "trilha":"qa", 
@@ -550,7 +495,6 @@
        "notion":true
     },
     {
-      "id_usuario":0,
       "titulo":"Automação de Testes",
       "tipo":"Vídeo",
       "trilha":"qa", 
@@ -560,7 +504,6 @@
        "notion":true
     },
     {
-      "id_usuario":0,
       "titulo":"Automação de Testes",
       "tipo":"Vídeo",
       "trilha":"qa", 
@@ -570,7 +513,6 @@
        "notion":true
     },
     {
-      "id_usuario":0,
       "titulo":"Automação de Testes",
       "tipo":"Playlist",
       "trilha":"qa", 
@@ -580,7 +522,6 @@
        "notion":true
     },
     {
-      "id_usuario":0,
       "titulo":"Automação de Testes",
       "tipo":"Live",
       "trilha":"qa", 
@@ -590,7 +531,6 @@
        "notion":true
     },
     {
-      "id_usuario":0,
       "titulo":"Automação de Testes",
       "tipo":"Curso",
       "trilha":"qa", 
@@ -600,7 +540,6 @@
        "notion":true
     },
     {
-      "id_usuario":0,
       "titulo":"Automação de Testes",
       "tipo":"Artigo",
       "trilha":"qa", 
@@ -610,7 +549,6 @@
        "notion":true
     },
     {
-      "id_usuario":0,
       "titulo":"Automação de Testes",
       "tipo":"Curso",
       "trilha":"qa", 
@@ -620,7 +558,6 @@
        "notion":true
     },
     {
-      "id_usuario":0,
       "titulo":"Automação de Testes",
       "tipo":"Playlist",
       "trilha":"qa", 
@@ -630,7 +567,6 @@
        "notion":true
     },
     {
-      "id_usuario":0,
       "titulo":"Automação de Testes",
       "tipo":"Live",
       "trilha":"qa", 
@@ -640,7 +576,6 @@
        "notion":true
     },
     {
-      "id_usuario":0,
       "titulo":"Automação de Testes",
       "tipo":"Playlist",
       "trilha":"qa", 
@@ -650,7 +585,6 @@
        "notion":true
     },
     {
-      "id_usuario":0,
       "titulo":"Automação de Testes",
       "tipo":"Curso",
       "trilha":"qa", 
@@ -660,7 +594,6 @@
        "notion":true
     },
     {
-      "id_usuario":1,
       "titulo":"QA no Backend",
       "tipo":"Vídeo",
       "trilha":"qa", 
@@ -670,7 +603,6 @@
        "notion":true
     },
     {
-      "id_usuario":4,
       "titulo":"Banco de Dados",
       "tipo":"Curso",
       "trilha":"qa", 
@@ -680,7 +612,6 @@
        "notion":true
     },
     {
-      "id_usuario":4,
       "titulo":"Banco de Dados",
       "tipo":"Curso",
       "trilha":"qa", 
@@ -690,7 +621,6 @@
        "notion":true
     },
     {
-      "id_usuario":4,
       "titulo":"Banco de Dados",
       "tipo":"Curso",
       "trilha":"qa", 
@@ -700,7 +630,6 @@
        "notion":true
     },
     {
-      "id_usuario":0,
       "titulo":"Banco de Dados",
       "tipo":"Curso",
       "trilha":"qa", 
@@ -710,7 +639,6 @@
        "notion":true
     },
     {
-      "id_usuario":0,
       "titulo":"Banco de Dados",
       "tipo":"Curso",
       "trilha":"qa", 

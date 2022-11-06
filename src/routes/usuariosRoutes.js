@@ -15,11 +15,13 @@ const router = express.Router();
 router
   .post("/cadastro", cadastrarUsuarios)
   .post("/login", login)
-  .put("/usuario", auth, atualizarUsuario)
-  .get("/usuario/:trilha", auth, listarUsuarios)
-  .get("/usuario", auth, listarUsuarios)
-  .get("/usuario/perfil/:id", auth, detalharUsuario)
-  .put("/usuario/perfil/:id", auth, tornarAdministrador)
-  .delete("/usuario/perfil/:id", auth, deletarConta);
+
+  router
+    .get("/usuario/:trilha", auth, listarUsuarios)
+    .get("/usuario", auth, listarUsuarios)
+    .get("/usuario/perfil/:id", detalharUsuario)
+    .put("/usuario/perfil/:id", auth, tornarAdministrador)
+    .put("/usuario", auth, atualizarUsuario)
+    .delete("/usuario/perfil/:id", auth, deletarConta);
 
 module.exports = router;
