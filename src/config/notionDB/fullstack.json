@@ -1,5 +1,6 @@
 [
     {
+       "id_usuario":1,
        "titulo":"Migração de Carreira",
        "tipo":"Artigo",
        "trilha":"fullstack",
@@ -9,6 +10,7 @@
        "notion":true
     },
     {
+       "id_usuario":1,
        "titulo":"Migração de Carreira",
        "tipo":"Artigo",
        "trilha":"fullstack",
@@ -18,6 +20,7 @@
        "notion":true
     },
     {
+       "id_usuario":1,
        "titulo":"Migração de Carreira",
        "tipo":"Artigo",
        "trilha":"fullstack",
@@ -27,6 +30,7 @@
        "notion":true
     },
     {
+       "id_usuario":2,
        "titulo":"Culture Code",
        "tipo":"Live",
        "trilha":"fullstack",
@@ -36,6 +40,7 @@
        "notion":true
     },
     {
+       "id_usuario":2,
        "titulo":"Product Owner e Scrum Master",
        "tipo":"Live",
        "trilha":"fullstack",
@@ -45,6 +50,7 @@
        "notion":true
     },
     {
+       "id_usuario":0,
        "titulo":"Product Owner",
        "tipo":"Artigo",
        "trilha":"fullstack",
@@ -54,6 +60,7 @@
        "notion":true
     },
     {
+       "id_usuario":0,
        "titulo":"Scrum Master",
        "tipo":"Artigo",
        "trilha":"fullstack",
@@ -63,6 +70,7 @@
        "notion":true
     },
     {
+       "id_usuario":0,
        "titulo":"Scrum Master",
        "tipo":"Artigo",
        "trilha":"fullstack",
@@ -72,6 +80,7 @@
        "notion":true
     },
     {
+       "id_usuario":2,
        "titulo":"Desenvolvimento",
        "tipo":"Live",
        "trilha":"fullstack",
@@ -81,6 +90,7 @@
        "notion":true
     },
     {
+       "id_usuario":3,
        "titulo":"Desenvolvimento",
        "tipo":"Artigo",
        "trilha":"fullstack",
@@ -90,6 +100,7 @@
        "notion":true
     },
     {
+       "id_usuario":1,
        "titulo":"UX Design",
        "tipo":"Artigo",
        "trilha":"fullstack",
@@ -99,6 +110,7 @@
        "notion":true
     },
     {
+       "id_usuario":3,
        "titulo":"UX Design",
        "tipo":"Artigo",
        "trilha":"fullstack",
@@ -108,6 +120,7 @@
        "notion":true
     },
     {
+       "id_usuario":2,
        "titulo":"UX Design",
        "tipo":"Live",
        "trilha":"fullstack",
@@ -117,6 +130,7 @@
        "notion":true
     },
     {
+       "id_usuario":1,
        "titulo":"QA",
        "tipo":"Artigo",
        "trilha":"fullstack",
@@ -126,6 +140,7 @@
        "notion":true
     },
     {
+       "id_usuario":2,
        "titulo":"QA",
        "tipo":"Live",
        "trilha":"fullstack",
@@ -135,6 +150,7 @@
        "notion":true
     },
     {
+       "id_usuario":0,
        "titulo":"Stakeholder",
        "tipo":"Glossário",
        "trilha":"fullstack",
@@ -144,6 +160,7 @@
        "notion":true
     },
     {
+       "id_usuario":0,
        "titulo":"Liderança",
        "tipo":"Live",
        "trilha":"fullstack",
@@ -153,6 +170,7 @@
        "notion":true
     },
     {
+       "id_usuario":1,
        "titulo":"Metodologia Ágil",
        "tipo":"Vídeo",
        "trilha":"fullstack",
@@ -162,6 +180,7 @@
        "notion":true
     },
     {
+       "id_usuario":1,
        "titulo":"Metodologia Ágil",
        "tipo":"Artigo",
        "trilha":"fullstack",
@@ -171,6 +190,7 @@
        "notion":true
     },
     {
+       "id_usuario":1,
        "titulo":"Metodologia Ágil",
        "tipo":"Artigo",
        "trilha":"fullstack",
@@ -180,6 +200,7 @@
        "notion":true
     },
     {
+       "id_usuario":2,
        "titulo":"Squads",
        "tipo":"Artigo",
        "trilha":"fullstack",
@@ -189,6 +210,7 @@
        "notion":true
     },
     {
+       "id_usuario":0,
        "titulo":"MVP",
        "tipo":"Artigo",
        "trilha":"fullstack",
@@ -198,6 +220,7 @@
        "notion":true
     },
     {
+       "id_usuario":3,
        "titulo":"Soft Skill",
        "tipo":"Artigo",
        "trilha":"fullstack",
@@ -207,6 +230,7 @@
        "notion":true
     },
     {
+       "id_usuario":1,
        "titulo":"Comunicação",
        "tipo":"Artigo",
        "trilha":"fullstack",
@@ -216,6 +240,7 @@
        "notion":true
     },
     {
+       "id_usuario":1,
        "titulo":"Comunicação",
        "tipo":"Artigo",
        "trilha":"fullstack",
@@ -225,6 +250,7 @@
        "notion":true
     },
     {
+       "id_usuario":1,
        "titulo":"Comunicação",
        "tipo":"Artigo",
        "trilha":"fullstack",
@@ -234,6 +260,7 @@
        "notion":true
     },
     {
+       "id_usuario":2,
        "titulo":"Trabalhos em equipe",
        "tipo":"Live",
        "trilha":"fullstack",
@@ -243,6 +270,7 @@
        "notion":true
     },
     {
+       "id_usuario":0,
        "titulo":"Trabalho em equipe",
        "tipo":"Artigo",
        "trilha":"fullstack",
@@ -252,6 +280,7 @@
        "notion":true
     },
     {
+       "id_usuario":1,
        "titulo":"LGPD",
        "tipo":"Live",
        "trilha":"fullstack",
@@ -261,6 +290,7 @@
        "notion":true
     },
     {
+       "id_usuario":1,
        "titulo":"Dev Júnior",
        "tipo":"Vídeo",
        "trilha":"fullstack",
@@ -270,6 +300,7 @@
        "notion":true
     },
     {
+       "id_usuario":1,
        "titulo":"Qual a melhor linguagem de programação? | Com Willian da Silva",
        "tipo":"Vídeo",
        "trilha":"fullstack",
@@ -279,6 +310,7 @@
        "notion":true
     },
     {
+       "id_usuario":1,
        "titulo":"Habilidades além do código! | Com Mateus Oliveira",
        "tipo":"Vídeo",
        "trilha":"fullstack",
@@ -288,6 +320,7 @@
        "notion":true
     },
     {
+       "id_usuario":1,
        "titulo":"Dúvidas sobre carreira",
        "tipo":"Vídeo",
        "trilha":"fullstack",
@@ -297,6 +330,7 @@
        "notion":true
     },
     {
+       "id_usuario":4,
        "titulo":"Lógica de programação e algoritmos",
        "tipo":"Curso",
        "trilha":"fullstack",
@@ -306,6 +340,7 @@
        "notion":true
     },
     {
+       "id_usuario":0,
        "titulo":"Curso de Lógica de Programação",
        "tipo":"Vídeo",
        "trilha":"fullstack",
@@ -315,6 +350,7 @@
        "notion":true
     },
     {
+       "id_usuario":0,
        "titulo":"Instalar o Linux no Windows com o WSL",
        "tipo":"Artigo",
        "trilha":"fullstack",
@@ -324,6 +360,7 @@
        "notion":true
     },
     {
+       "id_usuario":4,
        "titulo":"Terminal Linux",
        "tipo":"Curso",
        "trilha":"fullstack",
@@ -333,6 +370,7 @@
        "notion":true
     },
     {
+       "id_usuario":3,
        "titulo":"Shell Script: Introdução e Como Automatizar Tarefas",
        "tipo":"Artigo",
        "trilha":"fullstack",
@@ -342,6 +380,7 @@
        "notion":true
     },
     {
+       "id_usuario":1,
        "titulo":"Versionamento com Git",
        "tipo":"Vídeo",
        "trilha":"fullstack",
@@ -351,6 +390,7 @@
        "notion":true
     },
     {
+       "id_usuario":4,
        "titulo":"Git e Github para iniciantes",
        "tipo":"Curso",
        "trilha":"fullstack",
@@ -360,6 +400,7 @@
        "notion":true
     },
     {
+       "id_usuario":4,
        "titulo":"Introdução a Bancos de Dados e Linguagem SQL",
        "tipo":"Curso",
        "trilha":"fullstack",
@@ -369,6 +410,7 @@
        "notion":true
     },
     {
+       "id_usuario":0,
        "titulo":"Básico HTML - CSS e Javascript",
        "tipo":"Curso",
        "trilha":"fullstack",
@@ -377,6 +419,7 @@
        "link":"https://www.udemy.com/course/criando-site-html-css-e-javascript/"
     },
     {
+       "id_usuario":4,
        "titulo":"Introdução à linguagem CSS",
        "tipo":"Curso",
        "trilha":"fullstack",
@@ -386,6 +429,7 @@
        "notion":true
     },
     {
+       "id_usuario":0,
        "titulo":"Curso de Sass",
        "tipo":"Curso",
        "trilha":"fullstack",
@@ -395,6 +439,7 @@
        "notion":true
     },
     {
+       "id_usuario":0,
        "titulo":"Curso de HTML",
        "tipo":" CSS e Bootstrap",
        "trilha":"fullstack",
@@ -404,6 +449,7 @@
        "link":"https://www.youtube.com/playlist?list=PL8iIphQOyG-Cv3auRYoZtbvzJJrsvdMy-"
     },
     {
+       "id_usuario":1,
        "titulo":"Curso de Less",
        "tipo":"Curso",
        "trilha":"fullstack",
@@ -413,6 +459,7 @@
        "notion":true
     },
     {
+       "id_usuario":1,
        "titulo":"Descomplicando SPA’s",
        "tipo":"Artigo",
        "trilha":"fullstack",
@@ -422,6 +469,7 @@
        "notion":true
     },
     {
+       "id_usuario":0,
        "titulo":"Single-page application vs. multiple-page application",
        "tipo":"Artigo",
        "trilha":"fullstack",
@@ -431,6 +479,7 @@
        "notion":true
     },
     {
+       "id_usuario":4,
        "titulo":"Curso Javascript + 14 Mini-Projetos",
        "tipo":"Curso",
        "trilha":"fullstack",
@@ -440,6 +489,7 @@
        "notion":true
     },
     {
+       "id_usuario":0,
        "titulo":"Curso de Java",
        "tipo":"Curso",
        "trilha":"fullstack",
@@ -449,6 +499,7 @@
        "notion":true
     },
     {
+       "id_usuario":3,
        "titulo":"HTTP: Desmistificando o protocolo da Web",
        "tipo":"Artigo",
        "trilha":"fullstack",
@@ -458,6 +509,7 @@
        "notion":true
     },
     {
+       "id_usuario":0,
        "titulo":"O que é uma API?",
        "tipo":"Artigo",
        "trilha":"fullstack",
@@ -467,6 +519,7 @@
        "notion":true
     },
     {
+       "id_usuario":3,
        "titulo":"Qual é a diferença entre HTTP e HTTPS?",
        "tipo":"Artigo",
        "trilha":"fullstack",
@@ -476,6 +529,7 @@
        "notion":true
     },
     {
+       "id_usuario":3,
        "titulo":"Métodos de requisição do HTTP",
        "tipo":"Artigo",
        "trilha":"fullstack",

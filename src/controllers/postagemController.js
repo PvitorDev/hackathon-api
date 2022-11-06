@@ -53,7 +53,7 @@ const listarConteudos = async (req, res) => {
     res.header("X-Total-Count", count["count"]);
 
     const results = await query;
-    res.status(200).json(results);
+    return res.status(200).json(results);
   } catch (error) {
     return res.status(500).json({ message: error.message });
   }
@@ -82,7 +82,7 @@ const listarConteudoTrilha = async (req, res) => {
 
     res.header("X-Total-Count", count["count"]);
     const results = await query;
-    res.status(200).json(results);
+    return res.status(200).json(results);
   } catch (error) {
     return res.status(500).json({ message: error.message });
   }
@@ -93,6 +93,20 @@ const detalharConteudo = async (req, res) => {
   try {
     const results = await knex("postagem_conteudos").where("id", id_conteudo);
     res.status(200).json(results);
+  } catch (error) {
+    return res.status(500).json({ message: error.message });
+  }
+};
+
+const deletarConteudo = async (req, res) => {
+  const { id_conteudo } = req.query;
+  const admin = req.admin;
+  try {
+    if (!admin) {
+      return res.status(404).json({ message: "Você não é um administrador!" });
+    }
+    await knex("postagem_conteudos").where("id", id_conteudo).del();
+    return res.status(204).json({ message: "Conteudo deletado com sucesso" });
   } catch (error) {
     return res.status(500).json({ message: error.message });
   }
@@ -190,4 +204,5 @@ module.exports = {
   curtiPostagem,
   listarConteudoTrilha,
   detalharConteudo,
+  deletarConteudo,
 };

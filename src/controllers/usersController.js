@@ -90,18 +90,21 @@ const atualizarUsuario = async (req, res) => {
 const listarUsuarios = async (req, res) => {
   const { trilha } = req.params;
   const admin = req.admin;
+  let results;
+  let numero_usuarios;
   try {
     if (!admin) {
-      res.status(404).json({ message: "Você não é um administrador" });
+      return res.status(404).json({ message: "Você não é um administrador" });
     }
+
     if (!trilha) {
-      const results = await knex("usuarios");
-      const numero_usuarios = results.length;
-      res.status(200).json({ results, numero_usuarios });
+      results = await knex("usuarios");
+      numero_usuarios = results.length;
+    } else {
+      results = await knex("usuarios").where({ trilha });
+      numero_usuarios = results.length;
     }
-    const results = await knex("usuarios").where({ trilha });
-    const numero_usuarios = results.length;
-    res.status(200).json({ results, numero_usuarios });
+    return res.status(200).json({ results, numero_usuarios });
   } catch (error) {
     return res.status(500).json(error.message);
   }
@@ -112,12 +115,56 @@ const detalharUsuario = async (req, res) => {
   try {
     const usuarioId = await knex("usuarios").where({ id }).first();
     const { senha: _, ...userData } = usuarioId;
-    res.status(200).json({ ...userData });
+    return res.status(200).json({ ...userData });
   } catch (error) {
     return res.status(500).json(error.message);
   }
 };
 
+const deletarConta = async (req, res) => {
+  const { id } = req.params;
+  const admin = req.admin;
+  const id_usuario = req.user;
+  try {
+    if (!admin) {
+      const deletarMinhaConta = await knex("usuarios")
+        .where({ id })
+        .andWhere("id", id_usuario)
+        .first()
+        .del();
+      if (!deletarMinhaConta) {
+        return res
+          .status(404)
+          .json({ message: "Você não é um administrador!" });
+      }
+    } else {
+      await knex("usuarios").where({ id }).first().del();
+    }
+    return res.status(204).json();
+  } catch (error) {
+    return res.status(500).json(error.message);
+  }
+};
+
+const tornarAdministrador = async (req, res) => {
+  const { id } = req.params;
+  const admin = req.admin;
+  try {
+    if (!admin) {
+      return res.status(404).json({ message: "Você não é um administrador" });
+    }
+    await knex("usuarios")
+      .where({ id })
+      .update({
+        admin,
+        atualizado_em: new Date(),
+      })
+      .returning("*");
+    return res.status(200).json({ message: "Usuario atualizado" });
+  } catch (error) {
+    return res.status(500).json(error.message);
+  }
+};
 
 module.exports = {
   cadastrarUsuarios,
@@ -125,4 +172,6 @@ module.exports = {
   atualizarUsuario,
   listarUsuarios,
   detalharUsuario,
+  deletarConta,
+  tornarAdministrador,
 };
