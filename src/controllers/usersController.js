@@ -87,29 +87,39 @@ const atualizarUsuario = async (req, res) => {
   }
 };
 
+
 const listarUsuarios = async (req, res) => {
   const { trilha } = req.params;
+  const { page = 1 } = req.query;
   const admin = req.admin;
-  let results;
-  let numero_usuarios;
   try {
     if (!admin) {
       return res.status(404).json({ message: "Você não é um administrador" });
     }
-
-    if (!trilha) {
-      results = await knex("usuarios");
-      numero_usuarios = results.length;
+    const allUsuarios = await knex("usuarios").select("usuarios.*");
+    const totalUsuarios = knex("usuarios").count();
+    const query = knex("usuarios")
+      .limit(15)
+      .offset((page - 1) * 5);
+    if (trilha) {
+      query.where({ trilha }).select("usuarios.*");
+      totalUsuarios.where({ trilha });
     } else {
-      results = await knex("usuarios").where({ trilha });
-      numero_usuarios = results.length;
+      query.select("usuarios.*");
     }
-    return res.status(200).json({ results, numero_usuarios });
+    const [count] = await totalUsuarios;
+    res.header("X-Total-Count", count["count"]);
+    const usuarios = await query;
+    const todos_usuarios = allUsuarios.length;
+    return res.status(200).json({
+      usuarios,
+      count,
+      todos_usuarios,
+    });
   } catch (error) {
     return res.status(500).json(error.message);
   }
 };
-
 const detalharUsuario = async (req, res) => {
   const { id } = req.params;
   try {

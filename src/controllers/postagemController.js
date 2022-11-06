@@ -115,23 +115,25 @@ const deletarConteudo = async (req, res) => {
 };
 
 const atualizarConteudo = async (req, res) => {
-  const { id_conteudo } = req.params;
-  const { titulo, descricao, tipo } = req.body;
-  const id_usuario = req.user;
+  const { id_conteudo } = req.query;
+  const { titulo, tipo, trilha, duracao, link } = req.body;
+  const admin = req.admin;
   try {
-    const results = await knex("postagens")
-      .where({ id })
-      .andWhere({ id_usuario })
+    if (!admin) {
+      return res.status(404).json({ message: "Você não é um administrador!" });
+    }
+    await knex("postagem_conteudos")
+      .where("id", id_conteudo)
       .update({
         titulo,
-        descricao,
         tipo,
+        trilha,
+        duracao,
+        link,
         atualizado_em: new Date(),
       })
       .returning("*");
-    if (!results) {
-      return res.status(404).json({ message: "Você não é um administrador" });
-    }
+
     return res.status(204).json();
   } catch (error) {
     return res.status(500).json({ message: error.message });
@@ -284,11 +286,12 @@ module.exports = {
   listarConteudos,
   listarPostagens,
   listarComentario,
-  curtiPostagem,
   listarConteudoTrilha,
   detalharConteudo,
-  deletarConteudo,
   detalharPostagem,
-  deletarPostagem,
   atualizarPostagem,
+  atualizarConteudo,
+  deletarConteudo,
+  deletarPostagem,
+  curtiPostagem,
 };
