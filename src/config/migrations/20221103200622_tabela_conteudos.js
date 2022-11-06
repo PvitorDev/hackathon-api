@@ -5,11 +5,7 @@
 exports.up = (knex) => {
   return knex.schema.createTable("postagem_conteudos", (table) => {
     table.increments("id");
-    table
-      .integer("id_usuario")
-      .references("usuarios.id")
-      .notNullable()
-      .onDelete("CASCADE");
+    table.integer("id_usuario").references("usuarios.id").onDelete("CASCADE");
     table.text("titulo").notNullable();
     table.text("tipo").notNullable();
     table.text("trilha").notNullable();

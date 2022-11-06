@@ -1,13 +1,13 @@
 const fs = require("fs/promises");
 
 const searchFullStack = async () => {
-  return JSON.parse(await fs.readFile("src/config/notionDB/fullstackDB.json"));
+  return JSON.parse(await fs.readFile("src/config/notionDB/fullstack.json"));
 };
 const searchQA = async () => {
-  return JSON.parse(await fs.readFile(`src/config/notionDB/QaDB.json`));
+  return JSON.parse(await fs.readFile(`src/config/notionDB/qa.json`));
 };
 const searchUX = async () => {
-  return JSON.parse(await fs.readFile("src/config/notionDB/design.json"));
+  return JSON.parse(await fs.readFile("src/config/notionDB/ux.json"));
 };
 
 

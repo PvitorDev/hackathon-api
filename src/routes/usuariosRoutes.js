@@ -8,7 +8,6 @@ const {
   detalharUsuario,
 } = require("../controllers/usersController");
 const auth = require("../middleware/Auth");
-const logout = require("../middleware/logout");
 const router = express.Router();
 
 router
