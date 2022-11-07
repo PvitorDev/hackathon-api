@@ -71,9 +71,17 @@ module.exports = {
   async meusFavoritos(req, res) {
     const id = req.user;
     try {
-      const usuarios = await knex("postagem_curtidas").where("id_usuario", id);
+      const favoritos = await knex("postagem_curtidas")
+        .where("postagem_curtidas.id_usuario", id)
+        .join(
+          "postagem_conteudos",
+          "postagem_conteudos.id",
+          "=",
+          "postagem_curtidas.id_conteudos",
+        )
+        .returning("*");
 
-      return res.status(200).json({ conteudos });
+      return res.status(200).json({ favoritos });
     } catch (error) {
       return res.status(500).json({ message: error.message });
     }
