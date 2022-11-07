@@ -1,5 +1,10 @@
 const express = require("express");
 const {
+  registarComentarios,
+  favoritarItem,
+  meusFavoritos,
+} = require("../controllers/geralController");
+const {
   registrarPostagens,
   listarPostagens,
   detalharPostagem,
@@ -19,7 +24,10 @@ router
 
 /*  COMENTÁRIOS */
 
-router 
-.post("/postagem/comentar/:id", auth)
+router.post("/postagem/comentar/:id_postagem", auth, registarComentarios);
+
+router
+  .post("/postagem/favoritar/:id_conteudos", auth, favoritarItem)
+  .get("/postagem/favoritos", auth, meusFavoritos);
 
 module.exports = router;

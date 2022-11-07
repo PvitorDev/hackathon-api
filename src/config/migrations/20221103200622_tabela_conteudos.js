@@ -13,7 +13,6 @@ exports.up = (knex) => {
     table.text("duracao");
     table.text("link").notNullable();
     table.boolean("notion").defaultTo(false);
-    table.integer("likes").defaultTo(0);
     table.timestamp("criado_em").defaultTo(knex.fn.now());
     table.timestamp("atualizado_em").defaultTo(knex.fn.now());
   });

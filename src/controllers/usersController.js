@@ -167,6 +167,7 @@ module.exports = {
         .where({ id })
         .update({
           admin,
+          funcao: "Administrador",
           atualizado_em: new Date(),
         })
         .returning("*");

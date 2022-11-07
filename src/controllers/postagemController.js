@@ -36,7 +36,6 @@ module.exports = {
         countObj.where({ id_usuario });
       }
       const [count] = await countObj;
-
       res.header("X-Total-Count", count["count"]);
 
       const results = await query;
@@ -48,8 +47,18 @@ module.exports = {
   async detalharPostagem(req, res) {
     const { id } = req.params;
     try {
-      const results = await knex("postagens").where({ id }).first();
-      return res.status(200).json(results);
+      const postagem = await knex("postagens").where({ id });
+
+      const comentarios = await knex("postagem_comentarios")
+        .join("usuarios", "usuarios.id", "=", "postagem_comentarios.id_usuario")
+        .where("id_postagem", id)
+        .select(
+          "usuarios.id",
+          "usuarios.nome",
+          "postagem_comentarios.comentario",
+          "postagem_comentarios.likes",
+        );
+      return res.status(200).json({ postagem, comentarios });
     } catch (error) {
       return res.status(500).json({ message: error.message });
     }
@@ -102,38 +111,3 @@ module.exports = {
     }
   },
 };
-/* POSTAGEM */
-
-/* COMENTARIO */
-
-/* const registrarComentario = async (req, res) => {
-  const { comentario } = req.body;
-  const id = req.user;
-  try {
-    await knex("comentarios").insert({
-      id_usuario: id,
-      comentario,
-    });
-    return res.status(201).json();
-  } catch (error) {
-    return res.status(500).json({ message: error.message });
-  }
-};
-
-const listarComentario = async (req, res) => {
-  const { idPosts } = req.body;
-  try {
-  } catch (error) {
-    return res.status(500).json({ message: error.message });
-  }
-}; */
-
-/* CURTIDA */
-
-/* const curtiPostagem = async (req, res) => {
-  try {
-  } catch (error) {
-    return res.status(500).json({ message: error.message });
-  }
-}; */
-

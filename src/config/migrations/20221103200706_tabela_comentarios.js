@@ -11,8 +11,7 @@ exports.up = (knex) => {
       .notNullable()
       .onDelete("CASCADE");
     table.text("comentario").notNullable();
-    table.integer("id_postagem");
-    table.integer("likes").defaultTo(0);
+    table.integer("id_postagem").references("postagens.id");
     table.timestamp("criado_em").defaultTo(knex.fn.now());
     table.timestamp("atualizado_em").defaultTo(knex.fn.now());
   });
