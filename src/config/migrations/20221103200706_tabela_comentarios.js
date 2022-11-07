@@ -3,13 +3,15 @@
  * @returns { Promise<void> }
  */
 exports.up = (knex) => {
-  return knex.schema.createTable("comentarios", (table) => {
+  return knex.schema.createTable("postagem_comentarios", (table) => {
     table.increments("id");
-    table.integer("id_usuario").references("usuarios.id").notNullable();
+    table
+      .integer("id_usuario")
+      .references("usuarios.id")
+      .notNullable()
+      .onDelete("CASCADE");
     table.text("comentario").notNullable();
-    table.integer("post_comentario").references("postagens.id").notNullable();
-    table.text("tipo").notNullable();
-    table.integer("likes").defaultTo(0);
+    table.integer("id_postagem").references("postagens.id");
     table.timestamp("criado_em").defaultTo(knex.fn.now());
     table.timestamp("atualizado_em").defaultTo(knex.fn.now());
   });
@@ -20,5 +22,5 @@ exports.up = (knex) => {
  * @returns { Promise<void> }
  */
 exports.down = (knex) => {
-  return knex.schema.dropTable("comentarios");
+  return knex.schema.dropTable("postagem_comentarios");
 };

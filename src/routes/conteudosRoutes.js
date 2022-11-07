@@ -1,21 +1,29 @@
 const express = require("express");
 const {
   registrarConteudos,
-  registrarPostagens,
-  registrarComentario,
-  pegarConteudos,
-  procurarPostagens,
-  pegarComentario,
+  listarConteudos,
+  listarConteudoTrilha,
+  detalharConteudo,
+  deletarConteudo,
+  atualizarConteudo,
 } = require("../controllers/conteudosController");
 const router = express.Router();
 const auth = require("../middleware/Auth");
+const { validarCampo } = require("../middleware/campoVazio");
+const schemaConteudo = require("../utils/conteudosValidate");
 
+/* CONTEUDOS */
 router
-  .post("/conteudos", auth, registrarConteudos)
-  .post("/comentarios", auth, registrarComentario)
-  .post("/posts", auth, registrarPostagens)
-  .get("/conteudos/:trilha", pegarConteudos)
-  .get("/posts", procurarPostagens)
-  .get("/comentarios/:idPosts", pegarComentario);
+  .post(
+    "/postagem/conteudo",
+    auth,
+    validarCampo(schemaConteudo),
+    registrarConteudos,
+  )
+  .get("/postagem/conteudos", listarConteudos)
+  .get("/postagem/conteudos/trilha/:trilha", listarConteudoTrilha)
+  .get("/postagem", detalharConteudo)
+  .delete("/postagem", auth, deletarConteudo)
+  .put("/postagem", auth, validarCampo(schemaConteudo), atualizarConteudo);
 
 module.exports = router;

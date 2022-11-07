@@ -41,7 +41,7 @@ CREATE TABLE postagens(
   foreign key (id_usuario) references usuarios (id)
 );
 
-)
+
 CREATE TABLE respostas (
     id SERIAL PRIMARY KEY,
     id_usuario int,
