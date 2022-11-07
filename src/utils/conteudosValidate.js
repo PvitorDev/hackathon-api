@@ -15,7 +15,7 @@ const schemaConteudo = joi.object({
     "any.required": "O campo trilha é obrigatório",
     "string.empty": "O campo trilha é obrigatório",
   }),
-  duracao: joi.string(),
+  duracao: joi.string().optional().allow(""),
   link: joi.string().required().messages({
     "string.link": "O campo link precisa ter um formato válido",
     "any.required": "O campo link é obrigatório",

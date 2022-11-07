@@ -1,7 +1,7 @@
 const joi = require("joi");
 
 const schemaUser = joi.object({
-  email: joi.string().email().required().messages({
+  email: joi.string().required().messages({
     "string.email": "O campo email precisa ter um formato válido",
     "any.required": "O campo email é obrigatório",
     "string.empty": "O campo email é obrigatório",

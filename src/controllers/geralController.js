@@ -2,14 +2,12 @@ const knex = require("../config/database");
 module.exports = {
   async registarComentarios(req, res) {
     const id_usuario = req.user;
-    const { id_conteudos } = req.params;
+    const { id_postagem } = req.params;
     const { comentario } = req.body;
-    if (!comentario) {
-      return res.status(404).json({ message: "O comentário é obrigatório" });
-    }
+
     try {
       const postagem = await knex("postagens").where({
-        id: id_conteudos,
+        id: id_postagem,
       });
 
       if (!postagem.length) {
@@ -19,7 +17,7 @@ module.exports = {
       const registarComentarios = await knex("postagem_comentarios")
         .insert({
           id_usuario,
-          id_conteudos,
+          id_postagem,
           comentario,
         })
         .returning("*");

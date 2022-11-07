@@ -56,7 +56,6 @@ module.exports = {
           "usuarios.id",
           "usuarios.nome",
           "postagem_comentarios.comentario",
-          "postagem_comentarios.likes",
         );
       return res.status(200).json({ postagem, comentarios });
     } catch (error) {
