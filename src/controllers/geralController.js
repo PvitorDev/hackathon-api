@@ -11,7 +11,7 @@ module.exports = {
       });
 
       if (!postagem.length) {
-        return res.status(404).json({ message: "Postagem não foi encontrada" });
+        return res.status(404).json({ mensagem: "Postagem não foi encontrada" });
       }
 
       const registarComentarios = await knex("postagem_comentarios")
@@ -25,13 +25,13 @@ module.exports = {
       if (!registarComentarios) {
         return res
           .status(404)
-          .json({ message: "Não foi possível concluir o comentário" });
+          .json({ mensagem: "Não foi possível concluir o comentário" });
       }
       return res
         .status(201)
         .json({ mensagem: "Comentario realizada com sucesso" });
     } catch (error) {
-      return res.status(500).json({ message: error.message });
+      return res.status(500).json({ mensagem: error.message });
     }
   },
 
@@ -62,7 +62,7 @@ module.exports = {
         .returning("*");
       return res.status(201).json({ mensagem: "Favoritado" });
     } catch (error) {
-      return res.status(500).json({ message: error.message });
+      return res.status(500).json({ mensagem: error.message });
     }
   },
 
@@ -81,7 +81,7 @@ module.exports = {
 
       return res.status(200).json({ favoritos });
     } catch (error) {
-      return res.status(500).json({ message: error.message });
+      return res.status(500).json({ mensagem: error.message });
     }
   },
 };

@@ -16,7 +16,7 @@ module.exports = {
         .returning("*");
       return res.status(201).json();
     } catch (error) {
-      return res.status(500).json({ message: error.message });
+      return res.status(500).json({ mensagem: error.message });
     }
   },
   async listarPostagens(req, res) {
@@ -41,7 +41,7 @@ module.exports = {
       const results = await query;
       return res.status(200).json(results);
     } catch (error) {
-      return res.status(500).json({ message: error.message });
+      return res.status(500).json({ mensagem: error.message });
     }
   },
   async detalharPostagem(req, res) {
@@ -59,7 +59,7 @@ module.exports = {
         );
       return res.status(200).json({ postagem, comentarios });
     } catch (error) {
-      return res.status(500).json({ message: error.message });
+      return res.status(500).json({ mensagem: error.message });
     }
   },
   async deletarPostagem(req, res) {
@@ -75,7 +75,7 @@ module.exports = {
         if (!results) {
           return res
             .status(404)
-            .json({ message: "Você não é um administrador" });
+            .json({ mensagem: "Você não é um administrador" });
         }
         return res.status(204).json();
       }
@@ -83,7 +83,7 @@ module.exports = {
 
       return res.status(204).json();
     } catch (error) {
-      return res.status(500).json({ message: error.message });
+      return res.status(500).json({ mensagem: error.message });
     }
   },
   async atualizarPostagem(req, res) {
@@ -102,11 +102,11 @@ module.exports = {
         })
         .returning("*");
       if (!results) {
-        return res.status(404).json({ message: "Você não é um administrador" });
+        return res.status(404).json({ mensagem: "Você não é um administrador" });
       }
       return res.status(204).json();
     } catch (error) {
-      return res.status(500).json({ message: error.message });
+      return res.status(500).json({ mensagem: error.message });
     }
   },
 };

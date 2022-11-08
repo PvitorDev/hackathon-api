@@ -21,7 +21,7 @@ module.exports = {
       });
       return res.status(201).json({ mensagem: "Cadastro realizado!" });
     } catch (error) {
-      return res.status(500).json({ message: error.message });
+      return res.status(500).json({ mensagem: error.message });
     }
   },
 
@@ -52,7 +52,7 @@ module.exports = {
       const { senha: _, ...userData } = validarEmail;
       return res.status(200).json({ userData, token });
     } catch (error) {
-      return res.status(500).json({ message: error.message });
+      return res.status(500).json(error.message);
     }
   },
 
@@ -94,7 +94,7 @@ module.exports = {
     const admin = req.admin;
     try {
       if (!admin) {
-        return res.status(404).json({ message: "Você não é um administrador" });
+        return res.status(404).json({ mensagem: "Você não é um administrador" });
       }
       const allUsuarios = await knex("usuarios").select("usuarios.*");
       const totalUsuarios = knex("usuarios").count();
@@ -145,7 +145,7 @@ module.exports = {
         if (!deletarMinhaConta) {
           return res
             .status(404)
-            .json({ message: "Você não é um administrador!" });
+            .json({ mensagem: "Você não é um administrador!" });
         }
       } else {
         await knex("usuarios").where({ id }).first().del();
@@ -161,7 +161,9 @@ module.exports = {
     const admin = req.admin;
     try {
       if (!admin) {
-        return res.status(404).json({ message: "Você não é um administrador" });
+        return res
+          .status(404)
+          .json({ mensagem: "Você não é um administrador" });
       }
       await knex("usuarios")
         .where({ id })
@@ -171,7 +173,7 @@ module.exports = {
           atualizado_em: new Date(),
         })
         .returning("*");
-      return res.status(200).json({ message: "Usuario atualizado" });
+      return res.status(200).json({ mensagem: "Usuario atualizado" });
     } catch (error) {
       return res.status(500).json(error.message);
     }

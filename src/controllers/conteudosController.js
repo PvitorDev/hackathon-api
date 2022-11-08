@@ -7,7 +7,7 @@ module.exports = {
     const admin = req.admin;
     try {
       if (!admin) {
-        return res.status(404).json({ message: "Você não é um administrador" });
+        return res.status(404).json({ mensagem: "Você não é um administrador" });
       }
       await knex("postagem_conteudos")
         .insert({
@@ -22,9 +22,9 @@ module.exports = {
         .returning("*");
       return res
         .status(201)
-        .json({ message: "Conteúdo registrado com sucesso!" });
+        .json({ mensagem: "Conteúdo registrado com sucesso!" });
     } catch (error) {
-      return res.status(500).json({ message: error.message });
+      return res.status(500).json({ mensagem: error.message });
     }
   },
 
@@ -54,7 +54,7 @@ module.exports = {
       const results = await query;
       return res.status(200).json(results);
     } catch (error) {
-      return res.status(500).json({ message: error.message });
+      return res.status(500).json({ mensagem: error.message });
     }
   },
 
@@ -83,7 +83,7 @@ module.exports = {
       const results = await query;
       return res.status(200).json(results);
     } catch (error) {
-      return res.status(500).json({ message: error.message });
+      return res.status(500).json({ mensagem: error.message });
     }
   },
 
@@ -95,7 +95,7 @@ module.exports = {
         .first();
       return res.status(200).json(results);
     } catch (error) {
-      return res.status(500).json({ message: error.message });
+      return res.status(500).json({ mensagem: error.message });
     }
   },
 
@@ -106,12 +106,14 @@ module.exports = {
       if (!admin) {
         return res
           .status(404)
-          .json({ message: "Você não é um administrador!" });
+          .json({ mensagem: "Você não é um administrador!" });
       }
       await knex("postagem_conteudos").where("id", id_conteudo).del();
-      return res.status(204).json({ message: "Conteudo deletado com sucesso" });
+      return res
+        .status(204)
+        .json({ mensagem: "Conteudo deletado com sucesso" });
     } catch (error) {
-      return res.status(500).json({ message: error.message });
+      return res.status(500).json({ mensagem: error.message });
     }
   },
 
@@ -123,7 +125,7 @@ module.exports = {
       if (!admin) {
         return res
           .status(404)
-          .json({ message: "Você não é um administrador!" });
+          .json({ mensagem: "Você não é um administrador!" });
       }
       await knex("postagem_conteudos")
         .where("id", id_conteudo)
@@ -139,7 +141,7 @@ module.exports = {
 
       return res.status(204).json();
     } catch (error) {
-      return res.status(500).json({ message: error.message });
+      return res.status(500).json({ mensagem: error.message });
     }
   },
 };
