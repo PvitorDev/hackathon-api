@@ -99,8 +99,8 @@ module.exports = {
       const allUsuarios = await knex("usuarios").select("usuarios.*");
       const totalUsuarios = knex("usuarios").count();
       const query = knex("usuarios")
-        .limit(15)
-        .offset((page - 1) * 5);
+        .limit(10)
+        .offset((page - 1) * 10);
       if (trilha) {
         query.where({ trilha }).select("usuarios.*");
         totalUsuarios.where({ trilha });

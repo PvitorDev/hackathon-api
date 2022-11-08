@@ -33,7 +33,7 @@ module.exports = {
     try {
       const query = knex("postagem_conteudos")
         .limit(10)
-        .offset((page - 1) * 5);
+        .offset((page - 1) * 10);
 
       const countObj = knex("postagem_conteudos").count();
       if (id_usuario) {
@@ -64,7 +64,7 @@ module.exports = {
     try {
       const query = knex("postagem_conteudos")
         .limit(10)
-        .offset((page - 1) * 5);
+        .offset((page - 1) * 10);
 
       const countObj = knex("postagem_conteudos").count();
       if (trilha && !id_usuario) {
