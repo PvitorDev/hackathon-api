@@ -49,8 +49,10 @@ module.exports = {
 
       const [count] = await countObj;
 
-      res.header("X-Total-Count", count["count"]);
-
+      res.header({
+        "X-Total-Count": count["count"],
+        "Access-Control-Expose-Headers": 'X-Total-Count'
+      });
       const results = await query;
       return res.status(200).json(results);
     } catch (error) {
@@ -79,7 +81,11 @@ module.exports = {
       }
       const [count] = await countObj;
 
-      res.header("X-Total-Count", count["count"]);
+      res.header({
+        "X-Total-Count": count["count"],
+        "Access-Control-Expose-Headers": 'X-Total-Count'
+      });
+
       const results = await query;
       return res.status(200).json(results);
     } catch (error) {

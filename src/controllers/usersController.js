@@ -108,7 +108,10 @@ module.exports = {
         query.select("usuarios.*");
       }
       const [count] = await totalUsuarios;
-      res.header("X-Total-Count", count["count"]);
+      res.header({
+        "X-Total-Count": count["count"],
+        "Access-Control-Expose-Headers": "X-Total-Count",
+      });
       const usuarios = await query;
       const todos_usuarios = allUsuarios.length;
       return res.status(200).json({
