@@ -487,7 +487,7 @@
     {
         "titulo":"Migração de Carreira",
         "tipo":"Artigo",
-        "trilha":"ux/ui", 
+        "trilha":"uxui", 
          "criador_nome":"Orange Juice",
          "duracao":"00:06:00",
          "link":"https://medium.com/orangejuicefc/guia-definitivo-de-como-migrar-para-ux-design-5-passos-para-virar-um-ux-1675f71796b4",
@@ -496,7 +496,7 @@
       {
         "titulo":"Migração de Carreira",
         "tipo":"Artigo",
-        "trilha":"ux/ui", 
+        "trilha":"uxui", 
          "criador_nome":"Orange Juice",
          "duracao":"00:05:00",
          "link":"https://medium.com/orangejuicefc/design-thinking-e-carreira-como-migrei-de-psicologia-para-ux-design-cb79e8b47df5",
@@ -505,7 +505,7 @@
       {
         "titulo":"Migração de Carreira",
         "tipo":"Artigo",
-        "trilha":"ux/ui", 
+        "trilha":"uxui", 
          "criador_nome":"Orange Juice",
          "duracao":"00:06:00",
          "link":"https://medium.com/orangejuicefc/de-advogada-a-desenvolvedora-um-relato-sobre-minha-migra%C3%A7%C3%A3o-de-carreira-e-dicas-para-quem-pretende-45ad5df833b5",
@@ -514,7 +514,7 @@
       {
         "titulo":"Culture Code",
         "tipo":"Live",
-        "trilha":"ux/ui", 
+        "trilha":"uxui", 
          "criador_nome":"Grupo FCamara",
          "duracao":"01:22:25",
          "link":"https://www.youtube.com/watch?v=n0KH8dQSrv0",
@@ -523,7 +523,7 @@
       {
         "titulo":"Product Owner e Scrum Master",
         "tipo":"Live",
-        "trilha":"ux/ui", 
+        "trilha":"uxui", 
          "criador_nome":"Grupo FCamara",
          "duracao":"01:13:33",
          "link":"https://www.youtube.com/watch?v=_ku7bY5GtIY",
@@ -532,7 +532,7 @@
       {
         "titulo":"Product Owner",
         "tipo":"Artigo",
-        "trilha":"ux/ui", 
+        "trilha":"uxui", 
          "criador_nome":"PM3",
          "duracao":"00:08:00",
          "link":"https://www.cursospm3.com.br/product-owner-o-que-faz-salario-habilidades/",
@@ -541,7 +541,7 @@
       {
         "titulo":"Scrum Master",
         "tipo":"Artigo",
-        "trilha":"ux/ui", 
+        "trilha":"uxui", 
          "criador_nome":"Atlassian",
          "duracao":"00:06:00",
          "link":"https://www.atlassian.com/br/agile/scrum/scrum-master",
@@ -550,7 +550,7 @@
       {
         "titulo":"Scrum Master",
         "tipo":"Artigo",
-        "trilha":"ux/ui", 
+        "trilha":"uxui", 
          "criador_nome":"Scrum Alliance",
          "duracao":"00:05:00",
          "link":"https://resources.scrumalliance.org/Article/day-life-scrum-master",
@@ -559,7 +559,7 @@
       {
         "titulo":"Desenvolvimento",
         "tipo":"Live",
-        "trilha":"ux/ui", 
+        "trilha":"uxui", 
          "criador_nome":"Grupo FCamara",
          "duracao":"01:25:20",
          "link":"https://www.youtube.com/watch?v=N78-5gHLzbE",
@@ -568,7 +568,7 @@
       {
         "titulo":"Desenvolvimento",
         "tipo":"Artigo",
-        "trilha":"ux/ui", 
+        "trilha":"uxui", 
          "criador_nome":"Alura",
          "duracao":"00:05:00",
          "link":"https://www.alura.com.br/artigos/como-se-tornar-um-desenvolvedor-full-stack-no-proximo-ano",
@@ -577,7 +577,7 @@
       {
         "titulo":"UX Design",
         "tipo":"Artigo",
-        "trilha":"ux/ui", 
+        "trilha":"uxui", 
          "criador_nome":"Orange Juice",
          "duracao":"00:04:00",
          "link":"https://medium.com/orangejuicefc/mas-o-que-%C3%A9-ux-330edd9c6887",
@@ -586,7 +586,7 @@
       {
         "titulo":"UX Design",
         "tipo":"Artigo",
-        "trilha":"ux/ui", 
+        "trilha":"uxui", 
          "criador_nome":"Alura",
          "duracao":"00:05:00",
          "link":"https://www.alura.com.br/artigos/ux-e-ui-conheca-as-semelhancas-e-diferencas-entre-ambos",
@@ -595,7 +595,7 @@
       {
         "titulo":"UX Design",
         "tipo":"Live",
-        "trilha":"ux/ui", 
+        "trilha":"uxui", 
          "criador_nome":"Grupo FCamara",
          "duracao":"01:25:58",
          "link":"https://www.youtube.com/watch?v=_RsYz_iKP4k",
@@ -604,7 +604,7 @@
       {
         "titulo":"QA",
         "tipo":"Artigo",
-        "trilha":"ux/ui", 
+        "trilha":"uxui", 
          "criador_nome":"Orange Juice",
          "duracao":"00:04:00",
          "link":"https://medium.com/orangejuicefc/qual-o-papel-do-qa-em-uma-equipe-8e8147be28dd",
@@ -613,7 +613,7 @@
       {
         "titulo":"QA",
         "tipo":"Live",
-        "trilha":"ux/ui", 
+        "trilha":"uxui", 
          "criador_nome":"Grupo FCamara",
          "duracao":"01:23:10",
          "link":"https://www.youtube.com/watch?v=pP5M7lf6JmQ",
@@ -622,7 +622,7 @@
       {
         "titulo":"Stakeholder",
         "tipo":"Glossário",
-        "trilha":"ux/ui", 
+        "trilha":"uxui", 
          "criador_nome":"PM3",
          "duracao":"00:02:00",
          "link":"https://www.cursospm3.com.br/glossario/stakeholder/",
@@ -631,7 +631,7 @@
       {
         "titulo":"Liderança",
         "tipo":"Live",
-        "trilha":"ux/ui", 
+        "trilha":"uxui", 
          "criador_nome":"BTG Pactual",
          "duracao":"00:56:33",
          "link":"https://www.youtube.com/watch?v=b9A34yUvzEc",
@@ -640,7 +640,7 @@
       {
         "titulo":"Metodologia Ágil",
         "tipo":"Vídeo",
-        "trilha":"ux/ui", 
+        "trilha":"uxui", 
          "criador_nome":"Orange Juice",
          "duracao":"00:57:52",
          "link":"https://www.youtube.com/watch?v=TmTupAe14T4",
@@ -649,7 +649,7 @@
       {
         "titulo":"Metodologia Ágil",
         "tipo":"Artigo",
-        "trilha":"ux/ui", 
+        "trilha":"uxui", 
          "criador_nome":"Orange Juice",
          "duracao":"00:57:52",
          "link":"https://medium.com/orangejuicefc/fundamento-iniciais-da-metodologia-%C3%A1gil-a4f3f0a3f025",
@@ -658,7 +658,7 @@
       {
         "titulo":"Metodologia Ágil",
         "tipo":"Artigo",
-        "trilha":"ux/ui", 
+        "trilha":"uxui", 
          "criador_nome":"Orange Juice",
          "duracao":"00:57:52",
          "link":"https://medium.com/orangejuicefc/manifesto-%C3%A1gil-a-b%C3%ADblia-das-metodologias-%C3%A1geis-1a4ec9f220a",
@@ -667,7 +667,7 @@
       {
         "titulo":"Squads",
         "tipo":"Artigo",
-        "trilha":"ux/ui", 
+        "trilha":"uxui", 
          "criador_nome":"Grupo FCamara",
          "duracao":"00:06:00",
          "link":"https://blog.fcamara.com.br/squads-o-que-e-e-como-funciona/",
@@ -676,7 +676,7 @@
       {
         "titulo":"MVP",
         "tipo":"Artigo",
-        "trilha":"ux/ui", 
+        "trilha":"uxui", 
          "criador_nome":"PM3",
          "duracao":"00:08:00",
          "link":"https://www.cursospm3.com.br/blog/mvp-o-que-e-e-como-construir-um-produto-minimo-viavel/",
@@ -685,7 +685,7 @@
       {
         "titulo":"Soft Skill",
         "tipo":"Artigo",
-        "trilha":"ux/ui", 
+        "trilha":"uxui", 
          "criador_nome":"Alura",
          "duracao":"00:04:00",
          "link":"https://www.alura.com.br/artigos/soft-skills-o-que-sao-e-os-beneficios-de-desenvolve-las",
@@ -694,7 +694,7 @@
       {
         "titulo":"Comunicação",
         "tipo":"Artigo",
-        "trilha":"ux/ui", 
+        "trilha":"uxui", 
          "criador_nome":"Orange Juice",
          "duracao":"00:03:00",
          "link":"https://medium.com/orangejuicefc/aprimorando-a-comunica%C3%A7%C3%A3o-3933cbc886b4",
@@ -703,7 +703,7 @@
       {
         "titulo":"Comunicação",
         "tipo":"Artigo",
-        "trilha":"ux/ui", 
+        "trilha":"uxui", 
          "criador_nome":"Orange Juice",
          "duracao":"00:04:00",
          "link":"https://medium.com/orangejuicefc/por-que-um-programador-deve-desconstruir-a-ideia-de-que-n%C3%A3o-precisa-lidar-com-pessoas-e-como-9974bcebf4a9",
@@ -712,7 +712,7 @@
       {
         "titulo":"Comunicação",
         "tipo":"Artigo",
-        "trilha":"ux/ui", 
+        "trilha":"uxui", 
          "criador_nome":"Orange Juice",
          "duracao":"00:05:00",
          "link":"https://medium.com/orangejuicefc/ux-design-e-comunica%C3%A7%C3%A3o-b32a44ef7e42",
@@ -721,7 +721,7 @@
       {
         "titulo":"Trabalho em equipe",
         "tipo":"Live",
-        "trilha":"ux/ui", 
+        "trilha":"uxui", 
          "criador_nome":"Grupo FCamara",
          "duracao":"00:59:48",
          "link":"https://youtu.be/gG0zZoj595U",
@@ -730,7 +730,7 @@
       {
         "titulo":"Trabalho em equipe",
         "tipo":"Artigo",
-        "trilha":"ux/ui", 
+        "trilha":"uxui", 
          "criador_nome":"Fernanda de Oliveira",
          "duracao":"00:05:00",
          "link":"https://www.linkedin.com/pulse/poderosa-uni%C3%A3o-entre-design-de-ux-e-desenvolvimento-de-oliveira/?originalSubdomain=pt",
@@ -739,7 +739,7 @@
       {
         "titulo":"LGPD",
         "tipo":"Live",
-        "trilha":"ux/ui", 
+        "trilha":"uxui", 
          "criador_nome":"Orange Juice",
          "duracao":"01:01:31",
          "link":"https://youtu.be/KKLDwHyQATA",
@@ -748,7 +748,7 @@
       {
         "titulo":"UI Design",
         "tipo":"Live",
-        "trilha":"ux/ui", 
+        "trilha":"uxui", 
          "criador_nome":"Grupo FCamara",
          "duracao":"01:37:14",
          "link":"https://www.youtube.com/watch?v=bHDDbIsKVnI",
@@ -757,7 +757,7 @@
       {
         "titulo":"UI Design",
         "tipo":"Artigo",
-        "trilha":"ux/ui", 
+        "trilha":"uxui", 
          "criador_nome":"InfoQ",
          "duracao":"00:17:00",
          "link":"https://www.infoq.com/br/articles/ios-android-react-native-design-patterns/",
@@ -766,7 +766,7 @@
       {
         "titulo":"Design",
         "tipo":"Live",
-        "trilha":"ux/ui", 
+        "trilha":"uxui", 
          "criador_nome":"Orange Juice",
          "duracao":"01:07:17",
          "link":"https://www.youtube.com/watch?v=YvyrrmHYqbI",
@@ -775,7 +775,7 @@
       {
         "titulo":"Grid",
         "tipo":"Artigo",
-        "trilha":"ux/ui", 
+        "trilha":"uxui", 
          "criador_nome":"UX Collective",
          "duracao":"00:09:00",
          "link":"https://brasil.uxdesign.cc/um-guia-completo-sobre-grids-para-design-responsivo-6b192fea0124",
@@ -784,7 +784,7 @@
       {
         "titulo":"Teoria da Cores",
         "tipo":"Artigo",
-        "trilha":"ux/ui", 
+        "trilha":"uxui", 
          "criador_nome":"Chief of Design",
          "duracao":"00:32:00",
          "link":"https://chiefofdesign.com.br/teoria-das-cores/",
@@ -793,7 +793,7 @@
       {
         "titulo":"Teoria da Cores",
         "tipo":"Apostila",
-        "trilha":"ux/ui", 
+        "trilha":"uxui", 
          "criador_nome":"Alura",
          "duracao":"00:09:00",
          "link":"https://www.alura.com.br/apostila-ux-usabilidade-mobile-web/design-visual#teoria-das-cores",
@@ -802,7 +802,7 @@
       {
         "titulo":"tipografia",
         "tipo":"Artigo",
-        "trilha":"ux/ui", 
+        "trilha":"uxui", 
          "criador_nome":"Orange Juice",
          "duracao":"00:03:00",
          "link":"https://medium.com/orangejuicefc/como-fazer-escolhas-tipogr%C3%A1ficas-mais-assertivas-34e2d9fe7c38",
@@ -811,7 +811,7 @@
       {
         "titulo":"tipografia",
         "tipo":"Apostila",
-        "trilha":"ux/ui", 
+        "trilha":"uxui", 
          "criador_nome":"Alura",
          "duracao":"00:08:00",
          "link":"https://www.alura.com.br/apostila-ux-usabilidade-mobile-web/usabilidade-mobile#tipografia",
@@ -820,7 +820,7 @@
       {
         "titulo":"Gestalt",
         "tipo":"Artigo",
-        "trilha":"ux/ui", 
+        "trilha":"uxui", 
          "criador_nome":"UX Collective",
          "duracao":"00:01:00",
          "link":"https://brasil.uxdesign.cc/princ%C3%ADpios-da-gestalt-aplicados-no-design-de-intera%C3%A7%C3%A3o-7132e403d076",
@@ -829,7 +829,7 @@
       {
         "titulo":"Style Guide",
         "tipo":"Artigo",
-        "trilha":"ux/ui", 
+        "trilha":"uxui", 
          "criador_nome":"UX Collective",
          "duracao":"00:06:00",
          "link":"https://brasil.uxdesign.cc/style-guide-por-que-quando-como-e-onde-criar-um-f7b173006740",
@@ -838,7 +838,7 @@
       {
         "titulo":"Protótipo",
         "tipo":"Artigo",
-        "trilha":"ux/ui", 
+        "trilha":"uxui", 
          "criador_nome":"Orange Juice",
          "duracao":"00:11:00",
          "link":"https://medium.com/orangejuicefc/prototipa%C3%A7%C3%A3o-conhecendo-os-n%C3%ADveis-de-fidelidade-e-suas-aplica%C3%A7%C3%B5es-pr%C3%A1ticas-d3e815547b50",
@@ -847,7 +847,7 @@
       {
         "titulo":"Protótipo",
         "tipo":"Apostila",
-        "trilha":"ux/ui", 
+        "trilha":"uxui", 
          "criador_nome":"Alura",
          "duracao":"00:10:00",
          "link":"https://www.alura.com.br/apostila-ux-usabilidade-mobile-web/principios#prototipos",
@@ -856,7 +856,7 @@
       {
         "titulo":"Protótipo",
         "tipo":"Vídeo",
-        "trilha":"ux/ui", 
+        "trilha":"uxui", 
          "criador_nome":"UX Now",
          "duracao":"00:11:08",
          "link":"https://youtu.be/INPlcg_BsGc",
@@ -865,7 +865,7 @@
       {
         "titulo":"Interface",
         "tipo":"Vídeo",
-        "trilha":"ux/ui", 
+        "trilha":"uxui", 
          "criador_nome":"UX Now",
          "duracao":"00:09:47",
          "link":"https://youtu.be/BD4CnI2Zc1s",
@@ -874,7 +874,7 @@
       {
         "titulo":"Interface",
         "tipo":"Vídeo",
-        "trilha":"ux/ui", 
+        "trilha":"uxui", 
          "criador_nome":"UX Now",
          "duracao":"00:15:54",
          "link":"https://youtu.be/mgOYINElFqI",
@@ -883,7 +883,7 @@
       {
         "titulo":"Interface",
         "tipo":"Vídeo",
-        "trilha":"ux/ui", 
+        "trilha":"uxui", 
          "criador_nome":"UX Now",
          "duracao":"00:12:15",
          "link":"https://youtu.be/mgOYINElFqI",
@@ -892,7 +892,7 @@
       {
         "titulo":"Design",
         "tipo":"Vídeo",
-        "trilha":"ux/ui", 
+        "trilha":"uxui", 
          "criador_nome":"UX Now",
          "duracao":"00:06:10",
          "link":"https://youtu.be/zaFEEvHZgjw",
@@ -901,7 +901,7 @@
       {
         "titulo":"UX Design",
         "tipo":"Vídeo",
-        "trilha":"ux/ui", 
+        "trilha":"uxui", 
          "criador_nome":"UX Now",
          "duracao":"00:06:37",
          "link":"https://youtu.be/WAi6ixIfdd4",
@@ -910,7 +910,7 @@
       {
         "titulo":"UX Design",
         "tipo":"Vídeo",
-        "trilha":"ux/ui", 
+        "trilha":"uxui", 
          "criador_nome":"UX Now",
          "duracao":"00:08:17",
          "link":"https://youtu.be/ii_yO_at8Do",
@@ -919,7 +919,7 @@
       {
         "titulo":"UX Design",
         "tipo":"Artigo",
-        "trilha":"ux/ui", 
+        "trilha":"uxui", 
          "criador_nome":"Mergo",
          "duracao":"00:03:00",
          "link":"https://uxdesign.blog.br/don-norman-e-o-termo-ux-6dffb3f8d218",
@@ -928,7 +928,7 @@
       {
         "titulo":"UX Design",
         "tipo":"Apostila",
-        "trilha":"ux/ui", 
+        "trilha":"uxui", 
          "criador_nome":"Alura",
          "duracao":"00:22:00",
          "link":"https://www.alura.com.br/apostila-ux-usabilidade-mobile-web/experiencia",
@@ -937,7 +937,7 @@
       {
         "titulo":"UX Design",
         "tipo":"Live",
-        "trilha":"ux/ui", 
+        "trilha":"uxui", 
          "criador_nome":"Orange Juice",
          "duracao":"01:17:08",
          "link":"https://youtu.be/qWbaJuJhdX8",
@@ -946,7 +946,7 @@
       {
         "titulo":"UX Design",
         "tipo":"Live",
-        "trilha":"ux/ui", 
+        "trilha":"uxui", 
          "criador_nome":"Grupo FCamara",
          "duracao":"01:23:16",
          "link":"https://www.youtube.com/watch?v=eWAvEOzL3PI",
@@ -955,7 +955,7 @@
       {
         "titulo":"UX Design",
         "tipo":"Live",
-        "trilha":"ux/ui", 
+        "trilha":"uxui", 
          "criador_nome":"Orange Juice",
          "duracao":"01:12:32",
          "link":"https://www.youtube.com/watch?v=12QnyGevxp8",
@@ -964,7 +964,7 @@
       {
         "titulo":"UX Research",
         "tipo":"Live",
-        "trilha":"ux/ui", 
+        "trilha":"uxui", 
          "criador_nome":"Grupo FCamara",
          "duracao":"01:20:30",
          "link":"https://www.youtube.com/watch?v=v6ojU0Wa50Q",
@@ -973,7 +973,7 @@
       {
         "titulo":"UX Research",
         "tipo":"Apostila",
-        "trilha":"ux/ui", 
+        "trilha":"uxui", 
          "criador_nome":"Alura",
          "duracao":"00:30:00",
          "link":"https://www.alura.com.br/apostila-ux-usabilidade-mobile-web/pesquisa",
@@ -982,7 +982,7 @@
       {
         "titulo":"UX Research",
         "tipo":"Vídeo",
-        "trilha":"ux/ui", 
+        "trilha":"uxui", 
          "criador_nome":"UX Now",
          "duracao":"00:06:26",
          "link":"https://youtu.be/KnFJAhiClnE",
@@ -991,7 +991,7 @@
       {
         "titulo":"Design Thinking",
         "tipo":"Artigo",
-        "trilha":"ux/ui", 
+        "trilha":"uxui", 
          "criador_nome":"Orange Juice",
          "duracao":"00:04:00",
          "link":"https://medium.com/orangejuicefc/design-thinking-uma-abordagem-para-a-sua-vida-3b93ed78b606",
@@ -1000,7 +1000,7 @@
       {
         "titulo":"Design Thinking",
         "tipo":"Artigo",
-        "trilha":"ux/ui", 
+        "trilha":"uxui", 
          "criador_nome":"Orange Juice",
          "duracao":"00:04:00",
          "link":"https://medium.com/orangejuicefc/vacinar-conhecendo-design-thinking-na-pr%C3%A1tica-87656e0f6e5e",
@@ -1009,7 +1009,7 @@
       {
         "titulo":"Design Thinking",
         "tipo":"Live",
-        "trilha":"ux/ui", 
+        "trilha":"uxui", 
          "criador_nome":"Grupo FCamara",
          "duracao":"01:00:58",
          "link":"https://www.youtube.com/watch?v=3s9pWGsU02k",
@@ -1018,7 +1018,7 @@
       {
         "titulo":"Benchmarking",
         "tipo":"Artigo",
-        "trilha":"ux/ui", 
+        "trilha":"uxui", 
          "criador_nome":"G4 Educação",
          "duracao":"00:22:00",
          "link":"https://g4educacao.com/portal/o-que-e-benchmarking/",
@@ -1027,7 +1027,7 @@
       {
         "titulo":"Persona",
         "tipo":"Vídeo",
-        "trilha":"ux/ui", 
+        "trilha":"uxui", 
          "criador_nome":"UX Now",
          "duracao":"00:09:17",
          "link":"https://youtu.be/kdUk7DZS6aQ",
@@ -1036,7 +1036,7 @@
       {
         "titulo":"Persona",
         "tipo":"Vídeo",
-        "trilha":"ux/ui", 
+        "trilha":"uxui", 
          "criador_nome":"UX Now",
          "duracao":"00:04:50",
          "link":"https://youtu.be/q_NrzJBS7QI",
@@ -1045,7 +1045,7 @@
       {
         "titulo":"Persona",
         "tipo":"Apostila",
-        "trilha":"ux/ui", 
+        "trilha":"uxui", 
          "criador_nome":"Alura",
          "duracao":"00:00:30",
          "link":"https://www.alura.com.br/apostila-ux-usabilidade-mobile-web/personas#numero-de-personas",
@@ -1054,7 +1054,7 @@
       {
         "titulo":"Mapa de Empatia",
         "tipo":"Apostila",
-        "trilha":"ux/ui", 
+        "trilha":"uxui", 
          "criador_nome":"Alura",
          "duracao":"00:02:00",
          "link":"https://www.alura.com.br/apostila-ux-usabilidade-mobile-web/personas#mapa-de-empatia",
@@ -1063,7 +1063,7 @@
       {
         "titulo":"Fluxo de Usuário",
         "tipo":"Artigo",
-        "trilha":"ux/ui", 
+        "trilha":"uxui", 
          "criador_nome":"Ateliware",
          "duracao":"00:05:00",
          "link":"https://ateliware.com/blog/user-flow",
@@ -1072,7 +1072,7 @@
       {
         "titulo":"Fluxo de Usuário",
         "tipo":"Artigo",
-        "trilha":"ux/ui", 
+        "trilha":"uxui", 
          "criador_nome":"Awari",
          "duracao":"00:20:00",
          "link":"https://awari.com.br/guia-fluxogramas-ux/",
@@ -1081,7 +1081,7 @@
       {
         "titulo":"Jornada do Usuário",
         "tipo":"Artigo",
-        "trilha":"ux/ui", 
+        "trilha":"uxui", 
          "criador_nome":"Aela",
          "duracao":"00:09:00",
          "link":"https://aelaschool.com/designdeinteracao/jornada-do-usuario-e-sua-importancia/",
@@ -1090,7 +1090,7 @@
       {
         "titulo":"Jornada do Usuário",
         "tipo":"Vídeo",
-        "trilha":"ux/ui", 
+        "trilha":"uxui", 
          "criador_nome":"UX Unicórnio",
          "duracao":"00:40:43",
          "link":"https://www.youtube.com/watch?v=EiroPM-lL-U",
@@ -1099,7 +1099,7 @@
       {
         "titulo":"Storytelling",
         "tipo":"Artigo",
-        "trilha":"ux/ui", 
+        "trilha":"uxui", 
          "criador_nome":"Orange Juice",
          "duracao":"00:04:00",
          "link":"https://medium.com/orangejuicefc/storytelling-o-que-s%C3%A3o-como-vivem-e-onde-habitam-d3527a6cf142",
@@ -1108,7 +1108,7 @@
       {
         "titulo":"Arquitetura da Informação",
         "tipo":"Vídeo",
-        "trilha":"ux/ui", 
+        "trilha":"uxui", 
          "criador_nome":"UX Now",
          "duracao":"00:08:42",
          "link":"https://youtu.be/jAN1330de-s",
@@ -1117,7 +1117,7 @@
       {
         "titulo":"Arquitetura da Informação",
         "tipo":"Vídeo",
-        "trilha":"ux/ui", 
+        "trilha":"uxui", 
          "criador_nome":"UX Now",
          "duracao":"00:09:34",
          "link":"https://youtu.be/vmvSMYaV4oE",
@@ -1126,7 +1126,7 @@
       {
         "titulo":"Heurísticas de Nielsen",
         "tipo":"Artigo",
-        "trilha":"ux/ui", 
+        "trilha":"uxui", 
          "criador_nome":"Aela",
          "duracao":"00:08:00",
          "link":"https://medium.com/aela/10-heur%C3%ADsticas-de-nielsen-dicas-para-melhorar-a-usabilidade-de-sua-interface-35ef86a7fb41",
@@ -1135,7 +1135,7 @@
       {
         "titulo":"Heurísticas de Nielsen",
         "tipo":"Apostila",
-        "trilha":"ux/ui", 
+        "trilha":"uxui", 
          "criador_nome":"Alura",
          "duracao":"00:12:00",
          "link":"https://www.alura.com.br/apostila-ux-usabilidade-mobile-web/principios#as-dez-heuristicas-de-nielsen",
@@ -1144,7 +1144,7 @@
       {
         "titulo":"Teste de Usabilidade",
         "tipo":"Live",
-        "trilha":"ux/ui", 
+        "trilha":"uxui", 
          "criador_nome":"Grupo FCamara",
          "duracao":"01:18:55",
          "link":"https://www.youtube.com/watch?v=VMXF3EDXZT8",
@@ -1153,7 +1153,7 @@
       {
         "titulo":"Teste de Usabilidade",
         "tipo":"Live",
-        "trilha":"ux/ui", 
+        "trilha":"uxui", 
          "criador_nome":"Orange Juice",
          "duracao":"00:31:00",
          "link":"https://youtu.be/9Bzd_PfKYLk",
@@ -1162,7 +1162,7 @@
       {
         "titulo":"Teste de Usabilidade",
         "tipo":"Apostila",
-        "trilha":"ux/ui", 
+        "trilha":"uxui", 
          "criador_nome":"Alura",
          "duracao":"00:31:00",
          "link":"https://www.alura.com.br/apostila-ux-usabilidade-mobile-web/usabilidade",
@@ -1171,10 +1171,271 @@
       {
         "titulo":"Acessibilidade",
         "tipo":"Live",
-        "trilha":"ux/ui", 
+        "trilha":"uxui", 
          "criador_nome":"Grupo FCamara",
          "duracao":"01:30:15",
          "link":"https://www.youtube.com/watch?v=UqF6NZP0d8w",
          "notion":true
-      }
+      },
+      {
+         "titulo": "Migração de Carreira",
+         "tipo": "Artigo",
+         "trilha":"qa",
+         "criador_nome": "Orange Juice",
+         "duracao": "00:06:00",
+         "link": "https://medium.com/orangejuicefc/guia-definitivo-de-como-migrar-para-ux-design-5-passos-para-virar-um-ux-1675f71796b4",
+         "notion":true
+        },
+        {
+         "titulo": "Migração de Carreira",
+         "tipo": "Artigo",
+         "trilha":"qa",
+         "criador_nome": "Orange Juice",
+         "duracao": "00:05:00",
+         "link": "https://medium.com/orangejuicefc/design-thinking-e-carreira-como-migrei-de-psicologia-para-ux-design-cb79e8b47df5",
+         "notion":true
+        },
+        {
+         "titulo": "Migração de Carreira",
+         "tipo": "Artigo",
+         "trilha":"qa",
+         "criador_nome": "Orange Juice",
+         "duracao": "00:06:00",
+         "link": "https://medium.com/orangejuicefc/de-advogada-a-desenvolvedora-um-relato-sobre-minha-migra%C3%A7%C3%A3o-de-carreira-e-dicas-para-quem-pretende-45ad5df833b5",
+         "notion":true
+        },
+        {
+         "titulo": "Culture Code",
+         "tipo": "Live",
+         "trilha":"qa",
+         "criador_nome": "Grupo FCamara",
+         "duracao": "01:22:25",
+         "link": "https://www.youtube.com/watch?v=n0KH8dQSrv0",
+         "notion":true
+        },
+        {
+         "titulo": "Product Owner e Scrum Master",
+         "tipo": "Live",
+         "trilha":"qa",
+         "criador_nome": "Grupo FCamara",
+         "duracao": "01:13:33",
+         "link": "https://www.youtube.com/watch?v=_ku7bY5GtIY",
+         "notion":true
+        },
+        {
+         "titulo": "Product Owner",
+         "tipo": "Artigo",
+         "trilha":"qa",
+         "criador_nome": "PM3",
+         "duracao": "00:08:00",
+         "link": "https://www.cursospm3.com.br/product-owner-o-que-faz-salario-habilidades/",
+         "notion":true
+        },
+        {
+         "titulo": "Scrum Master",
+         "tipo": "Artigo",
+         "trilha":"qa",
+         "criador_nome": "Atlassian",
+         "duracao": "00:06:00",
+         "link": "https://www.atlassian.com/br/agile/scrum/scrum-master",
+         "notion":true
+        },
+        {
+         "titulo": "Scrum Master",
+         "tipo": "Artigo",
+         "trilha":"qa",
+         "criador_nome": "Scrum Alliance",
+         "duracao": "00:05:00",
+         "link": "https://resources.scrumalliance.org/Article/day-life-scrum-master",
+         "notion":true
+        },
+        {
+         "titulo": "Desenvolvimento",
+         "tipo": "Live",
+         "trilha":"qa",
+         "criador_nome": "Grupo FCamara",
+         "duracao": "01:25:20",
+         "link": "https://www.youtube.com/watch?v=N78-5gHLzbE",
+         "notion":true
+        },
+        {
+         "titulo": "Desenvolvimento",
+         "tipo": "Artigo",
+         "trilha":"qa",
+         "criador_nome": "Alura",
+         "duracao": "00:05:00",
+         "link": "https://www.alura.com.br/artigos/como-se-tornar-um-desenvolvedor-full-stack-no-proximo-ano",
+         "notion":true
+        },
+        {
+         "titulo": "UX Design",
+         "tipo": "Artigo",
+         "trilha":"qa",
+         "criador_nome": "Orange Juice",
+         "duracao": "00:04:00",
+         "link": "https://medium.com/orangejuicefc/mas-o-que-%C3%A9-ux-330edd9c6887",
+         "notion":true
+        },
+        {
+         "titulo": "UX Design",
+         "tipo": "Artigo",
+         "trilha":"qa",
+         "criador_nome": "Alura",
+         "duracao": "00:05:00",
+         "link": "https://www.alura.com.br/artigos/ux-e-ui-conheca-as-semelhancas-e-diferencas-entre-ambos",
+         "notion":true
+        },
+        {
+         "titulo": "UX Design",
+         "tipo": "Live",
+         "trilha":"qa",
+         "criador_nome": "Grupo FCamara",
+         "duracao": "01:25:58",
+         "link": "https://www.youtube.com/watch?v=_RsYz_iKP4k",
+         "notion":true
+        },
+        {
+         "titulo": "QA",
+         "tipo": "Artigo",
+         "trilha":"qa",
+         "criador_nome": "Orange Juice",
+         "duracao": "00:04:00",
+         "link": "https://medium.com/orangejuicefc/qual-o-papel-do-qa-em-uma-equipe-8e8147be28dd",
+         "notion":true
+        },
+        {
+         "titulo": "QA",
+         "tipo": "Live",
+         "trilha":"qa",
+         "criador_nome": "Grupo FCamara",
+         "duracao": "01:23:10",
+         "link": "https://www.youtube.com/watch?v=pP5M7lf6JmQ",
+         "notion":true
+        },
+        {
+         "titulo": "Stakeholder",
+         "tipo": "Glossário",
+         "trilha":"qa",
+         "criador_nome": "PM3",
+         "duracao": "00:02:00",
+         "link": "https://www.cursospm3.com.br/glossario/stakeholder/",
+         "notion":true
+        },
+        {
+         "titulo": "Liderança",
+         "tipo": "Live",
+         "trilha":"qa",
+         "criador_nome": "BTG Pactual",
+         "duracao": "00:56:33",
+         "link": "https://www.youtube.com/watch?v=b9A34yUvzEc",
+         "notion":true
+        },
+        {
+         "titulo": "Metodologia Ágil",
+         "tipo": "Vídeo",
+         "trilha":"qa",
+         "criador_nome": "Orange Juice",
+         "duracao": "00:57:52",
+         "link": "https://www.youtube.com/watch?v=TmTupAe14T4",
+         "notion":true
+        },
+        {
+         "titulo": "Metodologia Ágil",
+         "tipo": "Artigo",
+         "trilha":"qa",
+         "criador_nome": "Orange Juice",
+         "duracao": "00:57:52",
+         "link": "https://medium.com/orangejuicefc/fundamento-iniciais-da-metodologia-%C3%A1gil-a4f3f0a3f025",
+         "notion":true
+        },
+        {
+         "titulo": "Metodologia Ágil",
+         "tipo": "Artigo",
+         "trilha":"qa",
+         "criador_nome": "Orange Juice",
+         "duracao": "00:57:52",
+         "link": "https://medium.com/orangejuicefc/manifesto-%C3%A1gil-a-b%C3%ADblia-das-metodologias-%C3%A1geis-1a4ec9f220a",
+         "notion":true
+        },
+        {
+         "titulo": "Squads",
+         "tipo": "Artigo",
+         "trilha":"qa",
+         "criador_nome": "Grupo FCamara",
+         "duracao": "00:06:00",
+         "link": "https://blog.fcamara.com.br/squads-o-que-e-e-como-funciona/",
+         "notion":true
+        },
+        {
+         "titulo": "MVP",
+         "tipo": "Artigo",
+         "trilha":"qa",
+         "criador_nome": "PM3",
+         "duracao": "00:08:00",
+         "link": "https://www.cursospm3.com.br/blog/mvp-o-que-e-e-como-construir-um-produto-minimo-viavel/",
+         "notion":true
+        },
+        {
+         "titulo": "Soft Skill",
+         "tipo": "Artigo",
+         "trilha":"qa",
+         "criador_nome": "Alura",
+         "duracao": "00:04:00",
+         "link": "https://www.alura.com.br/artigos/soft-skills-o-que-sao-e-os-beneficios-de-desenvolve-las",
+         "notion":true
+        },
+        {
+         "titulo": "Comunicação",
+         "tipo": "Artigo",
+         "trilha":"qa",
+         "criador_nome": "Orange Juice",
+         "duracao": "00:03:00",
+         "link": "https://medium.com/orangejuicefc/aprimorando-a-comunica%C3%A7%C3%A3o-3933cbc886b4",
+         "notion":true
+        },
+        {
+         "titulo": "Comunicação",
+         "tipo": "Artigo",
+         "trilha":"qa",
+         "criador_nome": "Orange Juice",
+         "duracao": "00:04:00",
+         "link": "https://medium.com/orangejuicefc/por-que-um-programador-deve-desconstruir-a-ideia-de-que-n%C3%A3o-precisa-lidar-com-pessoas-e-como-9974bcebf4a9",
+         "notion":true
+        },
+        {
+         "titulo": "Comunicação",
+         "tipo": "Artigo",
+         "trilha":"qa",
+         "criador_nome": "Orange Juice",
+         "duracao": "00:05:00",
+         "link": "https://medium.com/orangejuicefc/ux-design-e-comunica%C3%A7%C3%A3o-b32a44ef7e42",
+         "notion":true
+        },
+        {
+         "titulo": "Trabalho em equipe",
+         "tipo": "Live",
+         "trilha":"qa",
+         "criador_nome": "Grupo FCamara",
+         "duracao": "00:59:48",
+         "link": "https://youtu.be/gG0zZoj595U",
+         "notion":true
+        },
+        {
+         "titulo": "Trabalho em equipe",
+         "tipo": "Artigo",
+         "trilha":"qa",
+         "criador_nome": "Fernanda de Oliveira",
+         "duracao": "00:05:00",
+         "link": "https://www.linkedin.com/pulse/poderosa-uni%C3%A3o-entre-design-de-ux-e-desenvolvimento-de-oliveira/?originalSubdomain=pt",
+         "notion":true
+        },
+        {
+         "titulo": "LGPD",
+         "tipo": "Live",
+         "trilha":"qa",
+         "criador_nome": "Orange Juice",
+         "duracao": "01:01:31",
+         "link": "https://youtu.be/KKLDwHyQATA",
+         "notion":true
+        }
  ]
