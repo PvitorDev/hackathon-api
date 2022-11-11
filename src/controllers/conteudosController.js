@@ -40,11 +40,12 @@ module.exports = {
         query
           .where({ id_usuario })
           .join("usuarios", "usuarios.id", "=", "postagem_conteudos.id_usuario")
+          .orderBy("id", "desc")
           .select("postagem_conteudos.*");
 
         countObj.where({ id_usuario });
       } else {
-        query.select("postagem_conteudos.*");
+        query.select("postagem_conteudos.*")
       }
 
       const [count] = await countObj;
