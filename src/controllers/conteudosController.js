@@ -40,7 +40,6 @@ module.exports = {
         query
           .where({ id_usuario })
           .join("usuarios", "usuarios.id", "=", "postagem_conteudos.id_usuario")
-          .orderBy("id", "desc")
           .select("postagem_conteudos.*");
 
         countObj.where({ id_usuario });
@@ -63,30 +62,50 @@ module.exports = {
 
   async listarConteudoTrilha(req, res) {
     const { trilha } = req.params;
-    const { id_usuario, page = 1 } = req.query;
+    const { id_usuario, filter, page = 1 , } = req.query;
     try {
       const query = knex("postagem_conteudos")
         .limit(10)
         .offset((page - 1) * 10);
 
       const countObj = knex("postagem_conteudos").count();
-      if (trilha && !id_usuario) {
-        query.where({ trilha }).select("postagem_conteudos.*");
+
+      if (!filter) {
+        if (trilha && !id_usuario) {
+          query
+            .where({ trilha })
+            .select("postagem_conteudos.*")
+            .orderBy("id", "asc");
+
+          countObj.where({ trilha });
+        } else {
+          query
+            .where({ trilha })
+            .andWhere({ id_usuario })
+            .orderBy("id", "asc")
+            .select("postagem_conteudos.*");
+        }
+      } else if (filter === "id") {
+        query
+          .where({ trilha })
+          .select("postagem_conteudos.*")
+          .orderBy("id", "desc");
 
         countObj.where({ trilha });
       } else {
         query
           .where({ trilha })
-          .andWhere({ id_usuario })
-          .select("postagem_conteudos.*");
+          .select("postagem_conteudos.*")
+          .orderBy("titulo", "asc");
+
+        countObj.where({ trilha });
       }
       const [count] = await countObj;
 
       res.header({
         "X-Total-Count": count["count"],
-        "Access-Control-Expose-Headers": 'X-Total-Count'
+        "Access-Control-Expose-Headers": "X-Total-Count",
       });
-
       const results = await query;
       return res.status(200).json(results);
     } catch (error) {

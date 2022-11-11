@@ -24,7 +24,8 @@ module.exports = {
     try {
       const query = knex("postagens")
         .limit(10)
-        .offset((page - 1) * 10);
+        .offset((page - 1) * 10)
+        .orderBy("id", "desc");
 
       const countObj = knex("postagens").count();
       if (id_usuario) {
