@@ -70,6 +70,7 @@ module.exports = {
     const { page = 1 } = req.query;
     const id = req.user;
     try {
+      const countObj = knex("postagem_curtidas").count();
       const favoritos = await knex("postagem_curtidas")
         .where("postagem_curtidas.id_usuario", id)
         .join(
@@ -81,7 +82,14 @@ module.exports = {
         .limit(10)
         .offset((page - 1) * 10)
         .returning("*");
-
+      if (id) {
+        countObj.where("postagem_curtidas.id_usuario", id);
+      }
+      const [count] = await countObj;
+      res.header({
+        "X-Total-Count": count["count"],
+        "Access-Control-Expose-Headers": "X-Total-Count",
+      });
       return res.status(200).json({ favoritos });
     } catch (error) {
       return res.status(500).json({ mensagem: error.message });
