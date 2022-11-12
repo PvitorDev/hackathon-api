@@ -67,6 +67,7 @@ module.exports = {
   },
 
   async meusFavoritos(req, res) {
+    const { page = 1 } = req.query;
     const id = req.user;
     try {
       const favoritos = await knex("postagem_curtidas")
@@ -77,6 +78,8 @@ module.exports = {
           "=",
           "postagem_curtidas.id_conteudos",
         )
+        .limit(10)
+        .offset((page - 1) * 10)
         .returning("*");
 
       return res.status(200).json({ favoritos });
