@@ -6,6 +6,7 @@ const {
   detalharConteudo,
   deletarConteudo,
   atualizarConteudo,
+  listarConteudoTipo,
 } = require("../controllers/conteudosController");
 const router = express.Router();
 const auth = require("../middleware/Auth");
@@ -22,6 +23,7 @@ router
   )
   .get("/postagem/conteudos", listarConteudos)
   .get("/postagem/conteudos/trilha/:trilha", listarConteudoTrilha)
+  .get("/postagem/conteudos/tipo/:tipo", listarConteudoTipo)
   .get("/postagem", detalharConteudo)
   .delete("/postagem", auth, deletarConteudo)
   .put("/postagem", auth, validarCampo(schemaConteudo), atualizarConteudo);

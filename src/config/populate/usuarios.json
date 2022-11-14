@@ -1,9 +1,10 @@
 [
     {
-       "nome":"Finn Howell",
-       "email":"curae.phasellus.ornare@outlook.couk",
-       "senha":"RIB14DTK3NL",
-       "trilha":"fullstack"
+       "nome":"Laranja Mecânica",
+       "email":"orange@adm.com",
+       "senha":"$2b$10$n2JDGlAhidSbcmYe2Kba5eWpOSshltGP2kiZ7a3S0FCNsHcQTaRw.",
+       "trilha":"fullstack",
+       "admin":true
     },
     {
        "nome":"Sophia Leon",

@@ -36,28 +36,28 @@ module.exports = {
   },
 
   async favoritarItem(req, res) {
-    const { id_conteudos } = req.params;
-    const id_usuario = req.user;
+    const { idConteudos } = req.params;
+    const idUsuario = req.user;
     try {
-      const favoritado = await knex("postagem_curtidas")
+      const favoritado = await knex("postagem_favoritos")
         .where({
-          id_usuario: id_usuario,
-          id_conteudos: id_conteudos,
+          id_usuario: idUsuario,
+          id_conteudos: idConteudos,
         })
         .first();
       if (favoritado) {
-        await knex("postagem_curtidas")
+        await knex("postagem_favoritos")
           .where({
-            id_usuario: id_usuario,
-            id_conteudos: id_conteudos,
+            id_usuario: idUsuario,
+            id_conteudos: idConteudos,
           })
           .del();
         return res.status(200).json({ mensagem: "Removido dos favoritos" });
       }
-      await knex("postagem_curtidas")
+      await knex("postagem_favoritos")
         .insert({
-          id_usuario: id_usuario,
-          id_conteudos: id_conteudos,
+          id_usuario: idUsuario,
+          id_conteudos: idConteudos,
         })
         .returning("*");
       return res.status(201).json({ mensagem: "Favoritado" });
@@ -70,20 +70,20 @@ module.exports = {
     const { page = 1 } = req.query;
     const id = req.user;
     try {
-      const countObj = knex("postagem_curtidas").count();
-      const favoritos = await knex("postagem_curtidas")
-        .where("postagem_curtidas.id_usuario", id)
+      const countObj = knex("postagem_favoritos").count();
+      const favoritos = await knex("postagem_favoritos")
+        .where("postagem_favoritos.id_usuario", id)
         .join(
           "postagem_conteudos",
           "postagem_conteudos.id",
           "=",
-          "postagem_curtidas.id_conteudos",
+          "postagem_favoritos.id_conteudos",
         )
         .limit(10)
         .offset((page - 1) * 10)
         .returning("*");
       if (id) {
-        countObj.where("postagem_curtidas.id_usuario", id);
+        countObj.where("postagem_favoritos.id_usuario", id);
       }
       const [count] = await countObj;
       res.header({

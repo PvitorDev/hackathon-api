@@ -7,7 +7,9 @@ module.exports = {
     const admin = req.admin;
     try {
       if (!admin) {
-        return res.status(404).json({ mensagem: "Você não é um administrador" });
+        return res
+          .status(404)
+          .json({ mensagem: "Você não é um administrador" });
       }
       await knex("postagem_conteudos")
         .insert({
@@ -44,14 +46,14 @@ module.exports = {
 
         countObj.where({ id_usuario });
       } else {
-        query.select("postagem_conteudos.*")
+        query.select("postagem_conteudos.*");
       }
 
       const [count] = await countObj;
 
       res.header({
         "X-Total-Count": count["count"],
-        "Access-Control-Expose-Headers": 'X-Total-Count'
+        "Access-Control-Expose-Headers": "X-Total-Count",
       });
       const results = await query;
       return res.status(200).json(results);
@@ -62,7 +64,7 @@ module.exports = {
 
   async listarConteudoTrilha(req, res) {
     const { trilha } = req.params;
-    const { id_usuario, filter, page = 1 , } = req.query;
+    const { id_usuario, filter, page = 1 } = req.query;
     try {
       const query = knex("postagem_conteudos")
         .limit(10)
@@ -99,6 +101,52 @@ module.exports = {
           .orderBy("titulo", "asc");
 
         countObj.where({ trilha });
+      }
+      const [count] = await countObj;
+
+      res.header({
+        "X-Total-Count": count["count"],
+        "Access-Control-Expose-Headers": "X-Total-Count",
+      });
+      const results = await query;
+      return res.status(200).json(results);
+    } catch (error) {
+      return res.status(500).json({ mensagem: error.message });
+    }
+  },
+  async listarConteudoTipo(req, res) {
+    const { tipo } = req.params;
+    const { trilha, filter, page = 1 } = req.query;
+    try {
+      const query = knex("postagem_conteudos")
+        .limit(10)
+        .offset((page - 1) * 10);
+
+      const countObj = knex("postagem_conteudos").count();
+
+      if (!filter) {
+        if (trilha && !trilha) {
+          query
+            .where({ tipo })
+            .select("postagem_conteudos.*")
+            .orderBy("id", "asc");
+
+          countObj.where({ tipo });
+        }
+      } else if (filter === "id") {
+        query
+          .where({ tipo })
+          .select("postagem_conteudos.*")
+          .orderBy("id", "desc");
+
+        countObj.where({ tipo });
+      } else {
+        query
+          .where({ tipo })
+          .select("postagem_conteudos.*")
+          .orderBy("titulo", "asc");
+
+        countObj.where({ tipo });
       }
       const [count] = await countObj;
 

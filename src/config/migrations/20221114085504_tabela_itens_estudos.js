@@ -3,7 +3,7 @@
  * @returns { Promise<void> }
  */
 exports.up = (knex) => {
-  return knex.schema.createTable("postagem_favoritos", (table) => {
+  return knex.schema.createTable("itens_estudos", (table) => {
     table.increments("id");
     table
       .integer("id_usuario")
@@ -11,9 +11,16 @@ exports.up = (knex) => {
       .notNullable()
       .onDelete("CASCADE");
     table
-      .integer("id_conteudos")
+      .integer("id_conteudo")
       .references("postagem_conteudos.id")
-      .onDelete("CASCADE");
+      .onDelete("CASCADE")
+      .notNullable();
+    table
+      .integer("id_plano")
+      .references("plano_estudos.id")
+      .onDelete("CASCADE")
+      .notNullable();
+    table.boolean("concluido").defaultTo(false);
   });
 };
 
@@ -22,5 +29,5 @@ exports.up = (knex) => {
  * @returns { Promise<void> }
  */
 exports.down = (knex) => {
-  return knex.schema.dropTable("postagem_favoritos");
+  return knex.schema.dropTable("itens_estudos");
 };

@@ -35,7 +35,7 @@ router.post(
 );
 
 router
-  .post("/postagem/favoritar/:id_conteudos", auth, favoritarItem)
+  .post("/postagem/favoritar/:idConteudos", auth, favoritarItem)
   .get("/postagem/favoritos", auth, meusFavoritos);
 
 module.exports = router;

@@ -1,0 +1,832 @@
+_type: export
+__export_format: 4
+__export_date: 2022-11-14T07:04:39.817Z
+__export_source: insomnia.desktop.app:v2022.6.0
+resources:
+  - _id: req_ed8d8c3dc45343e0a7fd5379f8554050
+    parentId: fld_5ad6694a345b43f98401320075c83d57
+    modified: 1668409422474
+    created: 1667511108548
+    url: "{{ _.baseUrl }}/cadastro"
+    name: /cadastro
+    description: Cadastro de usuarios
+    method: POST
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	"nome":"Paulo Vitor",
+        	"email":"email@example",
+        	"senha": "laranja",
+        	"trilha": "uxui"
+        }
+    parameters: []
+    headers:
+      - name: Content-Type
+        value: application/json
+        id: pair_f82eac3869ff40b698c4908e10b21f89
+    authentication: {}
+    metaSortKey: -1667511934663
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: fld_5ad6694a345b43f98401320075c83d57
+    parentId: wrk_4fd6ce5548a04e809bcc279279a37291
+    modified: 1668409136648
+    created: 1667511927673
+    name: Login e Cadastro
+    description: ""
+    environment: {}
+    environmentPropertyOrder: null
+    metaSortKey: -1667803271121
+    _type: request_group
+  - _id: wrk_4fd6ce5548a04e809bcc279279a37291
+    parentId: null
+    modified: 1668409449870
+    created: 1667511108506
+    name: Hackathon-API.yaml
+    description: >+
+      Projeto final da etapa do Hackathon da 4ª edição do Programa de Formação
+      da Orange Juice em conjunto com a FCamara, com o propósito de criação de
+      uma plataforma de estudos para pessoas em migração de carreira.
+
+
+      Documentação do BackEnd.
+
+
+      Repositório:
+
+      [Github](https://github.com/PvitorDev/hackathon-api)
+
+
+      integrantes :
+
+      Paulo Vitor (Dev) ;
+
+      Adriele Machado (UX/UI);
+
+    scope: design
+    _type: workspace
+  - _id: req_cc1a2e0de1c347679b6d8d4ac0900ebb
+    parentId: fld_5ad6694a345b43f98401320075c83d57
+    modified: 1668408745502
+    created: 1667511108555
+    url: "{{ _.baseUrl }}/login"
+    name: /login
+    description: Login do usuario
+    method: POST
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	"email":"orange@adm.com",
+        	"senha": "laranja"
+        }
+    parameters: []
+    headers:
+      - name: Content-Type
+        value: application/json
+    authentication: {}
+    metaSortKey: -1667511934613
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_6b59af98768e4a1491b843a7f796f0c4
+    parentId: fld_2c640d40a77b4b1483adad6379ddc8e9
+    modified: 1668390015065
+    created: 1667619818694
+    url: "{{ _.baseUrl }}/usuario"
+    name: /usuario
+    description: "Buscar todos os usuarios "
+    method: GET
+    body: {}
+    parameters: []
+    headers: []
+    authentication:
+      type: bearer
+      token: XXXXXXXXXXXXXXXXXXXXXXX
+    metaSortKey: -833755940914
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: fld_2c640d40a77b4b1483adad6379ddc8e9
+    parentId: wrk_4fd6ce5548a04e809bcc279279a37291
+    modified: 1668409140750
+    created: 1667511881428
+    name: "Usuarios "
+    description: ""
+    environment: {}
+    environmentPropertyOrder: null
+    metaSortKey: -1667803271096
+    _type: request_group
+  - _id: req_73aa644f1f0041db993505f799b7dd70
+    parentId: fld_2c640d40a77b4b1483adad6379ddc8e9
+    modified: 1668408699392
+    created: 1667620011470
+    url: "{{ _.baseUrl }}/usuario/perfil/{id}"
+    name: /usuario/perfil/{id}
+    description: Detalhar único usuario
+    method: GET
+    body: {}
+    parameters: []
+    headers: []
+    authentication:
+      type: bearer
+      token: XXXXXXXXXXXXXXXXXXXXXXX
+    metaSortKey: -833755940864
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_6cada1ca63ab4b82bc5b11da07a47c88
+    parentId: fld_2c640d40a77b4b1483adad6379ddc8e9
+    modified: 1668391406749
+    created: 1667511108627
+    url: "{{ _.baseUrl }}/usuario/{trilha}"
+    name: /usuario/{trilha}
+    description: |-
+      Listar usuario por trilha 
+      "fullstack","qa","uxui"
+    method: GET
+    body: {}
+    parameters: []
+    headers: []
+    authentication:
+      type: bearer
+      token: XXXXXXXXXXXXXXXXXXXX
+    metaSortKey: -833755940764
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_eace0f9b820f42a8a46d3bb23e04cd4c
+    parentId: fld_2c640d40a77b4b1483adad6379ddc8e9
+    modified: 1668408727857
+    created: 1667511108563
+    url: "{{ _.baseUrl }}/usuario"
+    name: /usuario
+    description: Atualizar usuarios
+    method: PUT
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	"nome":"Fcamara",
+        	"email":"Fcamara@adm.com",
+        	"senha": "fcamara",
+        	"trilha":"fullstack"
+        }
+    parameters: []
+    headers:
+      - name: Content-Type
+        value: application/json
+        id: pair_7f979cc90df946148a92b13622cd01ea
+    authentication:
+      type: bearer
+      token: XXXXXXXXXXXXXXXXXXXX
+    metaSortKey: -833755940714
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_161eecffc6024e47b321e67412717cd0
+    parentId: fld_2c640d40a77b4b1483adad6379ddc8e9
+    modified: 1668390034183
+    created: 1667709540609
+    url: "{{ _.baseUrl }}/usuario/perfil/6"
+    name: /usuario/perfil/{id}
+    description: Adicionar um usuario como administrador
+    method: PUT
+    body: {}
+    parameters: []
+    headers: []
+    authentication:
+      type: bearer
+      token: XXXXXXXXXXXXXXXXXXX
+    metaSortKey: -833755940664
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: false
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_b92a6d7298bf4779a0756b1de8d805eb
+    parentId: fld_2c640d40a77b4b1483adad6379ddc8e9
+    modified: 1668390037720
+    created: 1667621032167
+    url: "{{ _.baseUrl }}/usuario/perfil/4"
+    name: /usuario/perfil/{id}
+    description: |-
+      Deletar sua conta.
+      Deletar conta de usuarios (administrador)
+    method: DELETE
+    body: {}
+    parameters: []
+    headers: []
+    authentication:
+      type: bearer
+      token: XXXXXXXXXXXXXXXXXXXXXXX
+    metaSortKey: -833755940614
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_2afb630e141c4383aca7b62e784c7e02
+    parentId: fld_0d695e10313e481186fcaba3d9e155e6
+    modified: 1668408889522
+    created: 1667592095599
+    url: "{{ _.baseUrl }}/postagem/conteudos"
+    name: /postagem/conteudos?page={pages}
+    description: |-
+      Listar todos os conteudos
+      10 por paginas
+    method: GET
+    body: {}
+    parameters: []
+    headers: []
+    authentication: {}
+    metaSortKey: 700
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: fld_0d695e10313e481186fcaba3d9e155e6
+    parentId: wrk_4fd6ce5548a04e809bcc279279a37291
+    modified: 1668409148693
+    created: 1667512446188
+    name: Conteudos
+    description: ""
+    environment: {}
+    environmentPropertyOrder: null
+    metaSortKey: -1667803271083.5
+    _type: request_group
+  - _id: req_d7cb4c05030c4a1195fa880036dbc61a
+    parentId: fld_0d695e10313e481186fcaba3d9e155e6
+    modified: 1668408872308
+    created: 1668388059083
+    url: "{{ _.baseUrl }}/postagem/conteudos?id_usuario=1&page=2"
+    name: /postagem/conteudos?id_usuario={id}&page={pages}
+    description: |-
+      Listar conteudo de determinado usuario
+      10 por pagina
+    method: GET
+    body: {}
+    parameters: []
+    headers: []
+    authentication: {}
+    metaSortKey: 725
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_6841395dfe2248afba06c9acc197623f
+    parentId: fld_0d695e10313e481186fcaba3d9e155e6
+    modified: 1668408839388
+    created: 1667511108540
+    url: "{{ _.baseUrl }}/postagem/conteudos/trilha/qa?page=1"
+    name: /postagem/conteudos/trilha/{trilha}?page={page}&filter={filter}
+    description: |-
+      Listar conteudo de acordo com a trilha e filtrar por Id e por Titulo
+      Id do maior para o menor (ordem de lançamento)
+      Titulo de A/Z
+    method: GET
+    body: {}
+    parameters: []
+    headers: []
+    authentication: {}
+    metaSortKey: 750
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_861912c9b04446658fc6cd7c973af8b0
+    parentId: fld_0d695e10313e481186fcaba3d9e155e6
+    modified: 1668408905842
+    created: 1668408852544
+    url: "{{ _.baseUrl }}/postagem/conteudos/trilha/qa?page=1"
+    name: /postagem/conteudos/trilha/{trilha}?page={page}
+    description: |-
+      Listar conteudo de acordo com a trilha 
+      10 por pagina
+    method: GET
+    body: {}
+    parameters: []
+    headers: []
+    authentication: {}
+    metaSortKey: 768.75
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_91a37dd32ac04058af248609139025e9
+    parentId: fld_0d695e10313e481186fcaba3d9e155e6
+    modified: 1668391554004
+    created: 1667616463657
+    url: "{{ _.baseUrl }}/postagem?id_conteudo={id}"
+    name: /postagem?id_conteudo={id}
+    description: Detalhar conteudo
+    method: GET
+    body: {}
+    parameters: []
+    headers: []
+    authentication: {}
+    metaSortKey: 787.5
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_6f84bc75b3e2480985cc9c76970f1c02
+    parentId: fld_0d695e10313e481186fcaba3d9e155e6
+    modified: 1668408981543
+    created: 1667707850615
+    url: "{{ _.baseUrl }}/postagem?id_conteudo=1"
+    name: /postagem?id_conteudo={id}
+    description: |-
+      Deletar conteudo
+      Req admin
+    method: DELETE
+    body: {}
+    parameters: []
+    headers: []
+    authentication:
+      type: bearer
+      token: XXXXXXXXXXXXXXXXXXXX
+    metaSortKey: 793.75
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_e52047a144d34d3daa73e34b07234031
+    parentId: fld_0d695e10313e481186fcaba3d9e155e6
+    modified: 1668408991919
+    created: 1667714042435
+    url: "{{ _.baseUrl }}/postagem?id_conteudo=1"
+    name: /postagem?id_conteudo={id}
+    description: |-
+      Atualizar Conteudo
+      Req admin
+    method: PUT
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	"titulo":"So um teste",
+        	"tipo":"Artigo",
+        	"trilha":"fullstack",
+        	"duracao":"2",
+        	"link": "o"
+        }
+    parameters: []
+    headers:
+      - name: Content-Type
+        value: application/json
+    authentication:
+      type: bearer
+      token: XXXXXXXXXXXXXXXXXXXXXX
+    metaSortKey: 796.875
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_f81f803b9ed64563a48011a5a202fef1
+    parentId: fld_0d695e10313e481186fcaba3d9e155e6
+    modified: 1668408997233
+    created: 1667511108593
+    url: "{{ _.baseUrl }}/postagem/conteudo"
+    name: /postagem/conteudos
+    description: |-
+      Postar conteudos
+      Req admin
+    method: POST
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	"titulo":"So um teste",
+        	"tipo":"Artigos",
+        	"trilha":"devs",
+        	"duracao":"2",
+        	"link": "o"
+        }
+    parameters: []
+    headers:
+      - name: Content-Type
+        value: application/json
+    authentication:
+      type: bearer
+      token: XXXXXXXXXXXXXXXXX
+    metaSortKey: 800
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_444009a061ee4775bade3b6383db564a
+    parentId: fld_4ab1d3a6f2a54e299834e50b362bb7b7
+    modified: 1668391611832
+    created: 1667713374486
+    url: "{{ _.baseUrl }}/postagem/post/{id}"
+    name: /postagem/post/{id}
+    description: Atualizar postagem
+    method: PUT
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	"titulo":"testandp",
+        	"descricao":"Gossssss",
+        	"tipo":"tesssss"	
+        }
+    parameters: []
+    headers:
+      - name: Content-Type
+        value: application/json
+    authentication:
+      type: bearer
+      token: XXXXXXXXXXXXXXXXXXXX
+    metaSortKey: -1667713374486
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: fld_4ab1d3a6f2a54e299834e50b362bb7b7
+    parentId: wrk_4fd6ce5548a04e809bcc279279a37291
+    modified: 1668409151743
+    created: 1667512495676
+    name: Postagens
+    description: ""
+    environment: {}
+    environmentPropertyOrder: null
+    metaSortKey: -1667803271077.25
+    _type: request_group
+  - _id: req_91f26eebf9994e2e81710b95ef5558ca
+    parentId: fld_4ab1d3a6f2a54e299834e50b362bb7b7
+    modified: 1668391674029
+    created: 1667711292477
+    url: "{{ _.baseUrl }}/postagem/post/{id}"
+    name: /postagem/post/{id}
+    description: Detalhar postagem por id
+    method: GET
+    body: {}
+    parameters: []
+    headers: []
+    authentication: {}
+    metaSortKey: -1667711292477
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_f92f3c03e5f742818f5eae995b583142
+    parentId: fld_4ab1d3a6f2a54e299834e50b362bb7b7
+    modified: 1668409063360
+    created: 1668388021527
+    url: "{{ _.baseUrl }}/postagem/post?page={pages}"
+    name: /postagem/post?page={pages}
+    description: |-
+      Listar todas as postagens
+      10 por pagina
+    method: GET
+    body: {}
+    parameters: []
+    headers: []
+    authentication: {}
+    metaSortKey: -1667611613570
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_f80a81c2f4a046efadb2fd29b67c3178
+    parentId: fld_4ab1d3a6f2a54e299834e50b362bb7b7
+    modified: 1668409081855
+    created: 1667511108614
+    url: "{{ _.baseUrl }}/postagem/post?id_usuario=1"
+    name: /postagem/post?id_usuario={id}
+    description: |-
+      Lista as postagens de determinado usuario por Id
+      10 por pagina
+    method: GET
+    body: {}
+    parameters: []
+    headers: []
+    authentication: {}
+    metaSortKey: 850
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_c545593349294828911f2b7afcc31e30
+    parentId: fld_4ab1d3a6f2a54e299834e50b362bb7b7
+    modified: 1668390139877
+    created: 1667511108607
+    url: "{{ _.baseUrl }}/postagem/post"
+    name: /postagem/post
+    description: "Registrar postagem "
+    method: POST
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	"titulo":"Como foi a msorte",
+        	"descricao":"Gostaria de ssaber",
+        	"tipo":"teste"	
+        }
+    parameters: []
+    headers:
+      - name: Content-Type
+        value: application/json
+    authentication:
+      type: bearer
+      token: XXXXXXXXXXXXXXXXXXXXXX
+    metaSortKey: 900
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_79190223ab604b9aa12967e43fdf3113
+    parentId: fld_4ab1d3a6f2a54e299834e50b362bb7b7
+    modified: 1668390145456
+    created: 1667712636972
+    url: "{{ _.baseUrl }}/postagem/post/2"
+    name: /postagem/post/{id}
+    description: |-
+      Deletar sua postagem;
+      Deletar postagem (administrador)
+    method: DELETE
+    body: {}
+    parameters: []
+    headers: []
+    authentication:
+      type: bearer
+      token: XXXXXXXXXXXXXXXXXXXXXXXXXX
+    metaSortKey: 950
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_59119661fd864d7285a0ccaa9f3d3456
+    parentId: fld_eb1058db613741cd9b1ddde27a76a750
+    modified: 1668390982078
+    created: 1667511108600
+    url: "{{ _.baseUrl }}/postagem/comentar/1"
+    name: /postagem/comentar
+    description: |-
+      Usuário pode comentar em uma postagem.
+
+      <!--RESPONSE--!>
+
+      <!--ENDRESPONSE--!>
+    method: POST
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        "comentario":"segund comentario"
+        }
+    parameters: []
+    headers:
+      - name: Content-Type
+        value: application/json
+    authentication:
+      type: bearer
+      token: XXXXXXXXXXXXXXXXXXXXXX
+    metaSortKey: 1000
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: true
+    settingEncodeUrl: true
+    settingRebuildPath: false
+    settingFollowRedirects: global
+    _type: request
+  - _id: fld_eb1058db613741cd9b1ddde27a76a750
+    parentId: wrk_4fd6ce5548a04e809bcc279279a37291
+    modified: 1668409153918
+    created: 1667512732474
+    name: Comentários
+    description: ""
+    environment: {}
+    environmentPropertyOrder: null
+    metaSortKey: -1667803271074.125
+    _type: request_group
+  - _id: req_262693b2840c4e8780c76d9e6578055e
+    parentId: fld_2bc3378ff17b47438014a10e6ada995c
+    modified: 1668391381201
+    created: 1667799851246
+    url: "{{ _.baseUrl }}/postagem/favoritos?page={pages}"
+    name: /postagem/favoritos
+    description: Pegar todos os favoritos
+    method: GET
+    body: {}
+    parameters: []
+    headers: []
+    authentication:
+      type: bearer
+      token: XXXXXXXXXXXXXXXXX
+    metaSortKey: -1667799851246
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: fld_2bc3378ff17b47438014a10e6ada995c
+    parentId: wrk_4fd6ce5548a04e809bcc279279a37291
+    modified: 1668409155925
+    created: 1667798669716
+    name: curtidas
+    description: ""
+    environment: {}
+    environmentPropertyOrder: null
+    metaSortKey: -1667803271072.5625
+    _type: request_group
+  - _id: req_c1c21272212f49b291a8cd0af5f254a6
+    parentId: fld_2bc3378ff17b47438014a10e6ada995c
+    modified: 1668391294938
+    created: 1667798672846
+    url: "{{ _.baseUrl }}/postagem/favoritar/{id}"
+    name: /postagem/favoritar/{id}
+    description: Favoritar conteudo por id
+    method: POST
+    body: {}
+    parameters: []
+    headers: []
+    authentication:
+      type: bearer
+      token: XXXXXXXXXXXXXXXXXXXXXXX
+    metaSortKey: -1667798672846
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_974b60cbdd5b456ca8441eb72c8a450c
+    parentId: fld_c9e9083cd3ae4a9da82109e1c1b8477c
+    modified: 1668391287453
+    created: 1667803275818
+    url: "{{ _.baseUrl }}/youtube/{empresa}"
+    name: /youtube/{empresa}
+    description: |-
+      Buscar videos de empresas parceiras 
+      "Alura","FCamara","Orange Juice","Rocketseat"
+    method: GET
+    body: {}
+    parameters: []
+    headers: []
+    authentication: {}
+    metaSortKey: -1667803275818
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: fld_c9e9083cd3ae4a9da82109e1c1b8477c
+    parentId: wrk_4fd6ce5548a04e809bcc279279a37291
+    modified: 1667803271071
+    created: 1667803271071
+    name: youtube
+    description: ""
+    environment: {}
+    environmentPropertyOrder: null
+    metaSortKey: -1667803271071
+    _type: request_group
+  - _id: env_4be5d39a97af4b0b9af1876bfdb2e03a
+    parentId: wrk_4fd6ce5548a04e809bcc279279a37291
+    modified: 1668408677767
+    created: 1667511108510
+    name: Base Environment
+    data:
+      baseUrl: https://fcamara-api.herokuapp.com
+    dataPropertyOrder:
+      "&":
+        - baseUrl
+    color: null
+    isPrivate: false
+    metaSortKey: 1667411298954
+    _type: environment
+  - _id: jar_1d278c85b75b4676ab9bc40b5053137f
+    parentId: wrk_4fd6ce5548a04e809bcc279279a37291
+    modified: 1667623459026
+    created: 1667511108521
+    name: Default Jar
+    cookies:
+      - key: auth-token
+        expires: 1970-01-01T00:00:00.000Z
+        domain: localhost
+        path: /
+        hostOnly: true
+        creation: 2022-11-05T04:41:44.463Z
+        lastAccessed: 2022-11-05T04:41:54.354Z
+        id: "5563464644816885"
+      - key: jwt
+        expires: 1970-01-01T00:00:00.000Z
+        domain: localhost
+        path: /
+        hostOnly: true
+        creation: 2022-11-05T04:44:19.025Z
+        lastAccessed: 2022-11-05T04:44:19.025Z
+        id: "3303327071881814"
+    _type: cookie_jar
+  - _id: spc_b54d5dcadc224fe196f6c7368244e051
+    parentId: wrk_4fd6ce5548a04e809bcc279279a37291
+    modified: 1668390728345
+    created: 1667511108531
+    fileName: Orange Prime - API squad13
+    contents: ""
+    contentType: yaml
+    _type: api_spec
