@@ -1,11 +1,11 @@
 _type: export
 __export_format: 4
-__export_date: 2022-11-14T07:55:29.621Z
+__export_date: 2022-11-15T15:58:33.235Z
 __export_source: insomnia.desktop.app:v2022.6.0
 resources:
   - _id: req_ed8d8c3dc45343e0a7fd5379f8554050
     parentId: fld_5ad6694a345b43f98401320075c83d57
-    modified: 1668411688634
+    modified: 1668524854947
     created: 1667511108548
     url: "{{ _.baseUrl }}/cadastro"
     name: /cadastro
@@ -27,7 +27,7 @@ resources:
       text: |-
         {
         	"nome":"Paulo Vitor",
-        	"email":"email@example",
+        	"email":"email@aexample",
         	"senha": "laranja",
         	"trilha": "uxui"
         }
@@ -84,7 +84,7 @@ resources:
     _type: workspace
   - _id: req_cc1a2e0de1c347679b6d8d4ac0900ebb
     parentId: fld_5ad6694a345b43f98401320075c83d57
-    modified: 1668411707941
+    modified: 1668524886457
     created: 1667511108555
     url: "{{ _.baseUrl }}/login"
     name: /login
@@ -103,7 +103,7 @@ resources:
       mimeType: application/json
       text: |-
         {
-        	"email":"email@example",
+        "email":"orange@adm.com",
         	"senha": "laranja"
         }
     parameters: []
@@ -211,7 +211,7 @@ resources:
     _type: request
   - _id: req_eace0f9b820f42a8a46d3bb23e04cd4c
     parentId: fld_2c640d40a77b4b1483adad6379ddc8e9
-    modified: 1668411889624
+    modified: 1668470646752
     created: 1667511108563
     url: "{{ _.baseUrl }}/usuario"
     name: /usuario
@@ -276,7 +276,7 @@ resources:
     _type: request
   - _id: req_b92a6d7298bf4779a0756b1de8d805eb
     parentId: fld_2c640d40a77b4b1483adad6379ddc8e9
-    modified: 1668411978257
+    modified: 1668465130522
     created: 1667621032167
     url: "{{ _.baseUrl }}/usuario/perfil/4"
     name: /usuario/perfil/{id}
@@ -294,7 +294,7 @@ resources:
     headers: []
     authentication:
       type: bearer
-      token: XXXXXXXXXXXXXXXXXXXXXXX
+      token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwibm9tZSI6IkxhcmFuamEgTWVjw6JuaWNhIiwiZW1haWwiOiJvcmFuZ2VAYWRtLmNvbSIsImlhdCI6MTY2ODQ2NTEyMCwiZXhwIjoxNjY4NDcyMzIwfQ.kFKqGsa8qb7ECm8njZLDvWSurump5jLVaB8yNczZBHk
     metaSortKey: -833755940614
     isPrivate: false
     settingStoreCookies: true
@@ -304,9 +304,41 @@ resources:
     settingRebuildPath: true
     settingFollowRedirects: global
     _type: request
+  - _id: req_8275c5d1487d47c88b62bf128be51824
+    parentId: fld_0d695e10313e481186fcaba3d9e155e6
+    modified: 1668413312350
+    created: 1668413096933
+    url: "{{ _.baseUrl }}/postagem/conteudos/tipo/Artigo"
+    name: /postagem/conteudos/tipo/{tipo}
+    description: |
+      # Filtrar por Tipo 
+    method: GET
+    body: {}
+    parameters: []
+    headers: []
+    authentication: {}
+    metaSortKey: -1668413096933
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: fld_0d695e10313e481186fcaba3d9e155e6
+    parentId: wrk_4fd6ce5548a04e809bcc279279a37291
+    modified: 1668409148693
+    created: 1667512446188
+    name: Conteudos
+    description: ""
+    environment: {}
+    environmentPropertyOrder: null
+    metaSortKey: -1667803271083.5
+    _type: request_group
   - _id: req_f81f803b9ed64563a48011a5a202fef1
     parentId: fld_0d695e10313e481186fcaba3d9e155e6
-    modified: 1668412491956
+    modified: 1668524864660
     created: 1667511108593
     url: "{{ _.baseUrl }}/postagem/conteudo"
     name: /postagem/conteudos
@@ -340,16 +372,6 @@ resources:
     settingRebuildPath: true
     settingFollowRedirects: global
     _type: request
-  - _id: fld_0d695e10313e481186fcaba3d9e155e6
-    parentId: wrk_4fd6ce5548a04e809bcc279279a37291
-    modified: 1668409148693
-    created: 1667512446188
-    name: Conteudos
-    description: ""
-    environment: {}
-    environmentPropertyOrder: null
-    metaSortKey: -1667803271083.5
-    _type: request_group
   - _id: req_2afb630e141c4383aca7b62e784c7e02
     parentId: fld_0d695e10313e481186fcaba3d9e155e6
     modified: 1668412011333
@@ -461,9 +483,9 @@ resources:
     _type: request
   - _id: req_91a37dd32ac04058af248609139025e9
     parentId: fld_0d695e10313e481186fcaba3d9e155e6
-    modified: 1668412104858
+    modified: 1668423743420
     created: 1667616463657
-    url: "{{ _.baseUrl }}/postagem?id_conteudo={id}"
+    url: "{{ _.baseUrl }}/postagem?id_conteudo=416"
     name: /postagem?id_conteudo={id}
     description: "# Detalhar conteudo"
     method: GET
@@ -533,6 +555,241 @@ resources:
       type: bearer
       token: XXXXXXXXXXXXXXXXXXXX
     metaSortKey: 793.75
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_e1db291df8474c1ca700ca351574fc16
+    parentId: fld_e15c5b94f0cb4aa7bc11ed04c3d01fed
+    modified: 1668527868747
+    created: 1668417256087
+    url: "{{ _.baseUrl }}/plano"
+    name: /plano
+    description: "# Criar um plano"
+    method: POST
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	"nome": "Plano Orange 4"
+        }
+    parameters: []
+    headers:
+      - name: Content-Type
+        value: application/json
+        id: pair_6b807f4bf930444881feba2f9017b614
+    authentication:
+      type: bearer
+      token: XXXXXXXXXXXXXXXXXXX
+    metaSortKey: -1668423569829
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: fld_e15c5b94f0cb4aa7bc11ed04c3d01fed
+    parentId: wrk_4fd6ce5548a04e809bcc279279a37291
+    modified: 1668417111505
+    created: 1668417102510
+    name: Planos
+    description: ""
+    environment: {}
+    environmentPropertyOrder: null
+    metaSortKey: -1667803271080.375
+    _type: request_group
+  - _id: req_c00e2bb29a7d457590cb7a42df2073ef
+    parentId: fld_e15c5b94f0cb4aa7bc11ed04c3d01fed
+    modified: 1668527867185
+    created: 1668418865034
+    url: "{{ _.baseUrl }}/plano/item/653?idPlano=1"
+    name: /plano/item/:idContedo?idPlano={idPlano}
+    description: |
+      # Adicionar itens ao plano 
+    method: POST
+    body: {}
+    parameters: []
+    headers: []
+    authentication:
+      type: bearer
+      token: XXXXXXXXXXXXXXXXXXXXX
+    metaSortKey: -1668423569804
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_99c51a89bfc5490397e2002df863f166
+    parentId: fld_e15c5b94f0cb4aa7bc11ed04c3d01fed
+    modified: 1668527866435
+    created: 1668420355510
+    url: "{{ _.baseUrl }}/plano"
+    name: /plano
+    description: "# Pegar todos os planos"
+    method: GET
+    body: {}
+    parameters: []
+    headers: []
+    authentication:
+      type: bearer
+      token: XXXXXXXXXXXXXXXXXXX
+    metaSortKey: -1668423569791.5
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_7a7f63aae8e04020b1c799dce06a2c58
+    parentId: fld_e15c5b94f0cb4aa7bc11ed04c3d01fed
+    modified: 1668527863054
+    created: 1668417116174
+    url: "{{ _.baseUrl }}/plano/1"
+    name: /plano/{idPlano}
+    description: "# Detalhar um plano"
+    method: GET
+    body: {}
+    parameters: []
+    headers: []
+    authentication:
+      type: bearer
+      token: XXXXXXXXXXXXXXXXXXXXXX
+    metaSortKey: -1668423569785.25
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_027517c6ef2842a2b20a545ba41d3f99
+    parentId: fld_e15c5b94f0cb4aa7bc11ed04c3d01fed
+    modified: 1668527860045
+    created: 1668421167883
+    url: "{{ _.baseUrl }}/plano/5"
+    name: /plano/{idPlano}
+    description: "# Editar Plano"
+    method: PUT
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	"nome":"Plano atualizado"
+        }
+    parameters: []
+    headers:
+      - name: Content-Type
+        value: application/json
+    authentication:
+      type: bearer
+      token: XXXXXXXXXXXXXXXXXXXXXXXXXX
+    metaSortKey: -1668421167883
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_65f1835b901b43b9bf21e914d06bbc4d
+    parentId: fld_e15c5b94f0cb4aa7bc11ed04c3d01fed
+    modified: 1668527856821
+    created: 1668421285919
+    url: "{{ _.baseUrl }}/plano/5"
+    name: /plano/{idPlano}
+    description: "# Marcar como concluido"
+    method: PUT
+    body: {}
+    parameters: []
+    headers: []
+    authentication:
+      type: bearer
+      token: XXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+    metaSortKey: -1668420761696.5
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_e2c9f34734c84defae0a75a09ceb791f
+    parentId: fld_e15c5b94f0cb4aa7bc11ed04c3d01fed
+    modified: 1668527853974
+    created: 1668422131464
+    url: "{{ _.baseUrl }}/plano/item/414?idPlano=5"
+    name: /plano/item/:idConteudo?idPlano={idPlano}
+    description: |-
+      # Marca item como cocluido 
+      - Requer id do usuario
+    method: PUT
+    body: {}
+    parameters: []
+    headers: []
+    authentication:
+      type: bearer
+      token: XXXXXXXXXXXXXXXXXXXXXXXXX
+    metaSortKey: -1668420761671.5
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_e876f0f55b174637a826fb262a4f4ee6
+    parentId: fld_e15c5b94f0cb4aa7bc11ed04c3d01fed
+    modified: 1668527842379
+    created: 1668424049507
+    url: "{{ _.baseUrl }}/plano/1"
+    name: /plano/{id}
+    description: "# Deletar plano"
+    method: DELETE
+    body: {}
+    parameters: []
+    headers: []
+    authentication:
+      type: bearer
+      token: XXXXXXXXXXXXXXXXXXXX
+    metaSortKey: -1668420761659
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_e91b94abba1841fb8e70fe8fe8ead2da
+    parentId: fld_e15c5b94f0cb4aa7bc11ed04c3d01fed
+    modified: 1668527848883
+    created: 1668423569779
+    url: "{{ _.baseUrl }}/plano/item/416?idPlano=5"
+    name: /plano/item/:idConteudo?idPlano={idPlano}
+    description: "# Deleta item de plano"
+    method: DELETE
+    body: {}
+    parameters: []
+    headers: []
+    authentication:
+      type: bearer
+      token: XXXXXXXXXXXXXXXXX
+    metaSortKey: -1668420761646.5
     isPrivate: false
     settingStoreCookies: true
     settingSendCookies: true
@@ -709,7 +966,7 @@ resources:
     _type: request
   - _id: req_59119661fd864d7285a0ccaa9f3d3456
     parentId: fld_eb1058db613741cd9b1ddde27a76a750
-    modified: 1668412393802
+    modified: 1668426387225
     created: 1667511108600
     url: "{{ _.baseUrl }}/postagem/comentar/1"
     name: /postagem/comentar
@@ -751,9 +1008,9 @@ resources:
     _type: request_group
   - _id: req_262693b2840c4e8780c76d9e6578055e
     parentId: fld_2bc3378ff17b47438014a10e6ada995c
-    modified: 1668412405475
+    modified: 1668414306792
     created: 1667799851246
-    url: "{{ _.baseUrl }}/postagem/favoritos?page={pages}"
+    url: "{{ _.baseUrl }}/postagem/favoritos?page=1"
     name: /postagem/favoritos
     description: "# Pegar todos os favoritos"
     method: GET
@@ -762,7 +1019,7 @@ resources:
     headers: []
     authentication:
       type: bearer
-      token: XXXXXXXXXXXXXXXXX
+      token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MzEsIm5vbWUiOiJQYXVsbyBWaXRvciIsImVtYWlsIjoiZW1haWxAZXhhbXBsZSIsImlhdCI6MTY2ODQxNDI4OSwiZXhwIjoxNjY4NDIxNDg5fQ.3yfFhactEEcl3CVsqOPvKnHXy-aW7p3B0jLdtaD6AMU
     metaSortKey: -1667799851246
     isPrivate: false
     settingStoreCookies: true
@@ -784,9 +1041,9 @@ resources:
     _type: request_group
   - _id: req_c1c21272212f49b291a8cd0af5f254a6
     parentId: fld_2bc3378ff17b47438014a10e6ada995c
-    modified: 1668412414193
+    modified: 1668414300171
     created: 1667798672846
-    url: "{{ _.baseUrl }}/postagem/favoritar/{id}"
+    url: "{{ _.baseUrl }}/postagem/favoritar/1"
     name: /postagem/favoritar/{id}
     description: "# Favoritar conteudo por id"
     method: POST
@@ -795,7 +1052,7 @@ resources:
     headers: []
     authentication:
       type: bearer
-      token: XXXXXXXXXXXXXXXXXXXXXXX
+      token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MzEsIm5vbWUiOiJQYXVsbyBWaXRvciIsImVtYWlsIjoiZW1haWxAZXhhbXBsZSIsImlhdCI6MTY2ODQxNDI4OSwiZXhwIjoxNjY4NDIxNDg5fQ.3yfFhactEEcl3CVsqOPvKnHXy-aW7p3B0jLdtaD6AMU
     metaSortKey: -1667798672846
     isPrivate: false
     settingStoreCookies: true
@@ -840,7 +1097,7 @@ resources:
     _type: request_group
   - _id: env_4be5d39a97af4b0b9af1876bfdb2e03a
     parentId: wrk_4fd6ce5548a04e809bcc279279a37291
-    modified: 1668411402250
+    modified: 1668465076014
     created: 1667511108510
     name: Base Environment
     data:
