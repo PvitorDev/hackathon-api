@@ -5,8 +5,6 @@ Projeto final da etapa do Hackathon da 4ª edição do Programa de Formação da
 
 - [Documentação](https://orange-juice-documentacao.netlify.app)
 - [Collection Api](https://drive.google.com/file/d/1R8eku64JOqkMmdSS71ZeRDJmYzEdEB2g/view?usp=sharing)
-- [Repositório FrontEnd](https://github.com/PvitorDev/front-end-hackathon)
-- [Deploy FrontEnd](https://orange-prime-front.netlify.app)
 ## 💻 Sobre o Projeto
 
 O *Orange Prime*  é um serviço para integração na plataforma da Orange Evolution, que irá auxiliar na **formação de pessoas** em processo de migração ou inicio de carreira na área de tecnologia, com conteúdos gratuitos, lives, vídeos e artigos. A api contém dados já existentes na plataforma atual (Notion) e através de filtros consegue organizar todos os seus conteúdos.
